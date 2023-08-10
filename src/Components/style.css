@@ -1,0 +1,56 @@
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    color: #AFC9DC;
+    -webkit-text-fill-color: transparent;
+}
+
+.swiper-slide-active{
+    font-size: 54px;
+    color: #00618E;
+    text-decoration: underline 8px solid #111111;
+    -webkit-text-fill-color:#00618E;
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;         
+    }
+
+  
+.profile-sect{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.profile-sec{
+    display: flex;
+    gap: 16px; 
+}
+@media (min-width: 1065px) and (max-width: 1368px) {
+    .swiper-slide-active{
+        font-size: 40px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1064px) {
+    .swiper-slide-active{
+        font-size: 30px;
+    }
+  }
+
+@media(min-width: 640px) and (max-width:768px){
+    .swiper-slide-active{
+        text-decoration: underline 5px solid #111111;
+    }
+}
+
+@media (min-width: 360px) and (max-width:640){
+    .swiper-slide-active{
+        text-decoration: underline 5px solid #111111;
+    }
+}

@@ -1,0 +1,468 @@
+.animated-divs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .animated-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+  .field1{
+    background-color: #111111;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  
+  }
+  .field{
+    background-color: #111111;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+  }
+
+
+  
+  .frames{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  }
+
+  
+  .frame{
+    width: 180%;
+    margin: 5%;
+    margin-top: 30%;
+    margin-left: 175%;
+  }
+  
+  .frmaeImg{
+    width: 170%;
+    margin: 5%;
+    margin-left: 175%;
+    margin-top: -120%;
+    
+  }
+  
+  .frameText{
+    margin-left: 50%;
+    margin-top: 6%;
+    color: #F2F4F6;
+  }
+  
+  .textdes{
+    margin-top: 1%;
+    margin-left: 50%;
+    color: #F2F4F6;
+    margin-right: 15%;
+    margin-top: 2%;
+  }
+  
+  .TEXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 25%;
+  }
+  
+  .btnOur{
+  background-color: #00618E;
+  color: #F2F4F6;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  height: 35px;
+  box-shadow: 0px 10px 70px #00618E;
+  margin-top: 30%;
+  }
+  
+  .btnUs{
+  background-color: #111111;
+  color: #F2F4F6;
+  border-radius: 10px;
+  border-color: #F2F4F6;
+  width: 150px;
+  height: 35px;
+  margin-left: 25%;
+  margin-top: 30%;
+  }
+  
+  .show{
+    color: #F2F4F6;
+  }
+  .showM{
+    color: #F2F4F6;
+  }
+  
+  .down{
+    margin: 1%;
+  }
+  
+  
+  .animated{
+    animation: up-dowm 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @-webkit-keyframes up-dowm{
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-dowm{
+    0%{
+      transform: translateY(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+
+  .frameM{
+    width: 110%;
+    margin: 5%;
+    margin-left: 125%;
+  }
+  
+  .frmaeImgM{
+    width: 70%;
+    margin: 5%;
+    margin-left: 100%;
+    margin-top: -105%;
+  }
+  
+
+  .frameU{
+    width: 170%;
+    margin: 5%;
+    margin-left: 145%;
+  }
+  
+  .frameImgU{
+    width: 100%;
+    margin: 5%;
+    margin-left: 135%;
+    margin-top: -155%;
+  }
+ 
+
+  @media (min-width:768px) and (max-width: 1064px){
+  .frames{
+    width: 70%;
+  }
+
+  .frameM{
+    width: 130%;
+    
+  }
+  
+  .frmaeImgM{
+    width: 100%;
+    margin-top: -150%;
+  }
+
+  .textdes{
+    margin-left: 40%;
+  }
+
+  .frameText{
+    margin-left: 40%;
+  }
+
+  .frameU{
+    margin: 0%;
+    margin-left: 100%;
+  }
+  
+  .frameImgU{
+    margin-left: 100%;
+    margin-top: -155%;
+  }
+
+  .buttons{
+    margin-left: 25%;
+  }
+  
+  .btnOur{
+  margin-top: 20%;
+  }
+  
+  .btnUs{
+  margin-left: 25%;
+  margin-top: 20%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px){
+  .field{ 
+  flex-direction: column;
+  height: 90vh;
+  }
+
+  .frames{
+    width: 30%;
+  }
+
+  .frame{
+    margin-top: 50%;
+    margin-left: 0%;
+  }
+  
+  .frmaeImg{
+    margin-left: 0%;
+    margin-top: -120%;
+    
+  }
+  .TEXT div{
+    text-align: center;
+    margin-top: 2%;
+  }
+  .frameM{
+    width: 130%;
+    margin-top: 100%;
+    margin-left: 0%;
+  }
+  
+  .frmaeImgM{
+    width: 100%;
+    margin-top: -160%;
+    margin-left: 0;
+    margin-bottom: 0%;
+  }
+
+  .textdes{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .frameText{
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .buttons{
+    margin-left: 0%;
+  }
+  
+  .btnOur{
+  margin-top: 10%;
+  }
+  
+  .btnUs{
+  margin-left: 25%;
+  margin-top: 10%;
+  }
+
+  .show{
+    margin-top: 10%;
+  }
+
+  .showM{
+    margin-top: 25%;
+  }
+
+  .frameU{
+    width: 170%;
+    margin: 0%;
+    margin-left: 0%;
+  }
+  
+  .frameImgU{
+    width: 100%;
+    margin: 5%;
+    margin-left: 0%;
+    margin-top: -155%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px){
+  .field{ 
+    flex-direction: column;
+    height: 90vh;
+    }
+  
+    .frames{
+      width: 30%;
+    }
+  
+    .frame{
+      margin-top: 50%;
+      margin-left: 0%;
+    }
+    
+    .frmaeImg{
+      margin-left: 0%;
+      margin-top: -120%;
+      
+    }
+    .TEXT div{
+      text-align: center;
+      margin-top: 2%;
+    }
+    .frameM{
+      width: 130%;
+      margin-top: 100%;
+      margin-left: 0%;
+    }
+    
+    .frmaeImgM{
+      width: 100%;
+      margin-top: -160%;
+      margin-left: 0;
+      margin-bottom: 0%;
+    }
+  
+    .textdes{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  
+    .frameText{
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+  
+    .buttons{
+      margin-left: 0%;
+    }
+    
+    .btnOur{
+    margin-top: 10%;
+    }
+    
+    .btnUs{
+    margin-left: 25%;
+    margin-top: 10%;
+    }
+  
+    .show{
+      margin-top: 10%;
+    }
+  
+    .showM{
+      margin-top: 25%;
+    }
+  
+    .frameU{
+      width: 170%;
+      margin: 0%;
+      margin-left: 0%;
+    }
+    
+    .frameImgU{
+      width: 100%;
+      margin: 5%;
+      margin-left: 0%;
+      margin-top: -155%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 360px){
+  .field{ 
+    flex-direction: column;
+    height: auto;
+    }
+  
+    .frames{
+      width: 30%;
+    }
+  
+    .frame{
+      margin-top: 50%;
+      margin-left: 0%;
+    }
+    
+    .frmaeImg{
+      margin-left: 0%;
+      margin-top: -120%;
+      
+    }
+    .TEXT div{
+      text-align: center;
+      margin-top: 2%;
+    }
+    .frameM{
+      width: 130%;
+      margin-top: 100%;
+      margin-left: 0%;
+    }
+    
+    .frmaeImgM{
+      width: 100%;
+      margin-top: -160%;
+      margin-left: 0;
+      margin-bottom: 0%;
+    }
+  
+    .textdes{
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 12px;
+    }
+  
+    .frameText{
+      margin-left: 0%;
+      margin-top: 0%;
+      font-size: 24px;
+    }
+  
+    .buttons{
+      margin-left: 0%;
+    }
+    
+    .btnOur{
+    margin-top: 10%;
+    width: 116px;
+    }
+    
+    .btnUs{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 114px;
+    }
+  
+    .show{
+      margin-top: 10%;
+    }
+  
+    .showM{
+      margin-top: 25%;
+    }
+  
+    .frameU{
+      width: 170%;
+      margin: 0%;
+      margin-left: 0%;
+    }
+    
+    .frameImgU{
+      width: 100%;
+      margin: 5%;
+      margin-left: 0%;
+      margin-top: -155%;
+    }
+}

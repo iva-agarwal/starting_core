@@ -239,7 +239,7 @@
   }
   .TEXT div{
     text-align: center;
-    margin-top: 2%;
+    padding-top: 2%;
   }
   .frameM{
     width: 130%;
@@ -255,8 +255,9 @@
   }
 
   .textdes{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
   }
 
   .frameText{
@@ -337,8 +338,9 @@
     }
   
     .textdes{
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 5%;
     }
   
     .frameText{
@@ -360,7 +362,7 @@
     }
   
     .show{
-      margin-top: 10%;
+      margin-top: 20%;
     }
   
     .showM{
@@ -419,8 +421,8 @@
     }
   
     .textdes{
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 20%;
+      margin-right: 20%;
       font-size: 12px;
     }
   

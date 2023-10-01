@@ -31,7 +31,7 @@ justify-content: center;
     display: flex;
     gap: 16px; 
 }
-@media (min-width: 1065px) and (max-width: 1368px) {
+/* @media (min-width: 1065px) and (max-width: 1368px) {
     .swiper-slide-active{
         font-size: 40px;
     }
@@ -47,10 +47,14 @@ justify-content: center;
     .swiper-slide-active{
         text-decoration: underline 5px solid #111111;
     }
-}
+} */
 
-@media (min-width: 360px) and (max-width:640){
+/* @media (min-width: 360px) and (max-width:640){
     .swiper-slide-active{
-        text-decoration: underline 5px solid #111111;
+        text-decoration: underline 2px solid #111111;
     }
-}
+
+    .slider{
+        width: 68%;         
+        }
+} */

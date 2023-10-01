@@ -136,7 +136,7 @@ function Landing() {
                   <h4>Developed by skilled team developers</h4>
                 </div>
               </div>
-              <img className="vector3" src="./images/Vector3.png" alt="#" />
+              <img className="vector3" src="./images/Vector1.png" alt="#" />
             </div>
             <div>
               <div>

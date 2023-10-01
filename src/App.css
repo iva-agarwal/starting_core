@@ -249,6 +249,7 @@ h5 {
   margin: 3%;
 }
 
+
 .textWhy {
   font-size: 54px;
   -webkit-text-stroke-width: 0.05px;
@@ -389,7 +390,7 @@ h5 {
 .vector3 {
   width: 204px;
   height: 30px;
-  margin-bottom: 17%;
+  margin-bottom: 20%;
 }
 
 
@@ -1247,7 +1248,9 @@ footer .col-2 .col a {
     font-size: 44px;
     -webkit-text-stroke-width: 0.05px;
   }
-
+  .swiper-slide-active{
+    font-size: 40px;
+}
 
   /* ............ OUR WORK FLOW .............. */
 
@@ -1649,6 +1652,10 @@ footer .col-2 .col a {
     -webkit-text-stroke-width: 0.05px;
   }
 
+  .swiper-slide-active{
+    font-size: 30px;
+}
+
 
   /* ............ OUR WORK FLOW .............. */
 
@@ -1908,7 +1915,7 @@ footer .col-2 .col a {
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
-   .navbar {
+  .navbar {
     width: 100%;
     padding: 1% 1%;
   }
@@ -1917,44 +1924,59 @@ footer .col-2 .col a {
     width: 100%;
   }
 
+  .nav-item{
+    left: -8%;
+    margin-right: 0;
+  }
+
+  .active{
+    margin-top: 2.5px;
+    margin-left: 10.825em;
+    font-size: 18px;
+  }
+ 
   .hamburger-menu {
-    display: none;
+    display: flex;
+    margin-left: 50%;
   }
+  
 
+  .setlogo{
+    margin-left: 13%;
+    width: 100%;
+    }
 
-  .nav-item {
-    margin-right: 0%;
-    position: relative;
-    left: -5%;
-  }
-
-  .setlogo {
-   margin-left: -10%;
-  }
   .logo {
-    width: 40px;
+    width: 55px;
     margin-top: 8%;
   }
 
   .logoname {
-    font-size: 12px;
-    margin-top: 3%;
+    font-weight: bolder;
+        font-size: 18px;
+    margin-top: 4%;
   }
 
-  .active {
-    font-size: 12px;
-    margin-left: 12px;
-    top: 15%;
-  }
+ .menu-link{
+  display: none;
+ }
 
+ .mobile-menu-link{
+  display: flex;
+  
+  overflow: hidden;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  background-color: #F2F4F6;
+}
 
-  .btn {
-    position: relative;
-    left: 0%;
-    width: 100px;
-    height: 25px;
-    font-size: 12px;
-  }
+.btn{
+  left: 14.8%;
+  margin: 2%;
+  box-shadow: none;
+}
 
   .mainContent {
     margin-left: 0%;
@@ -1962,7 +1984,7 @@ footer .col-2 .col a {
     flex-direction: column;
   }
 .main-1{
-  margin-top: 40%;
+  margin-top: 14%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2027,7 +2049,7 @@ footer .col-2 .col a {
 
   .why_we {
     flex-direction: column;
-    height: 306px;
+    height: 480px;
 }
 
 
@@ -2036,16 +2058,66 @@ footer .col-2 .col a {
     -webkit-text-stroke-width: 0.05px;
   }
 
+  .whyCaro{
+    margin: 10% 14%;
+  }
+
+  .swiper-slide-active{
+    text-decoration: underline 5px solid #111111;
+}
+.slider{
+    width: 66%;         
+    }
+
 
   /* ............ OUR WORK FLOW .............. */
 
-  .ourWork {
-    height: 35vh;
-  }
+.flow{
+  flex-direction: column;
+}
 
-  .textOur {
+  .flow div {
+    flex-direction: column;
+}
+
+.ourWork {
+  height: auto;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.textOur {
     font-size: 35px;
     }
+
+      .vector1 {
+    width: 30%;
+    transform: rotate(90deg);
+     margin-top: 15%;
+    
+  }
+
+  .vector2 {
+    width: 30%;
+        transform: rotate(90deg);
+
+    margin-top: 15%;
+  }
+
+  .vector3 {
+    width: 38%;
+        transform: rotate(90deg);
+ margin-top: 15%;
+    
+  }
+
+  .textOur{
+    margin: 2%;
+  }
+
+/* 
+
+  
 
   .ourWork h4 {
     font-size: 15px;
@@ -2103,10 +2175,13 @@ footer .col-2 .col a {
     width: 30%;
     height: 10px;
     margin-bottom: 50%;
-  }
+  } */
 
   /* ............. EXPORT......... */
 
+  .imageAnimation{
+    height: 109vh;
+  }
 
   .imgAni {
     position: relative;
@@ -2131,33 +2206,37 @@ footer .col-2 .col a {
   }
 
   .noImg1 {
+    width: 60%;
     top: -34em;
   }
 
   .noImg2 {
+    width: 60%;
     top: -38em;
     left: 4em;
   }
 
   .noImg3 {
+    width: 60%;
     top: -42em;
     left: 9em;
   }
 
   .noImg4 {
+    width: 60%;
     top: -46em;
     left: 14em;
   }
   .show1 {
     color: #F2F4F6;
     position: relative;
-    top: -1em;
+    top: 0em;
   }
 
   .down1 {
     margin: 1%;
     position: relative;
-    top: -1em;
+    top: 0em;
   }
 
   /* .............our team carousel............ */
@@ -2192,10 +2271,10 @@ footer .col-2 .col a {
   }
 
   .section-1 h3 {
-    width: 100%;
+    width: 62%;
     font-size: 26px;
     margin-top: 15%;
-    margin-left: 0%;
+    margin-left: 3%;
   }
 
   .section-1 .main-container {
@@ -2304,12 +2383,12 @@ footer .col-2 .col a {
   }
   
   .circles p {
-    width: 225px;
+    width: 180px;
     left: 21%;
     top: 0%;
   
     font-family: 'Work Sans';
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     color: #464646;
   }
@@ -2372,72 +2451,59 @@ footer .col-2 .col a {
     width: 100%;
   }
 
+  .nav-item{
+    left: -8%;
+    margin-right: 0;
+  }
+
+  .active{
+    margin-top: 2.5px;
+    margin-left: 5.125em;
+    font-size: 17px;
+  }
  
   .hamburger-menu {
-    display: block;
-    margin-left: 40%;
+    display: flex;
+    margin-left: 50%;
   }
   
 
-  .mobile-menu-link{
-    display: flex;
-    margin-top: 50%;
-    margin-left: 50%;
-  }
-
-  .mobile-menu-link li{
-    grid-column: 3/7;
-    position: relative;
-    
-    z-index: 99;
-  }
-
-  .mobile-menu-link li{
-    
-    background-color: rgb(172, 66, 66);
-    height: 40px;
-    display: grid;
-    grid-column: 3/7;
-    align-items: right;
-    
-    transition: all 2s linear;
-    transform-origin: top;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  }
-
   .setlogo{
-    margin-left: 15%;
+    margin-left: 13%;
     width: 100%;
     }
 
   .logo {
-    width: 40px;
+    width: 45px;
     margin-top: 8%;
   }
 
   .logoname {
-    font-size: 12px;
-    margin-top: 3%;
-  }
-
-  .btn {
-    position: relative;
-    left: 5%;
-    width: 100px;
-    height: 25px;
-    font-size: 12px;
-  }
-  
-  .active {
-    font-size: 80%;
-    margin-left: 20px;
-    flex-direction: column;
+    font-weight: bolder;
+        font-size: 17px;
+    margin-top: 4%;
   }
 
  .menu-link{
   display: none;
  }
+
+ .mobile-menu-link{
+  display: flex;
+  
+  overflow: hidden;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  background-color: #F2F4F6;
+}
+
+.btn{
+  left: 8.8%;
+  margin: 2%;
+  box-shadow: none;
+}
 
   .mainContent {
     margin-left: 0%;
@@ -2468,7 +2534,7 @@ footer .col-2 .col a {
 
   h5 {
     padding-top: 9%;
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -2510,20 +2576,79 @@ footer .col-2 .col a {
 
   .why_we {
     flex-direction: column;
-    height: 306px;
+    height: 480px;
 }
 
 
   .textWhy {
-    font-size: 30px;
+    font-size: 25px;
     -webkit-text-stroke-width: 0.05px;
   }
+
+  .whyCaro{
+    margin: 10% 0%;
+  }
+
+  .swiper-slide-active{
+    text-decoration: underline 2px solid #111111;
+}
+
+.slider{
+    width: 66%;         
+    }
 
 
   /* ............ OUR WORK FLOW .............. */
 
+  
+.flow{
+  flex-direction: column;
+}
+
+  .flow div {
+    flex-direction: column;
+}
+
+.ourWork {
+  height: auto;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.ourWork h4{
+  text-align: center;
+  font-size: 16px;
+}
+
+.textOur {
+    font-size: 35px;
+     margin: 2%;
+    }
+
+      .vector1 {
+    width: 30%;
+    transform: rotate(90deg);
+     margin-top: 15%;
+    
+  }
+
+  .vector2 {
+    width: 30%;
+        transform: rotate(90deg);
+
+    margin-top: 15%;
+  }
+
+  .vector3 {
+    width: 30%;
+        transform: rotate(90deg);
+ margin-top: 15%;
+    
+  }
+
+/* 
   .ourWork {
-    height: 38vh;
+    height: auto;
     margin: 0 5% 0 5%;
   }
 
@@ -2592,7 +2717,7 @@ footer .col-2 .col a {
     width: 30%;
     height: 9px;
     margin-bottom: 45%;
-  }
+  } */
 
   /* ............. EXPORT......... */
 
@@ -2601,7 +2726,7 @@ footer .col-2 .col a {
     justify-content: center;
     align-items: center;
     background-color: #111111;
-    height: 64vh;
+    height: 102vh;
     flex-direction: column;
   }
 
@@ -2629,37 +2754,38 @@ footer .col-2 .col a {
   }
 
   .noImg1 {
-    width: 67%;
+    width: 82%;
     top: -38em;
-    left: 4em;
+    left: 5em;
 }
   .noImg2 {
     top: -40em;
-    left:6em;
-    width: 67%;
+    left:6.2em;
+    width: 82%;
   }
 
   .noImg3 {
     top: -42em;
-    left: 8em;
-    width: 67%;
+    left: 7.5em;
+    width: 82%;
   }
 
   .noImg4 {
     top: -44em;
-    left: 10em;
-    width: 67%;
+    left: 9em;
+    width: 82%;
   }
+
   .show1 {
     color: #F2F4F6;
     position: relative;
-    top: 1em;
+    top: 2em;
   }
 
   .down1 {
     margin: 1%;
     position: relative;
-    top: 1em;
+    top: 2.5em;
   }
 
   /* .............our team carousel............ */
@@ -2668,12 +2794,6 @@ footer .col-2 .col a {
     padding-top: 10%;
     padding-bottom: 1%;
     background: #F5F5F5;
-  }
-
-  .section-1 .main-container {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 23%;
   }
 
   .section-1 .text {
@@ -2700,7 +2820,7 @@ footer .col-2 .col a {
   }
 
   .section-1 h3 {
-    width: 100%;
+    width: 60%;
     text-align: center;
     font-size: 16px;
     margin-top: 15%;
@@ -2708,9 +2828,13 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container {
-    margin-left: 10%;
-    margin-right: 8%;
-    margin-top: 15%;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75%;
   }
 
   .section-1 .main-container .box {
@@ -2719,16 +2843,20 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .left {
-    margin-left: 22%;
-    margin-top: 90%;
+     margin-left: 0%;
+    margin-top: 0%;
+    /* margin-left: 22%;
+    margin-top: 90%; */
 }
 
   .section-1 .main-container .center {
-    margin-left: 25%;
+     margin-left: 0%;
+    margin-top: 10%;
+    /* margin-left: 25%;
     margin-top: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
   .section-1 .main-container .center .container {
@@ -2769,8 +2897,10 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .right {
-    margin-left: 27%;
+     margin-left: 0%;
     margin-top: 10%;
+    /* margin-left: 27%;
+    margin-top: 10%; */
   }
 
   .section-1 .main-container .box .name {
@@ -2906,41 +3036,71 @@ footer .col-2 .col a {
     width: 100%;
   }
 
+  .nav-item{
+    left: -8%;
+    margin-right: 0;
+  }
+
+  .active{
+    margin-top: 2.5px;
+    margin-left: 5.725em;
+    font-size: 17px;
+  }
+
   .hamburger-menu {
-    display: block;
-    margin-right: 30%;
+    display: flex;
+    margin-left: 30%;
   }
 
   .setlogo{
-    margin-left: 70px;
+    margin-left: 0px;
     width: 100%;
     }
 
   .logo {
-    width: 40px;
+    width: 45px;
     margin-top: 6%;
   }
 
   .logoname {
     font-weight: bolder;
-    font-size: 14px;
-    margin-top: 3%;
+    font-size: 17px;
+    margin-top: 2%;
   }
   .menu-link{
     display: none;
+  }
+
+  .mobile-menu-link{
+    display: flex;
+    
+    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    background-color: #F2F4F6;
+  }
+
+  .btn{
+    left: 16%;
+    margin: 2%;
+    box-shadow: none;
   }
 
   .mainContent {
     margin-left: 0%;
     height: 105vh;
     flex-direction: column;
+    justify-content: space-evenly;
   }
+
 .main-1{
-  margin-top: 30%;
+  margin-top: 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
   .main-2 {
@@ -3001,7 +3161,7 @@ footer .col-2 .col a {
 
   .why_we {
     flex-direction: column;
-    height: 306px;
+    height: 400px;
 }
 
 .numbers {
@@ -3009,20 +3169,41 @@ footer .col-2 .col a {
 }
 
 .number_description{
-  font-size: 11px;
+  font-size: 12px;
 }
 
   .textWhy {
-    font-size: 30px;
+    font-size: 20px;
     -webkit-text-stroke-width: 0.05px;
   }
+
+  .whyCaro{
+    margin: 10% 12%;
+  }
+
+  .swiper-slide-active{
+    text-decoration: underline 2px solid #111111;
+}
+
+.slider{
+    width: 82%;         
+    }
 
 
   /* ............ OUR WORK FLOW .............. */
 
+
+  .flow{
+    flex-direction: column;
+  }
+  
+    .flow div {
+      flex-direction: column;
+  }
+
   .ourWork {
-    height: 25vh;
-    margin: 0 2% 0 2%;
+    height: auto;
+    margin: 0 7% 0 7%;
     border-radius: 20px 20px 0 0
   }
 
@@ -3031,67 +3212,74 @@ footer .col-2 .col a {
     }
 
   .ourWork h4 {
-    font-size: 9px;
-    line-height: 9px;
+    font-size: 12px;
+    line-height: 15px;
     margin-bottom: 3%;
+    text-align: center;
+  }
+
+
+  
+  .vector1 {
+    width: 43%;
+    transform: rotate(90deg);
+     margin-top: 15%;
+    
+  }
+
+  .vector2 {
+    width: 43%;
+        transform: rotate(90deg);
+
+    margin-top: 15%;
+  }
+
+  .vector3 {
+    width: 43%;
+        transform: rotate(90deg);
+ margin-top: 15%;
+    
   }
 
   .circle {
-    margin-top: 13%;
+    margin-top: 7%;
   }
 
   .circle h3 {
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 14px;
     font-weight: bolder;
   }
 
   .circle h4 {
-    font-size: 7px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
   }
 
   .circle1 {
-    width: 21px;
-    height: 21px;
-    font-size: 9px;
-  }
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+}
 
   .circle2 {
-    width: 21px;
-    height: 21px;
-    font-size: 9px;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
   }
 
   .circle3 {
-    width: 21px;
-    height: 21px;
-    font-size: 9px;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
   }
 
   .circle4 {
-    width: 21px;
-    height: 21px;
-    font-size: 9px;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
   }
 
-  .vector1 {
-    width: 25%;
-    height: 9px;
-    margin-bottom: 55%;
-  }
-
-  .vector2 {
-    width: 25%;
-    height: 9px;
-    margin-bottom: 60%;
-  }
-
-  .vector3 {
-    width: 25%;
-    height: 9px;
-    margin-bottom: 55%;
-  }
 
   /* ............. EXPORT......... */
 
@@ -3100,7 +3288,7 @@ footer .col-2 .col a {
     justify-content: center;
     align-items: center;
     background-color: #111111;
-    height: 64vh;
+    height: 92vh;
     flex-direction: column;
   }
 
@@ -3128,37 +3316,37 @@ footer .col-2 .col a {
   }
 
   .noImg1 {
-    width: 60%;
+    width: 76%;
     top: -38em;
-    left: 4em;
+    left: 5em;
 }
   .noImg2 {
     top: -40em;
-    left:6em;
-    width: 60%;
+    left:6.2em;
+    width: 76%;
   }
 
   .noImg3 {
     top: -42em;
-    left: 8em;
-    width: 60%;
+    left: 7.5em;
+    width: 76%;
   }
 
   .noImg4 {
     top: -44em;
-    left: 10em;
-    width: 60%;
+    left: 9em;
+    width: 76%;
   }
   .show1 {
     color: #F2F4F6;
     position: relative;
-    top: 1em;
+    top: 2em;
   }
 
   .down1 {
     margin: 1%;
     position: relative;
-    top: 1em;
+    top: 2.5em;
   }
 
   /* .............our team carousel............ */
@@ -3194,7 +3382,7 @@ footer .col-2 .col a {
   }
 
   .section-1 h3 {
-    width: 100%;
+    width: 60%;
     text-align: center;
     font-size: 16px;
     margin-top: 15%;
@@ -3204,7 +3392,11 @@ footer .col-2 .col a {
   .section-1 .main-container {
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90%;
   }
 
   .section-1 .main-container .box {
@@ -3213,16 +3405,20 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .left {
-    margin-left: 22%;
-    margin-top: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+    /* margin-left: 22%;
+    margin-top: 100%; */
 }
 
   .section-1 .main-container .center {
-    margin-left: 25%;
+    margin-left: 0%;
     margin-top: 10%;
-    display: flex;
+    /* margin-left: 25%;
+    margin-top: 10%; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
   .section-1 .main-container .center .container {
@@ -3261,8 +3457,10 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .right {
-    margin-left: 27%;
+    margin-left: 0%;
     margin-top: 10%;
+    /* margin-left: 27%;
+    margin-top: 10%; */
   }
 
   .section-1 .main-container .box .name {
@@ -3373,15 +3571,15 @@ footer .col-2 .col a {
   }
   
   footer .col-2 .col h4 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 6px;
     color: #ffffff;
     padding-bottom: 8%;
   }
   
   footer .col-2 .col a {
-    line-height: 20px;
-    font-size: 18px;
+    line-height: 10px;
+    font-size: 16px;
   }
   
 }

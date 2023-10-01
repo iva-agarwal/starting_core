@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width:100dvw;
+    height: 100dvh;
+    overflow: hidden;
 }
 
 .contactUs{
@@ -21,6 +24,7 @@
     justify-content: center;
     margin-top: 6.5%;
 }
+
 
 /* .contactUs div{
     display: flex;
@@ -37,10 +41,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: auto;
 }
 
 .headingContact h1{
     font-size: 56px;
+    margin: 2% 0% 0 7%;
     /* margin: 2%; */
 }
 
@@ -128,4 +134,270 @@
     cursor: pointer;
     font-family: Work Sans;
     font-size: 15px;
+}
+
+@media (min-width:1065px) and (max-width: 1368px){
+    
+.contactUs{
+    margin-top: 8%;
+}
+
+    .headingContact img{
+        left: 25%;
+        width: 35px;
+        height: 35px;
+    }
+    
+    .headingContact h1{
+        font-size: 33px;
+    }
+
+    .textareas input{
+        width: 90%;
+    }
+    
+    .textarea-placeholder textarea{
+        width: 88%;
+    }
+
+    .socialMedia{
+        justify-content:left;
+        margin-left: 1%;
+    }
+
+    .details{
+        margin-left: 1%;
+    }
+
+    .details img{
+        width: 10%;
+    }
+    
+    .socialMedia img{
+        width: 14%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1064px){
+
+    .contactUs div{
+        width: 90%;
+    }
+    
+    .headingContact h1{
+        font-size: 36px;
+    }
+
+    .headingContact img{
+        left: 30%;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .textareas input{
+        width: 100%;
+    }
+    
+    .textarea-placeholder textarea{
+        width: 100%;
+    }
+
+    .submitButton2{
+        font-size: 13px;
+    }
+
+    .textareas label{
+        font-size: 16px;
+    }
+
+    .socialMedia{
+        justify-content:left;
+        margin-left: 6%;
+    }
+
+    .socialMedia img{
+        width: 8%;
+    }
+
+    .details{
+        margin-left: 6%;
+    }
+
+    .details img{
+        width: 8%;
+    }
+
+    .details h1{
+        font-size: 22px;
+    }
+}
+@media (min-width:640px) and (max-width: 768px){
+
+    .contactUs div{
+        width: 90%;
+    }
+    
+    .headingContact h1{
+        font-size: 36px;
+    }
+
+    .headingContact img{
+        left: 25%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .textareas label{
+        font-size: 14px;
+    }
+    
+    .textareas input{
+        width: 100%;
+    }
+    
+    .textarea-placeholder textarea{
+        width: 100%;
+    }
+
+    .submitButton2{
+        font-size: 13px;
+    }
+
+
+    .socialMedia{
+        justify-content:left;
+        margin-left: 6%;
+    }
+
+    .socialMedia img{
+        width: 8%;
+    }
+
+    .details{
+        margin-left: 6%;
+    }
+
+    .details img{
+        width: 8%;
+    }
+
+    .details h1{
+        font-size: 22px;
+    }
+}
+
+@media (min-width:360px) and (max-width: 640px){
+
+    .contactUs div{
+        width: 90%;
+    }
+    
+    .headingContact h1{
+        font-size: 22px;
+    }
+
+    .headingContact img{
+        left: 20%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .textareas label {
+        font-size: 14px;
+    }
+    
+    .textareas input{
+        width: 100%;
+        height: 30px;
+    }
+    
+    .textarea-placeholder textarea{
+        width: 100%;
+    }
+
+    .submitButton2{
+        font-size: 11px;
+    }
+
+
+    .socialMedia{
+        justify-content:left;
+        margin-left: 6%;
+    }
+
+    .socialMedia img{
+        width: 8%;
+    }
+
+    .details{
+        margin-left: 6%;
+    }
+
+    .details img{
+        width: 9%;
+        height: 18px;
+    }
+
+    .details h1{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:280px) and (max-width: 360px){
+
+    .contactUs div{
+        width: 90%;
+    }
+    
+    .headingContact h1{
+        font-size: 16px;
+    }
+
+    .headingContact img{
+        left: 20%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .textareas label {
+        font-size: 12px;
+    }
+    
+    .textareas input{
+        width: 100%;
+        height: 20px;
+        font-size: 12px;
+    }
+    
+    .textarea-placeholder textarea{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .submitButton2{
+        font-size: 11px;
+    }
+
+
+    .socialMedia{
+        justify-content:left;
+        margin-left: 6%;
+    }
+
+    .socialMedia img{
+        width: 8%;
+    }
+
+    .details{
+        margin-left: 6%;
+    }
+
+    .details img{
+        width: 9%;
+        height: 18px;
+    }
+
+    .details h1{
+        font-size: 12px;
+    }
 }

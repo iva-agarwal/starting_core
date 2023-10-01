@@ -6,11 +6,10 @@ function AnimatedDivs() {
     return (
       <>
       <div className="field1" >
-        <div className="animated-divs-container" data-aos="fade-up"
-          data-aos-anchor-placement="top-center">
+        <div className="animated-divs-container" >
           <div className="field">
            
-              <div className='frames' data-aos="fade-left">
+              <div className='frames' data-aos="fade-up">
                 <img className="frame" src="./images/Aluminium Frame.png" alt='#'/>
                 <img className="frmaeImg" src="./images/grafikstash.png" alt='#'/>
               </div>
@@ -40,11 +39,10 @@ function AnimatedDivs() {
 
 
       <div className="field1" >
-        <div className="animated-divs-container" data-aos="fade-up"
-          data-aos-anchor-placement="top-center">
+        <div className="animated-divs-container" >
           <div className="field">
            
-              <div className='frames' data-aos="fade-left">
+              <div className='frames' data-aos="fade-up">
                 <img className="frameM" src="./images/shape.png" alt='#'/>
             <img className="frmaeImgM" src="./images/mobile1.png" alt='#'/>
               </div>
@@ -72,11 +70,10 @@ function AnimatedDivs() {
         </div>
       </div>
       <div className="field1" >
-        <div className="animated-divs-container" data-aos="fade-up"
-          data-aos-anchor-placement="top-center">
+        <div className="animated-divs-container" >
           <div className="field">
            
-              <div className='frames' data-aos="fade-left">
+              <div className='frames' data-aos="fade-up">
               <img className="frameU" src="./images/shape.png" alt='#'/>
             <img className="frameImgU" src="./images/uiux 1.png" alt='#'/>
               </div>
@@ -104,11 +101,10 @@ function AnimatedDivs() {
         </div>
       </div>
       <div className="field1" >
-        <div className="animated-divs-container" data-aos="fade-up"
-          data-aos-anchor-placement="top-center">
+        <div className="animated-divs-container" >
           <div className="field">
            
-              <div className='frames' data-aos="fade-left">
+              <div className='frames' data-aos="fade-up">
               <img className="frameU" src="./images/shape.png" alt='#'/>
               <img className="frameImgU" src="./images/uiux 1.png" alt='#'/>
               </div>

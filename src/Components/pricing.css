@@ -13,39 +13,51 @@
   flex-direction: column;
   position: absolute;
   z-index: 0;
-  /* justify-content: center;
-    align-items: center; */
+  width: 100%;
 }
 
 .pricing h1 {
   -webkit-text-stroke-width: 2px;
   color: #F2F4F6;
   -webkit-text-fill-color: transparent;
-  font-size: 240px;
+  font-size: 245px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 140%;
 }
 
 .animatPrice1 {
-  margin-left: 7%;
-  /* text-align: left; */
-  margin-top: 0%;
+  margin-left: 4%;
+  margin-top: 1.5%;
 }
 
 .animatPrice2 {
-  /* text-align: right; */
-  margin-left: 125%;
+  margin-left: 55%;
   margin-top: 0%;
 }
+
+.animatPrice3{
+    display: none;
+  }
+  .animatPrice4{
+    display: none;
+  }
+  .animatPrice5{
+    display: none;
+  }
 
 .Planes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+ 
   position: relative;
-  top: 20%;
+  top: 18%;
+}
+
+.divide{
+  display: flex;
+  flex-direction: row;
 }
 
 .Planes div {
@@ -55,12 +67,6 @@
   position: relative;
 }
 
-
-
-/* .Planes div:hover .hover{
-  background-color: #00618E;
-  color: #FFFFFF;
-} */
 
 .scale {
   display: inline-block;
@@ -135,3 +141,352 @@
   background-color: #FFFFFF;
   color: #00618E;
 }
+
+@media (min-width: 280px) and (max-width: 360px){
+  .pricingBack{
+    height: 190vh;
+  }
+
+  .Planes{
+    flex-direction: column;
+    top:70px;
+  }
+
+  .pricing h1{
+    font-size: 50px;
+  }
+
+  .ChooseButton2{
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1{
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+  
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+  
+  .Planes div div p{
+    font-size: 12px;
+  }
+
+  .animatPrice1{
+    margin-left: 2%;
+    margin-top: 65%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 49%;
+    margin-top: 40%;
+  }
+
+  .animatPrice3{
+    display: block;
+    margin-left: 2%;
+    margin-top: 50%;
+  }
+  .animatPrice4{
+    display: block;
+    margin-left: 49%;
+    margin-top: 50%;
+  }
+  .animatPrice5{
+    display: block;
+    margin-left: 2%;
+    margin-top: 50%;
+  }
+
+  .pricing{
+    width: 100%;
+  }
+ 
+  .Planes div{
+  margin: 2% 1%;
+  }
+} 
+
+
+@media (min-width: 360px) and (max-width: 600px){
+  .pricingBack{
+    height: 190vh;
+  }
+
+  .Planes{
+    flex-direction: column;
+    top:70px;
+  }
+
+  .pricing h1{
+    font-size: 100px;
+  }
+
+  .ChooseButton2{
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1{
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+  
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+  
+  .Planes div div p{
+    font-size: 12px;
+  }
+
+  .animatPrice1{
+    margin-left: 7%;
+    margin-top: 25%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .animatPrice3{
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+  .animatPrice4{
+    display: block;
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+  .animatPrice5{
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+
+  .pricing{
+    width: 100%;
+  }
+ 
+  .Planes div{
+  margin: 2% 1%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 500px){
+  .pricing h1{
+    font-size: 70px;
+  }
+
+  .animatPrice1{
+    margin-left: 7%;
+    margin-top: 45%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 30%;
+  }
+
+  .animatPrice3{
+    display: block;
+    margin-left: 7%;
+    margin-top: 350;
+  }
+  .animatPrice4{
+    display: block;
+    margin-left: 40%;
+    margin-top: 350;
+  }
+  .animatPrice5{
+    display: block;
+    margin-left: 7%;
+    margin-top: 30%;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px){
+
+  .pricingBack{
+    height: 260vh;
+  }
+
+  .Planes{
+    flex-direction: column;
+    top:70px;
+  }
+
+  .pricing h1{
+    font-size: 125px;
+  }
+
+  .animatPrice1{
+    margin-left: 7%;
+    margin-top: 25%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .animatPrice3{
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+  .animatPrice4{
+    display: block;
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+  .animatPrice5{
+    display: block;
+    margin-left: 7%;
+    margin-top: 15%;
+  }
+
+  .pricing{
+    width: 100%;
+  }
+ 
+  .Planes div{
+  margin: 2% 1%;
+  }
+}
+
+
+@media (min-width:768px) and (max-width: 934px){
+  .pricing h1{
+    font-size: 140px;
+  }
+  
+  .Planes div div h1{
+    margin-left: 2%;
+    font-size: 20px;
+    line-height: 84%;
+  }
+  
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 10px;
+    line-height: 120%;
+  }
+  
+  .Planes div div p{
+    font-size: 14px;
+  }
+  .animatPrice1{
+    margin-left: 9%;
+    margin-top: 6%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 47%;
+    margin-top: 15%;
+  }
+}
+@media (min-width:934px) and (max-width: 1064px){
+  
+  .pricing h1{
+    font-size: 200px;
+  }
+  
+  .Planes div div h1{
+    margin-left: 2%;
+    font-size: 22px;
+    line-height: 140%;
+  }
+  
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 12px;
+    line-height: 160%;
+  }
+  .animatPrice1{
+    margin-left: 7%;
+  }
+  
+  .animatPrice2 {
+    margin-left: 40%;
+    margin-top: 6%;
+  }
+}
+
+@media (min-width:768px) and (max-width: 1064px){
+  .pricing{
+    width: 100%;
+  }
+  
+  .Planes{
+    top:22%;
+  }
+  .Planes div{
+    margin: 2% 1%;
+  }
+
+  .animatPrice3{
+    display: none;
+  }
+  .animatPrice4{
+    display: none;
+  }
+  .animatPrice5{
+    display: none;
+  }
+}
+
+  @media (min-width:1065px) and (max-width: 1368px){
+    .pricing h1{
+      font-size: 200px;
+    }
+  
+    .Planes div div h1{
+      margin-left: 2%;
+        font-size: 22px;
+        line-height: 140%;
+    }
+  
+    .Planes div div h2 {
+      margin-left: 2%;
+          font-size: 12px;
+          line-height: 160%;
+      }
+    .animatPrice1{
+      margin-left: 17%;
+    }
+    
+    .animatPrice2 {
+      margin-left: 40%;
+      margin-top: 5%;
+    }
+  
+    .pricing{
+      width: 100%;
+    }
+   
+    .Planes{
+      top:22%;
+    }
+    .Planes div{
+    margin: 2% 1%;
+    }
+    .animatPrice3{
+      display: none;
+    }
+    .animatPrice4{
+      display: none;
+    }
+    .animatPrice5{
+      display: none;
+    }
+  }

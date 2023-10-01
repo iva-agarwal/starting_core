@@ -6,6 +6,9 @@
 .withButton{
     background-color: #111111;
     display: block;
+    width:100dvw;
+    height: 100dvh;
+    overflow: hidden;
 }
 
 .slidertestimonial{
@@ -155,3 +158,197 @@
     font-size: 15px;
     margin: 1%;
 } 
+
+@media (min-width:950px) and (max-width: 1064px){
+    .profilePages{
+        margin-top: 48%;
+    }
+
+    .Profile h1{
+        font-size: 25px;
+        margin: 1%;
+    }
+    
+    .Profile p{
+        font-size: 12px;
+        margin: 1%;
+    }
+
+    .PointsofView{
+        margin: 5% 0 5% 0;
+    }
+
+    .PointsofView p{
+        font-size: 13px;
+    }
+
+    .star img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb h1{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:640px) and (max-width: 950px){
+    .profilePages{
+        margin-top: 42%;
+    }
+
+    .Profile h1{
+        font-size: 25px;
+        margin: 1%;
+    }
+    
+    .Profile p{
+        font-size: 13px;
+        margin: 1%;
+    }
+
+    .PointsofView{
+        margin: 5% 0 5% 0;
+    }
+
+    .PointsofView p{
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .star{
+        margin: 0%;
+    }
+
+    .thumb{
+        margin: 2%;
+    }
+
+    .star img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb h1{
+        font-size: 20px;
+    }
+
+    .TestimonialButton2{
+        width: 30%;
+        font-size: 12px
+    }
+}
+
+@media (min-width: 360px) and (max-width: 640px){
+    .profilePages{
+        margin-top: 18%;
+    }
+
+    .Profile h1{
+        font-size: 25px;
+        margin: 1%;
+    }
+    
+    .Profile p{
+        font-size: 13px;
+        margin: 1%;
+    }
+
+    .PointsofView{
+        margin: 5% 0 5% 0;
+    }
+
+    .PointsofView p{
+        font-size: 15px;
+    }
+
+    .star img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .thumb h1{
+        font-size: 25px;
+    }
+
+    .star{
+        margin: 0%;
+    }
+
+    .thumb{
+        margin: 2%;
+    }
+
+    .TestimonialButton2{
+        width: 30%;
+        font-size: 11px;
+    }
+}
+
+
+
+@media (min-width: 280px) and (max-width: 360px){
+    .profilePages{
+        margin-top: 78%;
+    }
+
+    .Profile h1{
+        font-size: 16px;
+        margin: 1%;
+    }
+    
+    .Profile p{
+        font-size: 10px;
+        margin: 1%;
+    }
+
+    .PointsofView{
+        margin: 5% 0 5% 0;
+    }
+
+    .PointsofView p{
+        font-size: 11px;
+    }
+
+    .star img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .thumb img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .thumb h1{
+        font-size: 15px;
+    }
+
+    .star{
+        margin: 0%;
+    }
+
+    .thumb{
+        margin: 2%;
+    }
+
+    .TestimonialButton2{
+        width: 30%;
+        font-size: 9px;
+    }
+}

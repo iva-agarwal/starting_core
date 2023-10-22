@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu } from "react-icons/gi";
-// import { NavLink } from 'react-router-dom';
-
+import { FaBars, FaTimes } from 'react-icons/fa'
+import{useRef} from 'react';
 
 const Navbar = () => {
-  const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const navRef = useRef();
 
+  const showNavbar = () =>{
+    navRef.current.classList.toggle("responsive_nav")
+  }
   return (
     <>
       <div>
-        <nav className="navbar">
+        <nav className="navbar" ref={navRef}>
           <ul className="navbar-nav">
             <li className="nav-item">
               <div className="setlogo">
@@ -19,26 +21,23 @@ const Navbar = () => {
                 </a>
               </div>
             </li>
-            <div className= {showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
+            <div className="menu-link">
             {/* <div className='mobile-menu-link'> */}
-              <li className="nav-item">
+              <li className="nav-item navs">
                 <a className="nav-link we active grow" href="#Why">
                   Why We ?
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navs">
                 <a className="nav-link active grow" href="#Projects">Projects</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navs">
                 <a className="nav-link active grow" href="/Pricing">Pricing</a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item navs">
                 <a className="nav-link active grow" href="/Testimonial">Testimonials</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active grow" href="#">Blog</a>
-              </li>
-              <li className="nav-item">
+              <li className="nav-item navs">
                 <a className="nav-link active grow" href="/Contact">Contact</a>
               </li>
 
@@ -46,14 +45,14 @@ const Navbar = () => {
                 Get Started
               </button>
             </div>
-
-            <div className="hamburger-menu">
-              <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-                <GiHamburgerMenu />
-              </a>
-            </div>
-          </ul>
+            </ul>
+              <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                <FaTimes/>
+                </button>
         </nav>
+         <button className="nav-btn" onClick={showNavbar}>
+                <FaBars/>
+                </button>
       </div>
 
      

@@ -50,7 +50,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
- 
   position: relative;
   top: 18%;
 }
@@ -83,10 +82,12 @@
   color: #FFFFFF;
 }
 
+
 .scale:hover .hover{
-  background-color: #00618E;
+  background-color: #00618e;
   color: #FFFFFF;
 }
+
 
 .scale:hover .ChooseButton2{
   background-color: #FFFFFF;

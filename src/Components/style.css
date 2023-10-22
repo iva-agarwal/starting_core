@@ -5,32 +5,34 @@
     -webkit-text-fill-color: transparent;
 }
 
-.swiper-slide-active{
+.swiper-slide-active {
     font-size: 54px;
     color: #00618E;
     text-decoration: underline 8px solid #111111;
-    -webkit-text-fill-color:#00618E;
+    -webkit-text-fill-color: #00618E;
 }
 
 
-.slider{
+.slider {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 100%;         
-    }
-
-  
-.profile-sect{
-display: flex;
-flex-direction: column;
-justify-content: center;
-
+    width: 36%;
 }
-.profile-sec{
+
+
+.profile-sect {
     display: flex;
-    gap: 16px; 
+    flex-direction: column;
+    justify-content: center;
+
 }
+
+.profile-sec {
+    display: flex;
+    gap: 16px;
+}
+
 /* @media (min-width: 1065px) and (max-width: 1368px) {
     .swiper-slide-active{
         font-size: 40px;

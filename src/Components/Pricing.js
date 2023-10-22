@@ -1,5 +1,7 @@
 import React from "react";
 import "./pricing.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Pricing = () => {
     return (
@@ -28,35 +30,35 @@ const Pricing = () => {
                             </div>
                             <div className="features hover">
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                <FontAwesomeIcon icon={faCircleCheck} id="icon"/>
                                     <p>5 pages Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                <FontAwesomeIcon icon={faCircleCheck} />
                                     <p>Static Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                <FontAwesomeIcon icon={faCircleCheck} />
                                     <p>Admin Access</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck} />
                                     <p>1 Year Free Hosting</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Inquiry Form</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year 24/7 Free Support For Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Annual Renewal charges </p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>T&C APPLY</p>
                                 </div>
                             </div>
@@ -71,35 +73,35 @@ const Pricing = () => {
                             </div>
                             <div className="features hover">
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>5 pages Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Static Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Admin Access</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year Free Hosting</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Inquiry Form</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year 24/7 Free Support For Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Annual Renewal charges </p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>T&C APPLY</p>
                                 </div>
                             </div>
@@ -116,35 +118,35 @@ const Pricing = () => {
                             </div>
                             <div className="features hover">
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>5 pages Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Static Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Admin Access</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year Free Hosting</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Inquiry Form</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year 24/7 Free Support For Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Annual Renewal charges </p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>T&C APPLY</p>
                                 </div>
                             </div>
@@ -159,35 +161,35 @@ const Pricing = () => {
                             </div>
                             <div className="features hover">
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>5 pages Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Static Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Admin Access</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year Free Hosting</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Inquiry Form</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>1 Year 24/7 Free Support For Website</p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>Annual Renewal charges </p>
                                 </div>
                                 <div className="hover">
-                                    <input type="checkbox" />
+                                   <FontAwesomeIcon icon={faCircleCheck}  />
                                     <p>T&C APPLY</p>
                                 </div>
                             </div>

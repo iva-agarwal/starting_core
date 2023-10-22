@@ -1,40 +1,41 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f4f6;
 }
 
 .contactPage{
-    background-color: #111111;
+    font-family: "Poppins",Sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width:100dvw;
-    height: 100dvh;
+    padding-top: 9em;
     overflow: hidden;
 }
 
+.topper h1{
+    color: white;
+    background-color: #111111;
+    width: 49em;
+    height: 5em;
+    text-align: center;
+    padding-top: 3.3em;
+    margin-top: -1.7em;
+}
+
 .contactUs{
-    background-color: #FFFFFF;
-    width: 65%;
-    height: auto;
+    width: 100%;
     border-radius: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 6.5%;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
 }
 
-
-/* .contactUs div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    height: auto;
-} */
 
 .headingContact{
     display: flex;
@@ -59,35 +60,126 @@
 .textareas{
     text-align: left;
     margin: auto;
-    display: flex;
-    flex-direction: column;
     width: 650px;
+    margin-top: -39em;
+    margin-left: 33em;
 }
+
+.map{
+    margin-top: 4em;
+}
+
 .textareas label{
-    font-style: Work Sans;
-    font-size: 16px;
-    font-weight:600;
-    margin: 1%;
-    /* margin-top: 5%; */
+    display: flex;
 }
 
 .textareas input{
-    width: 100%;
+    width:90%;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style:solid;
     margin: 1%;
     font-size: 16px;
 }
 
-.textarea-placeholder textarea{
-    width: 100%;
-    height: 60px;
-    font-size: 12px;
-    border-radius: 10px;
-    /* border-style:groove; */
-    margin: 1%;
-    padding: 1%;
+.clearfix{
+    display: flex;
+}
+
+.clearfix input{
+    width: 78.5%;
+}
+
+.wtext input{
+    width: 18.3rem;
+    margin-right: 0.2em;
+}
+
+.wtext2 label{
+    margin-left: 2em;
+}
+
+.wtext2 input{
+    margin-left: 2em;
+    width: 84%;
+}
+
+
+.phonefield{
+    display: flex;
+}
+
+span.wrap-services {
+    margin-right: 30em;
+    margin-bottom: 0em;
+}
+
+.wrap-services span{
+  display: flex;
+  margin-bottom: 0.4em;
+}
+
+.wrap-services input{
+    height: 1em;
+    margin-top:1px;
+    margin-right: -3.4em;
+    margin-left: -3.5em;
+}
+
+.form-last textarea{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #5d5d66;
+    border-radius: 7px;
+    color: #000;
+    display: block;
+    resize: none;
+    margin-left: 40em;
+    width: 54%;
+}
+
+
+.service-label label{
+    margin-bottom: 1.3em;
+
+}
+
+.wrap-services .text{
+    margin-right: -15em;
+}
+
+.service-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.countrycodecontainer input{
+    margin-top: 0.14em;
+    width: 2.3em;
+    margin-left: -2.7em;
+}
+
+.phone-text input{
+    width: 15.5em;
+}
+
+.submit{
+    border-radius: 5px;
+    border-width: 1px;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    background-color:#00618e;
+    color: #fff;
+    height: 2.3em;
+    width: 55%;
+    margin-top: 1em;
+    margin-left: 26.5em;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #004463;
 }
 
 .socialMedia{
@@ -107,6 +199,15 @@
     margin: 1%;
     width: 40%;
     /* justify-content: space-between; */
+}
+
+/* .right{
+    margin-left: 20em;
+    margin-top: -5em;
+} */
+
+#contact-page-form{
+    display: flex;
 }
 
 .details img{
@@ -136,10 +237,69 @@
     font-size: 15px;
 }
 
+
+.contact-info{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 22px;
+}
+
+.boxes{
+    display: flex;
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.support-mail{    
+    border: 1px solid #00618E;
+    margin-right: 2em;
+    height: 14.5em;
+    padding:1em;
+    padding-top: 2em;
+    border-radius: 20px;
+}
+
+.support-mail:hover{
+    cursor: pointer;
+}
+
+.support-mail img{
+    width: 130px;
+    margin-bottom: 1em;
+}
+
+.premium-icon-box-content{
+    font-size: 0.75em;
+    line-height: 1.3em;
+    margin-top: 1em;
+}
+
+.social-links{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+
+.social-links a img{
+    width: 40px;
+    margin: 1.3em ;
+    margin-top: 3em;
+}
+
+.social-links a img:hover{
+    cursor: pointer;
+    width: 41px;
+}
+
+
 @media (min-width:1065px) and (max-width: 1368px){
     
 .contactUs{
-    margin-top: 8%;
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 7em;
 }
 
     .headingContact img{
@@ -153,7 +313,11 @@
     }
 
     .textareas input{
-        width: 90%;
+        width: 75%;
+    }
+
+    .map{
+        margin-left: 6em;
     }
     
     .textarea-placeholder textarea{
@@ -176,228 +340,347 @@
     .socialMedia img{
         width: 14%;
     }
+
+.clearfix input{
+    width: 66.5%;
+}
+
+.wtext input{
+    width: 15.6rem;
+    margin-right: 2.6em;
+}
+
+.wtext2 input{
+    width: 69%;
+}
+
+.countrycodecontainer input{
+    margin-top: 0.14em;
+    width: 2.3em;
+    margin-left: -2.7em;
+}
+
+.phone-text input{
+    width: 12.6em;
+}
+
+.form-last textarea{
+    width: 46.2%;
+}
+
+.submit{
+    width: 48.2%;
+}
+.support-mail{    
+    margin-right: 2em;
+    height: 17.5em;
+    padding:1em;
+    padding-top: 2em;
+    border-radius: 20px;
+    margin-left: -1.5em;
+}
+
 }
 
 @media (min-width:768px) and (max-width: 1064px){
+  
+    .right-contact{
+            margin-left: -31em;
+            margin-top: 46em;
+        }
 
-    .contactUs div{
-        width: 90%;
+        .map{
+            margin-left: 9.5em;
+            margin-top: 1em;
+        }
+        
+        .textarea-placeholder textarea{
+            width: 88%;
+        }
+    
+
+    .clearfix input{
+        width: 79%;
     }
     
-    .headingContact h1{
-        font-size: 36px;
+    .clearfix .right label{
+        margin-left: -2.9em;
     }
 
-    .headingContact img{
-        left: 30%;
-        width: 30px;
-        height: 30px;
+    .wtext input{
+        width: 18.4rem;
+        margin-right: 2.6em;
     }
     
-    .textareas input{
-        width: 100%;
+    .wtext2 input{
+        width: 93.5%;
+        margin-left: -0.48em;
     }
     
-    .textarea-placeholder textarea{
-        width: 100%;
+    .clearfix .wtext2 label{
+        margin-left: -0.9em;
     }
 
-    .submitButton2{
-        font-size: 13px;
+    .countrycodecontainer input{
+        margin-top: 0.14em;
+        width: 2.3em;
+        margin-left: -2.5em;
     }
-
-    .textareas label{
-        font-size: 16px;
+    
+    .phone-text input{
+        width: 15.2em;
+        margin-left: 0.5em;
     }
-
-    .socialMedia{
-        justify-content:left;
-        margin-left: 6%;
+    
+    .form-last textarea{
+        width: 51.2%;
     }
-
-    .socialMedia img{
-        width: 8%;
+    
+    .submit{
+        width: 53.2%;
     }
-
-    .details{
-        margin-left: 6%;
+    .support-mail{    
+        margin-right: 4em;
+        height: 19.5em;
+        width: 5.7em;
+        padding-top: 2em;
+        margin-left: -1.7em;
     }
-
-    .details img{
-        width: 8%;
+    .premium-icon-box-content{
+        font-size: 14px;
+        margin-left: -1.3em;
     }
-
-    .details h1{
-        font-size: 22px;
-    }
+    
 }
 @media (min-width:640px) and (max-width: 768px){
 
-    .contactUs div{
-        width: 90%;
-    }
-    
-    .headingContact h1{
-        font-size: 36px;
+   
+    .right-contact{
+        margin-left: -33em;
+        margin-top: 46em;
     }
 
-    .headingContact img{
-        left: 25%;
-        width: 30px;
-        height: 30px;
-    }
-
-    .textareas label{
-        font-size: 14px;
-    }
-    
-    .textareas input{
-        width: 100%;
+    .map{
+        margin-left: 9.5em;
+        margin-top: 1em;
     }
     
     .textarea-placeholder textarea{
-        width: 100%;
-    }
-
-    .submitButton2{
-        font-size: 13px;
+        width: 88%;
     }
 
 
-    .socialMedia{
-        justify-content:left;
-        margin-left: 6%;
-    }
+.clearfix input{
+    width: 79%;
+}
 
-    .socialMedia img{
-        width: 8%;
-    }
+.clearfix .right label{
+    margin-left: -2.9em;
+}
 
-    .details{
-        margin-left: 6%;
-    }
+.wtext input{
+    width: 18.4rem;
+    margin-right: 2.6em;
+}
 
-    .details img{
-        width: 8%;
-    }
+.wtext2 input{
+    width: 93.5%;
+    margin-left: -0.48em;
+}
 
-    .details h1{
-        font-size: 22px;
-    }
+.clearfix .wtext2 label{
+    margin-left: -0.9em;
+}
+
+.countrycodecontainer input{
+    margin-top: 0.14em;
+    width: 2.3em;
+    margin-left: -2.5em;
+}
+
+.phone-text input{
+    width: 15.2em;
+    margin-left: 0.5em;
+}
+
+.form-last textarea{
+    width: 51.2%;
+}
+
+.submit{
+    width: 53.2%;
+}
+.support-mail{    
+    margin-right: 5.2em;
+    height: 13.5em;
+    width: 5.7em;
+    padding-top: 2em;
+    margin-left: -4.6em;
+}
+.premium-icon-box-content{
+    font-size: 12px;
+}
+.support-mail img{
+    width: 70px;
+    margin-bottom: 1em;
+}
+
+
 }
 
 @media (min-width:360px) and (max-width: 640px){
+    .topper{
+        font-size: 10px;
+        margin-top: -10em;
+    }
 
-    .contactUs div{
-        width: 90%;
+    .contactUs div .headingContact h1{
+        font-size: 30px;
+        margin-left: -0.7em;
+    }
+
+    .right-contact{
+        margin-left: -28em;
+        margin-top: 46em;
+    }
+
+    .map{
+        margin-left: 9.5em;
+        margin-top: 1em;
     }
     
-    .headingContact h1{
-        font-size: 22px;
-    }
+  #contact-page-form .left{
+    margin-left: 7em;
+  }
+  #contact-page-form .right{
+    margin-top: 5em;
+    margin-left: -23em;
+  }
+  .clearfix .left{
+    margin-left: 7em;
+    width: 26.7em;
+  }
+  .clearfix .right{
+    margin-left: -23.8em;
+    margin-top: 5em;
+  }
+  .clearfix .right label{
+    margin-left: -2.9em;
+  }
+  .clearfix .phone-text{
+    width: 18.2em;
+  }
+  .clearfix .wtext{
+    width: 21.1em;
+  }
+  .clearfix .right .wtext2 input{
+    margin-left: -2.8em;
+    width: 21.3em;
+  }
+  .service-label{
+    margin-left: 7em;
+  }
+  .service-label .wrap-services input{
+    margin-left: -1em;
+  }
+  .service-label .wrap-services .text{
+    margin-left: 3em;
+  }
+  .form-last textarea{
+    width: 22em;
+    margin-left: 48em;
+  }
+  .submit{
+    width: 15.7em;
+    margin-left: 32em;
+  }
+  .boxes{
+    display:block;
+    margin-left: 2em;
+  }
+  .support-mail{
+    margin-bottom: 1em;
+    height: 16em;
+  }
 
-    .headingContact img{
-        left: 20%;
-        width: 30px;
-        height: 30px;
-    }
-
-    .textareas label {
-        font-size: 14px;
-    }
-    
-    .textareas input{
-        width: 100%;
-        height: 30px;
-    }
-    
-    .textarea-placeholder textarea{
-        width: 100%;
-    }
-
-    .submitButton2{
-        font-size: 11px;
-    }
-
-
-    .socialMedia{
-        justify-content:left;
-        margin-left: 6%;
-    }
-
-    .socialMedia img{
-        width: 8%;
-    }
-
-    .details{
-        margin-left: 6%;
-    }
-
-    .details img{
-        width: 9%;
-        height: 18px;
-    }
-
-    .details h1{
-        font-size: 14px;
-    }
 }
 
 @media (min-width:280px) and (max-width: 360px){
 
-    .contactUs div{
-        width: 90%;
+    .topper{
+        font-size: 6px;
+        margin-top: -10em;
+    }
+
+    .contactUs div .headingContact h1{
+        font-size: 25px;
+        margin-left: -0.7em;
+    }
+
+    .right-contact{
+        margin-left: -24em;
+        margin-top:41em;
+    }
+
+    .map{
+        margin-left: 9.5em;
+        margin-top: 1em;
     }
     
-    .headingContact h1{
-        font-size: 16px;
-    }
-
-    .headingContact img{
-        left: 20%;
-        width: 20px;
-        height: 20px;
-    }
-
-    .textareas label {
-        font-size: 12px;
-    }
-    
-    .textareas input{
-        width: 100%;
-        height: 20px;
-        font-size: 12px;
-    }
-    
-    .textarea-placeholder textarea{
-        width: 100%;
-        font-size: 10px;
-    }
-
-    .submitButton2{
-        font-size: 11px;
-    }
-
-
-    .socialMedia{
-        justify-content:left;
-        margin-left: 6%;
-    }
-
-    .socialMedia img{
-        width: 8%;
-    }
-
-    .details{
-        margin-left: 6%;
-    }
-
-    .details img{
-        width: 9%;
-        height: 18px;
-    }
-
-    .details h1{
-        font-size: 12px;
-    }
+  #contact-page-form .left{
+    margin-left: 7em;
+    width: 17em;
+  }
+  #contact-page-form .right{
+    margin-top: 5em;
+    margin-left: -17em;
+    width: 17em;
+  }
+  .clearfix .left{
+    margin-left: 7em;
+    width: 19.5em;
+  }
+  .clearfix .right{
+    margin-left: -16.8em;
+    margin-top: 5em;
+  }
+  .clearfix .right label{
+    margin-left: -2.9em;
+  }
+  .clearfix .phone-text{
+    width: 12.7em;
+  }
+  .clearfix .wtext{
+    width: 15.4em;
+  }
+  .clearfix .right .wtext2 input{
+    margin-left: -2.8em;
+    width: 15.7em;
+  }
+  .service-label{
+    margin-left: 7em;
+  }
+  .service-label .wrap-services input{
+    margin-left: -1em;
+  }
+  .service-label .wrap-services .text{
+    margin-left: 2.6em;
+  }
+  .form-last textarea{
+    width: 18em;
+    margin-left: 48em;
+  }
+  .submit{
+    width: 13em;
+    margin-left: 32em;
+  }
+  .boxes{
+    display:block;
+    margin-left: 1em;
+  }
+  .support-mail{
+    margin-bottom: 1em;
+    height: 16em;
+    width: 9em;
+  }
 }

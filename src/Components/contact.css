@@ -1,22 +1,22 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f2f4f6;
 }
 
-.contactPage{
-    font-family: "Poppins",Sans-serif;
+.contactPage {
+    font-family: "Poppins", Sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:100dvw;
+    width: 100dvw;
     padding-top: 9em;
     overflow: hidden;
 }
 
-.topper h1{
+.topper h1 {
     color: white;
     background-color: #111111;
     width: 49em;
@@ -26,7 +26,7 @@ body{
     margin-top: -1.7em;
 }
 
-.contactUs{
+.contactUs {
     width: 100%;
     border-radius: 24px;
     display: flex;
@@ -37,7 +37,7 @@ body{
 }
 
 
-.headingContact{
+.headingContact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,19 +45,19 @@ body{
     margin: auto;
 }
 
-.headingContact h1{
+.headingContact h1 {
     font-size: 56px;
     margin: 2% 0% 0 7%;
     /* margin: 2%; */
 }
 
-.headingContact img{
+.headingContact img {
     position: relative;
     left: 45%;
     cursor: pointer;
 }
 
-.textareas{
+.textareas {
     text-align: left;
     margin: auto;
     width: 650px;
@@ -65,47 +65,47 @@ body{
     margin-left: 33em;
 }
 
-.map{
+.map {
     margin-top: 4em;
 }
 
-.textareas label{
+.textareas label {
     display: flex;
 }
 
-.textareas input{
-    width:90%;
+.textareas input {
+    width: 90%;
     height: 40px;
     border-radius: 5px;
-    border-style:solid;
+    border-style: solid;
     margin: 1%;
     font-size: 16px;
 }
 
-.clearfix{
+.clearfix {
     display: flex;
 }
 
-.clearfix input{
+.clearfix input {
     width: 78.5%;
 }
 
-.wtext input{
+.wtext input {
     width: 18.3rem;
     margin-right: 0.2em;
 }
 
-.wtext2 label{
+.wtext2 label {
     margin-left: 2em;
 }
 
-.wtext2 input{
+.wtext2 input {
     margin-left: 2em;
     width: 84%;
 }
 
 
-.phonefield{
+.phonefield {
     display: flex;
 }
 
@@ -114,19 +114,19 @@ span.wrap-services {
     margin-bottom: 0em;
 }
 
-.wrap-services span{
-  display: flex;
-  margin-bottom: 0.4em;
+.wrap-services span {
+    display: flex;
+    margin-bottom: 0.4em;
 }
 
-.wrap-services input{
+.wrap-services input {
     height: 1em;
-    margin-top:1px;
+    margin-top: 1px;
     margin-right: -3.4em;
     margin-left: -3.5em;
 }
 
-.form-last textarea{
+.form-last textarea {
     margin-bottom: 10px;
     padding: 5px 10px;
     border: 1px solid #5d5d66;
@@ -139,37 +139,37 @@ span.wrap-services {
 }
 
 
-.service-label label{
+.service-label label {
     margin-bottom: 1.3em;
 
 }
 
-.wrap-services .text{
+.wrap-services .text {
     margin-right: -15em;
 }
 
-.service-label{
+.service-label {
     display: flex;
     flex-direction: column;
 }
 
-.countrycodecontainer input{
+.countrycodecontainer input {
     margin-top: 0.14em;
     width: 2.3em;
     margin-left: -2.7em;
 }
 
-.phone-text input{
+.phone-text input {
     width: 15.5em;
 }
 
-.submit{
+.submit {
     border-radius: 5px;
     border-width: 1px;
     border: none;
     font-size: 20px;
     font-weight: 900;
-    background-color:#00618e;
+    background-color: #00618e;
     color: #fff;
     height: 2.3em;
     width: 55%;
@@ -177,24 +177,24 @@ span.wrap-services {
     margin-left: 26.5em;
 }
 
-.submit:hover{
+.submit:hover {
     cursor: pointer;
     background-color: #004463;
 }
 
-.socialMedia{
+.socialMedia {
     margin-top: 1.4%;
     width: 30%;
     display: flex;
     justify-content: space-between;
 }
 
-.socialMedia img{
+.socialMedia img {
     width: 20%;
     /* margin: 2%; */
 }
 
-.details{
+.details {
     display: flex;
     margin: 1%;
     width: 40%;
@@ -206,26 +206,26 @@ span.wrap-services {
     margin-top: -5em;
 } */
 
-#contact-page-form{
+#contact-page-form {
     display: flex;
 }
 
-.details img{
+.details img {
     width: 12%;
     height: auto;
 }
 
-.details h1{
+.details h1 {
     -webkit-text-fill-color: rgb(88, 83, 83);
     margin-left: 2%;
     font-size: 28px;
 }
 
-.submitButton{
+.submitButton {
     margin: 2%;
 }
 
-.submitButton2{
+.submitButton2 {
     background-color: #00618E;
     color: #F2F4F6;
     border-radius: 0.625em;
@@ -238,449 +238,505 @@ span.wrap-services {
 }
 
 
-.contact-info{
+.contact-info {
     text-align: center;
     margin-top: 3em;
     font-size: 22px;
 }
 
-.boxes{
+.boxes {
     display: flex;
     margin-left: 5em;
     margin-top: 3em;
     margin-bottom: 5em;
 }
 
-.support-mail{    
+.support-mail {
     border: 1px solid #00618E;
     margin-right: 2em;
     height: 14.5em;
-    padding:1em;
+    padding: 1em;
     padding-top: 2em;
     border-radius: 20px;
 }
 
-.support-mail:hover{
+.support-mail:hover {
     cursor: pointer;
 }
 
-.support-mail img{
+.support-mail img {
     width: 130px;
     margin-bottom: 1em;
 }
 
-.premium-icon-box-content{
+.premium-icon-box-content {
     font-size: 0.75em;
     line-height: 1.3em;
     margin-top: 1em;
 }
 
-.social-links{
+.social-links {
     text-align: center;
     font-size: 22px;
     margin-bottom: 3em;
     padding-top: 1em;
 }
 
-.social-links a img{
+.social-links a img {
     width: 40px;
-    margin: 1.3em ;
+    margin: 1.3em;
     margin-top: 3em;
 }
 
-.social-links a img:hover{
+.social-links a img:hover {
     cursor: pointer;
     width: 41px;
 }
 
 
-@media (min-width:1065px) and (max-width: 1368px){
-    
-.contactUs{
-    margin-top: 4em;
-    margin-left: 5em;
-    margin-right: 7em;
-}
+@media (min-width:1065px) and (max-width: 1368px) {
 
-    .headingContact img{
+    .contactUs {
+        margin-top: 4em;
+        margin-left: 5em;
+        margin-right: 7em;
+    }
+
+    .headingContact img {
         left: 25%;
         width: 35px;
         height: 35px;
     }
-    
-    .headingContact h1{
+
+    .headingContact h1 {
         font-size: 33px;
     }
 
-    .textareas input{
+    .textareas input {
         width: 75%;
     }
 
-    .map{
+    .map {
         margin-left: 6em;
     }
-    
-    .textarea-placeholder textarea{
+
+    .textarea-placeholder textarea {
         width: 88%;
     }
 
-    .socialMedia{
-        justify-content:left;
+    .socialMedia {
+        justify-content: left;
         margin-left: 1%;
     }
 
-    .details{
+    .details {
         margin-left: 1%;
     }
 
-    .details img{
+    .details img {
         width: 10%;
     }
-    
-    .socialMedia img{
+
+    .socialMedia img {
         width: 14%;
     }
 
-.clearfix input{
-    width: 66.5%;
+    .clearfix input {
+        width: 66.5%;
+    }
+
+    .wtext input {
+        width: 15.6rem;
+        margin-right: 2.6em;
+    }
+
+    .wtext2 input {
+        width: 69%;
+    }
+
+    .countrycodecontainer input {
+        margin-top: 0.14em;
+        width: 2.3em;
+        margin-left: -2.7em;
+    }
+
+    .phone-text input {
+        width: 12.6em;
+    }
+
+    .form-last textarea {
+        width: 46.2%;
+    }
+
+    .submit {
+        width: 48.2%;
+    }
+
+    .support-mail {
+        margin-right: 2em;
+        height: 17.5em;
+        padding: 1em;
+        padding-top: 2em;
+        border-radius: 20px;
+        margin-left: -1.5em;
+    }
+
 }
 
-.wtext input{
-    width: 15.6rem;
-    margin-right: 2.6em;
-}
+@media (min-width:768px) and (max-width: 1064px) {
 
-.wtext2 input{
-    width: 69%;
-}
+    .right-contact {
+        margin-left: -31em;
+        margin-top: 46em;
+    }
 
-.countrycodecontainer input{
-    margin-top: 0.14em;
-    width: 2.3em;
-    margin-left: -2.7em;
-}
+    .map {
+        margin-left: 9.5em;
+        margin-top: 1em;
+    }
 
-.phone-text input{
-    width: 12.6em;
-}
+    .textarea-placeholder textarea {
+        width: 88%;
+    }
 
-.form-last textarea{
-    width: 46.2%;
-}
 
-.submit{
-    width: 48.2%;
-}
-.support-mail{    
-    margin-right: 2em;
-    height: 17.5em;
-    padding:1em;
-    padding-top: 2em;
-    border-radius: 20px;
-    margin-left: -1.5em;
-}
-
-}
-
-@media (min-width:768px) and (max-width: 1064px){
-  
-    .right-contact{
-            margin-left: -31em;
-            margin-top: 46em;
-        }
-
-        .map{
-            margin-left: 9.5em;
-            margin-top: 1em;
-        }
-        
-        .textarea-placeholder textarea{
-            width: 88%;
-        }
-    
-
-    .clearfix input{
+    .clearfix input {
         width: 79%;
     }
-    
-    .clearfix .right label{
+
+    .clearfix .right label {
         margin-left: -2.9em;
     }
 
-    .wtext input{
+    .wtext input {
         width: 18.4rem;
         margin-right: 2.6em;
     }
-    
-    .wtext2 input{
+
+    .wtext2 input {
         width: 93.5%;
         margin-left: -0.48em;
     }
-    
-    .clearfix .wtext2 label{
+
+    .clearfix .wtext2 label {
         margin-left: -0.9em;
     }
 
-    .countrycodecontainer input{
+    .countrycodecontainer input {
         margin-top: 0.14em;
         width: 2.3em;
         margin-left: -2.5em;
     }
-    
-    .phone-text input{
+
+    .phone-text input {
         width: 15.2em;
         margin-left: 0.5em;
     }
-    
-    .form-last textarea{
+
+    .form-last textarea {
         width: 51.2%;
     }
-    
-    .submit{
+
+    .submit {
         width: 53.2%;
     }
-    .support-mail{    
-        margin-right: 4em;
-        height: 19.5em;
-        width: 5.7em;
+
+    .support-mail {
+        margin-right: 2em;
+        height: 15em;
+        padding: 1em;
         padding-top: 2em;
-        margin-left: -1.7em;
+        border-radius: 20px;
+        margin-left: -1.5em;
     }
-    .premium-icon-box-content{
+
+    .contact-info {
+        align-items: center;
+        margin-left: -2em
+    }
+
+    .premium-icon-box-content {
         font-size: 14px;
         margin-left: -1.3em;
     }
-    
-}
-@media (min-width:640px) and (max-width: 768px){
 
-   
-    .right-contact{
+}
+
+@media (min-width:640px) and (max-width: 768px) {
+
+
+    .right-contact {
         margin-left: -33em;
         margin-top: 46em;
     }
 
-    .map{
+    .map {
         margin-left: 9.5em;
         margin-top: 1em;
     }
-    
-    .textarea-placeholder textarea{
+
+    .textarea-placeholder textarea {
         width: 88%;
     }
 
 
-.clearfix input{
-    width: 79%;
+    .clearfix input {
+        width: 79%;
+    }
+
+    .clearfix .right label {
+        margin-left: -2.9em;
+    }
+
+    .wtext input {
+        width: 18.4rem;
+        margin-right: 2.6em;
+    }
+
+    .wtext2 input {
+        width: 93.5%;
+        margin-left: -0.48em;
+    }
+
+    .clearfix .wtext2 label {
+        margin-left: -0.9em;
+    }
+
+    .countrycodecontainer input {
+        margin-top: 0.14em;
+        width: 2.3em;
+        margin-left: -2.5em;
+    }
+
+    .phone-text input {
+        width: 15.2em;
+        margin-left: 0.5em;
+    }
+
+    .form-last textarea {
+        width: 51.2%;
+    }
+
+    .submit {
+        width: 53.2%;
+    }
+
+    .premium-icon-box-content {
+        font-size: 12px;
+    }
+
+    .support-mail img {
+        margin-bottom: 1em;
+        width: 4em;
+    }
+
+    .contact-info {
+        align-items: center;
+    }
+
+    .support-mail {
+        margin-right: 5.2em;
+        height: 13.5em;
+        width: 5.2em;
+        padding-top: 2em;
+        margin-left: -4.6em;
+    }
+
+
 }
 
-.clearfix .right label{
-    margin-left: -2.9em;
-}
-
-.wtext input{
-    width: 18.4rem;
-    margin-right: 2.6em;
-}
-
-.wtext2 input{
-    width: 93.5%;
-    margin-left: -0.48em;
-}
-
-.clearfix .wtext2 label{
-    margin-left: -0.9em;
-}
-
-.countrycodecontainer input{
-    margin-top: 0.14em;
-    width: 2.3em;
-    margin-left: -2.5em;
-}
-
-.phone-text input{
-    width: 15.2em;
-    margin-left: 0.5em;
-}
-
-.form-last textarea{
-    width: 51.2%;
-}
-
-.submit{
-    width: 53.2%;
-}
-.support-mail{    
-    margin-right: 5.2em;
-    height: 13.5em;
-    width: 5.7em;
-    padding-top: 2em;
-    margin-left: -4.6em;
-}
-.premium-icon-box-content{
-    font-size: 12px;
-}
-.support-mail img{
-    width: 70px;
-    margin-bottom: 1em;
-}
-
-
-}
-
-@media (min-width:360px) and (max-width: 640px){
-    .topper{
+@media (min-width:360px) and (max-width: 640px) {
+    .topper {
         font-size: 10px;
         margin-top: -10em;
     }
 
-    .contactUs div .headingContact h1{
+    .contactUs div .headingContact h1 {
         font-size: 30px;
         margin-left: -0.7em;
     }
 
-    .right-contact{
+    .right-contact {
         margin-left: -28em;
         margin-top: 46em;
     }
 
-    .map{
+    .map {
         margin-left: 9.5em;
         margin-top: 1em;
     }
-    
-  #contact-page-form .left{
-    margin-left: 7em;
-  }
-  #contact-page-form .right{
-    margin-top: 5em;
-    margin-left: -23em;
-  }
-  .clearfix .left{
-    margin-left: 7em;
-    width: 26.7em;
-  }
-  .clearfix .right{
-    margin-left: -23.8em;
-    margin-top: 5em;
-  }
-  .clearfix .right label{
-    margin-left: -2.9em;
-  }
-  .clearfix .phone-text{
-    width: 18.2em;
-  }
-  .clearfix .wtext{
-    width: 21.1em;
-  }
-  .clearfix .right .wtext2 input{
-    margin-left: -2.8em;
-    width: 21.3em;
-  }
-  .service-label{
-    margin-left: 7em;
-  }
-  .service-label .wrap-services input{
-    margin-left: -1em;
-  }
-  .service-label .wrap-services .text{
-    margin-left: 3em;
-  }
-  .form-last textarea{
-    width: 22em;
-    margin-left: 48em;
-  }
-  .submit{
-    width: 15.7em;
-    margin-left: 32em;
-  }
-  .boxes{
-    display:block;
-    margin-left: 2em;
-  }
-  .support-mail{
-    margin-bottom: 1em;
-    height: 16em;
-  }
+
+    #contact-page-form .left {
+        margin-left: 7em;
+    }
+
+    #contact-page-form .right {
+        margin-top: 5em;
+        margin-left: -23em;
+    }
+
+    .clearfix .left {
+        margin-left: 7em;
+        width: 26.7em;
+    }
+
+    .clearfix .right {
+        margin-left: -23.8em;
+        margin-top: 5em;
+    }
+
+    .clearfix .right label {
+        margin-left: -2.9em;
+    }
+
+    .clearfix .phone-text {
+        width: 18.2em;
+    }
+
+    .clearfix .wtext {
+        width: 21.1em;
+    }
+
+    .clearfix .right .wtext2 input {
+        margin-left: -2.8em;
+        width: 21.3em;
+    }
+
+    .service-label {
+        margin-left: 7em;
+    }
+
+    .service-label .wrap-services input {
+        margin-left: -1em;
+    }
+
+    .service-label .wrap-services .text {
+        margin-left: 3em;
+    }
+
+    .form-last textarea {
+        width: 22em;
+        margin-left: 48em;
+    }
+
+    .submit {
+        width: 15.7em;
+        margin-left: 32em;
+    }
+
+    .boxes {
+        display: block;
+        margin-left: 2em;
+    }
+
+    .contact-info {
+        align-items: center;
+    }
+
+
+    .support-mail {
+        margin-bottom: 1em;
+        height: 16em;
+        margin-left: 1em;
+    }
 
 }
 
-@media (min-width:280px) and (max-width: 360px){
+@media (min-width:280px) and (max-width: 360px) {
 
-    .topper{
+    .topper {
         font-size: 6px;
         margin-top: -10em;
     }
 
-    .contactUs div .headingContact h1{
+    .contactUs div .headingContact h1 {
         font-size: 25px;
         margin-left: -0.7em;
     }
 
-    .right-contact{
+    .right-contact {
         margin-left: -24em;
-        margin-top:41em;
+        margin-top: 41em;
     }
 
-    .map{
+    .map {
         margin-left: 9.5em;
         margin-top: 1em;
     }
-    
-  #contact-page-form .left{
-    margin-left: 7em;
-    width: 17em;
-  }
-  #contact-page-form .right{
-    margin-top: 5em;
-    margin-left: -17em;
-    width: 17em;
-  }
-  .clearfix .left{
-    margin-left: 7em;
-    width: 19.5em;
-  }
-  .clearfix .right{
-    margin-left: -16.8em;
-    margin-top: 5em;
-  }
-  .clearfix .right label{
-    margin-left: -2.9em;
-  }
-  .clearfix .phone-text{
-    width: 12.7em;
-  }
-  .clearfix .wtext{
-    width: 15.4em;
-  }
-  .clearfix .right .wtext2 input{
-    margin-left: -2.8em;
-    width: 15.7em;
-  }
-  .service-label{
-    margin-left: 7em;
-  }
-  .service-label .wrap-services input{
-    margin-left: -1em;
-  }
-  .service-label .wrap-services .text{
-    margin-left: 2.6em;
-  }
-  .form-last textarea{
-    width: 18em;
-    margin-left: 48em;
-  }
-  .submit{
-    width: 13em;
-    margin-left: 32em;
-  }
-  .boxes{
-    display:block;
-    margin-left: 1em;
-  }
-  .support-mail{
-    margin-bottom: 1em;
-    height: 16em;
-    width: 9em;
-  }
+
+    #contact-page-form .left {
+        margin-left: 7em;
+        width: 17em;
+    }
+
+    #contact-page-form .right {
+        margin-top: 5em;
+        margin-left: -17em;
+        width: 17em;
+    }
+
+    .clearfix .left {
+        margin-left: 7em;
+        width: 19.5em;
+    }
+
+    .clearfix .right {
+        margin-left: -16.8em;
+        margin-top: 5em;
+    }
+
+    .clearfix .right label {
+        margin-left: -2.9em;
+    }
+
+    .clearfix .phone-text {
+        width: 12.7em;
+    }
+
+    .clearfix .wtext {
+        width: 15.4em;
+    }
+
+    .clearfix .right .wtext2 input {
+        margin-left: -2.8em;
+        width: 15.7em;
+    }
+
+    .service-label {
+        margin-left: 7em;
+    }
+
+    .service-label .wrap-services input {
+        margin-left: -1em;
+    }
+
+    .service-label .wrap-services .text {
+        margin-left: 2.6em;
+    }
+
+    .form-last textarea {
+        width: 18em;
+        margin-left: 48em;
+    }
+
+    .submit {
+        width: 13em;
+        margin-left: 32em;
+    }
+
+    .boxes {
+        display: block;
+        margin-left: 1em;
+    }
+
+    .contact-info {
+        align-items: center;
+        margin-left: 1.3em;
+    }
+
+    .support-mail {
+        margin-bottom: 1em;
+        height: 16em;
+        width: 9em;
+    }
 }

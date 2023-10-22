@@ -12,77 +12,79 @@ import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <>
-      <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 10,
-          stretch: 100,
-          depth: 200,
-          modifier: 1,
-          slideShadows: false,
-        }}
-        loop={true}
-        navigation={false}
-        modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+      <div className="slider-div">
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 10,
+            stretch: 100,
+            depth: 200,
+            modifier: 1,
+            slideShadows: false,
+          }}
+          loop={true}
+          navigation={false}
+          modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
+          className="mySwiper"
+        >
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="slider">
-          <div className="profile-sect">
-            <div className="profile-sec">
-              <h1 className="textWhy font-face-sa">Why We?</h1>
+          </SwiperSlide>
+          <SwiperSlide className="slider">
+            <div className="profile-sect">
+              <div className="profile-sec">
+                <h1 className="textWhy font-face-sa">Why We?</h1>
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 }

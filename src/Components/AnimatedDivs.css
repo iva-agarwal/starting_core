@@ -30,6 +30,7 @@
   align-items: center;
   flex-direction: row;
   height: 90vh;
+  margin-left: -2em;
 }
 
 
@@ -42,7 +43,7 @@
 }
 
 .frames img {
-  width: 40em;
+  width: 32em;
 }
 
 .frame {
@@ -74,8 +75,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: -6em;
-  margin-left: 6em;
+  margin-right: -10em;
+  margin-left: 3em;
 }
 
 
@@ -187,13 +188,13 @@
 
 @media (min-width:768px) and (max-width: 1064px) {
   .TEXT {
-    margin-left: 3em;
+    margin-left: 7em;
     font-size: 13px;
-    margin-right: -12em;
+    margin-right: -18em;
   }
 
   .frames img {
-    width: 100%;
+    width: 80%;
   }
 
   .buttons {
@@ -203,7 +204,7 @@
 
 @media (min-width: 640px) and (max-width: 768px) {
   .TEXT {
-    margin-left: 3em;
+    margin-left: 6em;
     font-size: 11px;
     margin-right: -14em;
   }
@@ -222,22 +223,33 @@
   .field {
     flex-direction: column;
     height: auto;
+    width: 10em;
   }
 
   .TEXT {
-    margin-left: 3em;
     font-size: 11px;
-    margin-right: -12em;
     margin-top: 7em;
+    margin-right: 4em;
   }
 
   .frames img {
-    width: 70%;
+    width: 300px;
     margin-top: 4em;
+    margin-bottom: 4em;
   }
 
+  .frameText {
+    width: 7em;
+  }
+
+  .textdes {
+    width: 25.5em;
+    margin-right: -3em;
+  }
+
+
   .buttons {
-    margin-left: -22em;
+    margin-left: -6em;
     width: 17em;
   }
 }
@@ -247,19 +259,30 @@
   .field {
     flex-direction: column;
     height: auto;
+    width: 10em;
   }
 
   .TEXT {
-    margin-left: 3em;
-    font-size: 9px;
-    margin-right: -12em;
+    font-size: 11px;
     margin-top: 7em;
+    margin-right: 1.5em;
   }
 
   .frames img {
-    width: 70%;
+    width: 50%;
     margin-top: 4em;
   }
+
+  .frameText {
+    width: 9em;
+    font-size: 27px;
+  }
+
+  .textdes {
+    width: 22.5em;
+    margin-right: -3em;
+  }
+
 
 
   .buttons {
@@ -274,7 +297,7 @@
     width: 150px;
     height: 35px;
     margin-top: 10%;
-    margin-left: 4.4em;
+    margin-left: 11.4em;
   }
 
 
@@ -283,7 +306,7 @@
     width: 150px;
     height: 35px;
     margin-top: 1.2em;
-    margin-left: 4.4em;
+    margin-left: 11.4em;
   }
 
 }

@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa'
-import{useRef} from 'react';
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useRef } from "react";
 
 const Navbar = () => {
   const navRef = useRef();
 
-  const showNavbar = () =>{
-    navRef.current.classList.toggle("responsive_nav")
-  }
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <>
       <div>
@@ -22,42 +22,54 @@ const Navbar = () => {
               </div>
             </li>
             <div className="menu-link">
-            {/* <div className='mobile-menu-link'> */}
+              {/* <div className='mobile-menu-link'> */}
               <li className="nav-item navs">
                 <a className="nav-link we active grow" href="#Why">
                   Why We ?
                 </a>
               </li>
               <li className="nav-item navs">
-                <a className="nav-link active grow" href="#Projects">Projects</a>
+                <a className="nav-link active grow" href="#Projects">
+                  Projects
+                </a>
               </li>
               <li className="nav-item navs">
-                <a className="nav-link active grow" href="/Pricing">Pricing</a>
+                <a className="nav-link active grow" href="/Pricing">
+                  Pricing
+                </a>
               </li>
               <li className="nav-item navs">
-                <a className="nav-link active grow" href="/Testimonial">Testimonials</a>
+                <a className="nav-link active grow" href="/Testimonial">
+                  Testimonials
+                </a>
               </li>
               <li className="nav-item navs">
-                <a className="nav-link active grow" href="/Contact">Contact</a>
+                <a className="nav-link active grow" href="/Contact">
+                  Contact
+                </a>
               </li>
 
               <button className="btn" type="Submit">
                 Get Started
               </button>
             </div>
-            </ul>
-              <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                <FaTimes/>
-                </button>
+          </ul>
+          <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
         </nav>
-         <button className="nav-btn" onClick={showNavbar}>
-                <FaBars/>
-                </button>
+        <div className="setlogo2">
+          <img className="logo grow" src="./images/core.png" alt="#" />
+          <a href="/" className="nav-link logoname font-face-sa grow">
+            Starting Core
+          </a>
+        </div>
+        <button className="nav-btn" onClick={showNavbar}>
+          <FaBars />
+        </button>
       </div>
-
-     
     </>
-  )
-}
+  );
+};
 
 export default Navbar;

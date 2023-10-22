@@ -32,13 +32,13 @@ body {
 }
 
 
-.nav-btn{
+.nav-btn {
   cursor: pointer;
-  background:transparent;
+  background: transparent;
   border: none;
   visibility: hidden;
   opacity: 0;
-  
+
 }
 
 .navbar-nav {
@@ -49,7 +49,7 @@ body {
 }
 
 
-.menu-link{
+.menu-link {
   display: flex;
   flex-direction: row;
 }
@@ -61,8 +61,8 @@ body {
   position: relative;
 }
 
-.navs{
-  margin:auto;
+.navs {
+  margin: auto;
 }
 
 .active {
@@ -81,6 +81,32 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+
+
+.setlogo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: none;
+}
+
+.setlogo2 .logo {
+  width: 4.75em;
+  cursor: pointer;
+  margin-left: -32.88em;
+  margin-top: 0em;
+}
+
+.setlogo2 .logoname {
+  color: #464646;
+  font-weight: 800;
+  font-size: 1.176em;
+  text-decoration: none;
+  margin-left: -0.5em;
+  margin-top: 0em;
 }
 
 .logo {
@@ -162,7 +188,6 @@ h5 {
   cursor: pointer;
   position: relative;
   left: -23%;
-  /* box-shadow: 0px 10px 70px #00618E; */
 }
 
 .start {
@@ -283,7 +308,7 @@ h5 {
   margin: 0 1% 0 1%;
   color: #F2F4F6;
   font-size: 48px;
-  font-weight: 400;  
+  font-weight: 400;
 }
 
 .ourWork h4 {
@@ -352,7 +377,7 @@ h5 {
   margin-left: 1.5em;
 }
 
-.circle-desc-one{
+.circle-desc-one {
   margin-left: 1.5em;
 }
 
@@ -368,7 +393,7 @@ h5 {
   align-items: center;
 }
 
-.circle-two-desc{
+.circle-two-desc {
   margin-top: 1.35em;
 }
 
@@ -399,7 +424,7 @@ h5 {
   margin-bottom: 0.8em;
 }
 
-.circle-desc{
+.circle-desc {
   margin-right: 1em;
   margin-bottom: 1.6em;
 }
@@ -804,7 +829,7 @@ h5 {
   font-weight: 600;
   font-size: 24px;
   line-height: 20px;
-  
+
 }
 
 .section-1 .main-container .center .slides .slide .slide-content span {
@@ -867,7 +892,7 @@ footer {
   flex-wrap: wrap;
 }
 
-footer div{
+footer div {
   display: flex;
   flex-direction: row;
 }
@@ -881,7 +906,7 @@ footer div{
   margin-left: -12%;
   background: #F2F4F6;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
 
 .logo-f {
@@ -954,25 +979,49 @@ footer .col-2 .col a {
 }
 
 
+
 /* !!!!!!!!!!!!!!!!!!.........RESPONSIVE..........!!!!!!!!!!!!!!!!! */
 
 @media (min-width:768px) and (max-width:835px) {
 
+  .setlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0.4em;
+    font-size: 14px;
+  }
+
+
   .logo {
-    width: 40px;
-    margin-top: 8%;
+    width: 60px;
+    margin-top: 0%;
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -13em;
   }
 
   .logoname {
-    font-size: 12px;
+    font-size: 1em;
     margin-top: 3%;
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
   }
 
   .active {
     font-size: 80%;
-    margin-left: 20px;
+    margin-left: 15px;
     top: 15%;
   }
+
+  .btn {
+    margin-left: -7em;
+  }
+
 
   .export h1 {
     margin-top: -25%;
@@ -1007,7 +1056,7 @@ footer .col-2 .col a {
 
   .illust {
     height: 281.5px;
-  } 
+  }
 
   .waves {
     width: 22%;
@@ -1019,38 +1068,259 @@ footer .col-2 .col a {
     top: 44%;
     left: 8%;
   }
-  
+
   .i1 {
     width: 23%;
     top: 5.5%;
     left: 5%;
   }
-  
+
   .i3 {
     width: 21%;
     top: 35%;
     left: -18%;
   }
 
+  .ourWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #F2F4F6;
+    background-color: #00618E;
+    border-radius: 50px 50px 0 0;
+    height: 53vh;
+  }
+
+  .textOur {
+    margin: 0 1% 0 1%;
+    color: #F2F4F6;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .ourWork h4 {
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 3%;
+
+  }
+
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flow div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .flow div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .circle {
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'work sans';
+  }
+
+  .circle h3 {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'work sans';
+  }
+
+  .circle h4 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'work sans';
+  }
+
+
+  .circle1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5em;
+  }
+
+  .circle-desc-one {
+    margin-left: 1.5em;
+  }
+
+  .circle2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-two-desc {
+    margin-top: 1.35em;
+  }
+
+  .circle3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .circle4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+    margin-bottom: 0.8em;
+  }
+
+  .circle-desc {
+    margin-right: 1em;
+    margin-bottom: 1.6em;
+  }
+
+
+  .vector1 {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+  .vector2 {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 28%;
+  }
+
+  .vector3 {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+
+  .section-1 .main-container .box {
+    width: 10em;
+    height: 17em;
+  }
+
+  .section-1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px
+  }
+
+  .circles h3 {
+    font-size: 23px;
+    margin-left: 1em;
+  }
+
+  .circles p {
+    font-size: 13px;
+    width: 15em;
+    margin-left: 3em;
+    margin-top: -2em;
+  }
+
+
+  footer .col {
+    width: 6em;
+  }
+
+  footer .col h4 {
+    margin-top: 1.4em;
+  }
+
+  footer .col a {
+    font-size: 13px;
+  }
+
+  footer div {
+    font-size: 10px;
+    margin-left: -3em;
+    width: 35em;
+  }
+
 }
 
 @media (min-width:835px) and (max-width:926px) {
-   
-  
- 
+
+
+  .setlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0.4em;
+    font-size: 14px;
+  }
+
+
   .logo {
-    width: 50px;
-    margin-top: 8%;
+    width: 60px;
+    margin-top: 0%;
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -13em;
   }
 
   .logoname {
-    font-size: 14px;
+    font-size: 1em;
     margin-top: 3%;
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
+  }
+
+  .btn {
+    margin-left: -8em;
   }
 
   .active {
-    font-size: 80%;
-    margin-left: 26px;
+    font-size: 15px;
+    margin-left: 15px;
     top: 15%;
   }
 
@@ -1087,7 +1357,7 @@ footer .col-2 .col a {
 
   .illust {
     height: 327px;
-  } 
+  }
 
   .waves {
     width: 22%;
@@ -1099,29 +1369,234 @@ footer .col-2 .col a {
     top: 46.7%;
     left: 8%;
   }
-  
+
   .i1 {
     width: 23%;
     top: 5.5%;
     left: 5%;
   }
-  
+
   .i3 {
     width: 21%;
     top: 35%;
     left: -18%;
   }
+
+  .ourWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #F2F4F6;
+    background-color: #00618E;
+    border-radius: 50px 50px 0 0;
+    height: 53vh;
+  }
+
+  .textOur {
+    margin: 0 1% 0 1%;
+    color: #F2F4F6;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .ourWork h4 {
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 3%;
+
+  }
+
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flow div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .flow div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .circle {
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'work sans';
+  }
+
+  .circle h3 {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'work sans';
+  }
+
+  .circle h4 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'work sans';
+  }
+
+
+  .circle1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5em;
+  }
+
+  .circle-desc-one {
+    margin-left: 1.5em;
+  }
+
+  .circle2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-two-desc {
+    margin-top: 1.35em;
+  }
+
+  .circle3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .circle4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+    margin-bottom: 0.8em;
+  }
+
+  .circle-desc {
+    margin-right: 1em;
+    margin-bottom: 1.6em;
+  }
+
+
+  .vector1 {
+    width: 107px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+  .vector2 {
+    width: 108px;
+    height: 30px;
+    margin-bottom: 28%;
+  }
+
+  .vector3 {
+    width: 104px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+
+  .section-1 .main-container .box {
+    width: 10em;
+    height: 17em;
+  }
+
+  .section-1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px
+  }
+
+  .circles h3 {
+    font-size: 23px;
+    margin-left: 2em;
+  }
+
+  .circles p {
+    font-size: 13px;
+    width: 13em;
+    margin-left: 5em;
+  }
+
+  footer div {
+    font-size: 12px;
+    margin-left: -4em;
+  }
 }
 
 @media (min-width:926px) and (max-width:1064px) {
+  .setlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    margin-left: em;
+  }
+
+
   .logo {
-    width: 60px;
-    margin-top: 8%;
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -23em;
   }
 
   .logoname {
     font-size: 1em;
     margin-top: 3%;
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
+  }
+
+  .btn {
+    margin-left: -8em;
   }
 
   .active {
@@ -1163,9 +1638,9 @@ footer .col-2 .col a {
 
   .illust {
     height: 350.5px;
-}
+  }
 
-.waves {
+  .waves {
     width: 22%;
     top: 20%;
   }
@@ -1175,49 +1650,228 @@ footer .col-2 .col a {
     top: 42.7%;
     left: 8%;
   }
-  
+
   .i1 {
     width: 23%;
     top: 5.5%;
     left: 5%;
   }
-  
+
   .i3 {
     width: 21%;
     top: 35%;
     left: -18%;
   }
+
+  .ourWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #F2F4F6;
+    background-color: #00618E;
+    border-radius: 50px 50px 0 0;
+    height: 53vh;
+  }
+
+  .textOur {
+    margin: 0 1% 0 1%;
+    color: #F2F4F6;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .ourWork h4 {
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 3%;
+
+  }
+
+  .flow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flow div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .flow div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'work sans';
+  }
+
+  .circle {
+    margin-top: 7%;
+    text-align: center;
+    font-family: 'work sans';
+  }
+
+  .circle h3 {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'work sans';
+  }
+
+  .circle h4 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'work sans';
+  }
+
+
+  .circle1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5em;
+  }
+
+  .circle-desc-one {
+    margin-left: 1.5em;
+  }
+
+  .circle2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-two-desc {
+    margin-top: 1.35em;
+  }
+
+  .circle3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .circle4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F2F4F6;
+    color: #00618E;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+    margin-bottom: 0.8em;
+  }
+
+  .circle-desc {
+    margin-right: 1em;
+    margin-bottom: 1.6em;
+  }
+
+
+  .vector1 {
+    width: 107px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+  .vector2 {
+    width: 108px;
+    height: 30px;
+    margin-bottom: 28%;
+  }
+
+  .vector3 {
+    width: 104px;
+    height: 30px;
+    margin-bottom: 20%;
+  }
+
+
+  .section-1 .main-container .box {
+    width: 12em;
+  }
+
+  .section-1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px
+  }
+
+  .circles h3 {
+    font-size: 23px;
+    margin-left: 2em;
+  }
+
+  .circles p {
+    font-size: 13px;
+    width: 13em;
+    margin-left: 5em;
+  }
+
+  footer div {
+    font-size: 12px;
+    margin-left: -4em;
+  }
 }
 
 @media (min-width:1065px) and (max-width: 1368px) {
-  
-.setlogo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-right: -18rem;
-}
 
-.logo {
-  width: 4.75em;
-  cursor: pointer;
-  margin-left: -28.88em;
-  margin-bottom: -1.28em;
-}
+  .setlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: -18rem;
+  }
 
-.logoname {
-  color: #464646;
-  font-weight: 800;
-  font-size: 1.176em;
-  text-decoration: none;
-  margin-left: -0.5em;
-  margin-bottom: -0.5em;
-}
+  .logo {
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -28.88em;
+    margin-bottom: -1.28em;
+  }
 
-  .navbar {
-    width: 102%;
-    padding: 2% 1%;
+  .logoname {
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
+    margin-bottom: -0.5em;
   }
 
   .navbar-nav {
@@ -1226,20 +1880,21 @@ footer .col-2 .col a {
 
   .nav-item {
     position: relative;
-}
+  }
 
-.active{
-  top: 15%;
-}
+  .active {
+    top: 15%;
+  }
 
 
   .btn {
-    left: 20%;
+    left: 10%;
     margin-top: 0.1em;
   }
 
   .mainContent {
     height: auto;
+    margin-top: 5em;
   }
 
   .firstText {
@@ -1261,13 +1916,13 @@ footer .col-2 .col a {
     height: 3.5em;
     cursor: pointer;
     position: relative;
-    left: 67%;
+    left: 50%;
     top: -46px;
   }
 
 
   .form {
-    width: 100%;
+    width: 80%;
     height: 45px;
   }
 
@@ -1293,9 +1948,10 @@ footer .col-2 .col a {
     font-size: 44px;
     -webkit-text-stroke-width: 0.05px;
   }
-  .swiper-slide-active{
+
+  .swiper-slide-active {
     font-size: 40px;
-}
+  }
 
   /* ............ OUR WORK FLOW .............. */
 
@@ -1375,12 +2031,12 @@ footer .col-2 .col a {
   }
 
   .export h3 {
-  font-size: 54px;
-  line-height: 85px;
-  margin-top: -13.5%;
-}
+    font-size: 54px;
+    line-height: 85px;
+    margin-top: -13.5%;
+  }
 
-.export h1 {
+  .export h1 {
     margin-top: -20%;
     font-size: 380px;
     line-height: 550px;
@@ -1527,62 +2183,62 @@ footer .col-2 .col a {
 
   /* ..............FOOTER............... */
 
-  
+
   .circles {
     height: 345px;
     margin-top: -12.5%;
     margin-left: -16%;
-}
+  }
 
   footer {
     margin: 0 5%;
     height: 350px;
-}
+  }
 
-.illust {
-  height: 395px;
-}
+  .illust {
+    height: 395px;
+  }
 
-.mans {
-  width: 24%;
-  position: relative;
-  top: 42.7%;
-  left: 17%;
-}
+  .mans {
+    width: 24%;
+    position: relative;
+    top: 42.7%;
+    left: 17%;
+  }
 
-.i3 {
-  width: 20%;
-  position: relative;
-  top: 38%;
-  left: -3%;
-}
+  .i3 {
+    width: 20%;
+    position: relative;
+    top: 38%;
+    left: -3%;
+  }
 
-.waves {
-  width: 17%;
-  position: relative;
-  top: -5.5%;
-  left: 32%;
-}
+  .waves {
+    width: 17%;
+    position: relative;
+    top: -5.5%;
+    left: 32%;
+  }
 
-.circles {
-  width: 125%;
-  height: 415px;
-  margin-top: -12.5%;
-  margin-left: -19%;
-}
+  .circles {
+    width: 125%;
+    height: 415px;
+    margin-top: -12.5%;
+    margin-left: -19%;
+  }
 
-.logo-f img {
-  margin-left: 10%;
-  margin-top: 20%;
-  width: 33%;
-}
-  
+  .logo-f img {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 33%;
+  }
+
   .SC {
     margin-left: 2%;
     font-size: 30px;
     margin-top: 25.5%;
   }
-  
+
   .circles p {
     width: 275px;
     left: 21%;
@@ -1592,368 +2248,23 @@ footer .col-2 .col a {
     line-height: 25px;
     color: #464646;
   }
-  
+
   footer .col-2 {
     left: 10%;
     top: 5%;
   }
-  
+
   footer .col-2 .col {
     margin-top: 15%;
-    margin-right: 50px; 
+    margin-right: 50px;
   }
-  
+
   footer .col-2 .col h4 {
     font-size: 14px;
     line-height: 6px;
     color: #ffffff;
   }
-  
-  footer .col-2 .col a {
-    line-height: 20px;
-    font-size: 12px;
-  }
 
-}
-
-@media (min-width:768px) and (max-width: 1064px) {
-  .navbar {
-    width: 100%;
-    height:1rem;
-    font-size: 20px;
-  }
-
-  .navbar-nav {
-    width: 100%;
-  }
-
-  .nav-item {
-    margin-right: 0%;
-    position: relative;
-    left: -9%;
-    margin-top: 15px;
-  }
-
-  .hamburger-menu {
-    display: none;
-  }
-
-  .btn {
-    position: relative;
-    left: 0%;
-    width: 130px;
-    height: 40px;
-    font-size: 16px;
-  }
-
-  .mainContent {
-    height: 82.5vh;
-  }
-
-  .firstText {
-    font-size: 27px;
-  }
-
-  .secondText {
-    font-size: 34px;
-  }
-
-  h5 {
-    padding-top: 12%;
-    font-size: 15px;
-  }
-
-
-  .btn_2 {
-    width: 33%;
-    height: 3.5em;
-    cursor: pointer;
-    position: relative;
-    left: 69%;
-    top: -45px;
-  }
-
-  .form {
-    width: 100%;
-    height: 45px;
-  }
-
-  .laptop {
-    margin-left: 5%;
-    margin-bottom: 15%;
-    width: 55%;
-  }
-
-  /* ............... WHY WE ........... */
-
-  .numbers {
-    font-size: 32px;
-  }
-
-  .number_description {
-    font-size: 14px;
-  }
-
-  .textWhy {
-    font-size: 44px;
-    -webkit-text-stroke-width: 0.05px;
-  }
-
-  .swiper-slide-active{
-    font-size: 30px;
-}
-
-
-  /* ............ OUR WORK FLOW .............. */
-
-  .ourWork {
-    height: 45vh;
-  }
-
-  .textOur {
-    font-size: 45px;
-  }
-
-  .ourWork h4 {
-    line-height: 30px;
-    margin-bottom: 3%;
-  }
-
-  .circle {
-    margin-top: 10%;
-  }
-
-  .circle h3 {
-    font-size: 15px;
-    line-height: 24px;
-  }
-
-  .circle h4 {
-    font-size: 12px;
-    line-height: 17px;
-  }
-
-  .circle1 {
-    width: 50px;
-    height: 50px;
-  }
-
-  .circle2 {
-    width: 50px;
-    height: 50px;
-  }
-
-  .circle3 {
-    width: 50px;
-    height: 50px;
-  }
-
-  .circle4 {
-    width: 50px;
-    height: 50px;
-  }
-
-  .vector1 {
-    width: 30%;
-    height: 10px;
-    margin-bottom: 35%;
-  }
-
-  .vector2 {
-    width: 30%;
-    height: 10px;
-    margin-bottom: 45%;
-  }
-
-  .vector3 {
-    width: 30%;
-    height: 10px;
-    margin-bottom: 35%;
-  }
-
-  /* ............. EXPORT......... */
-
-
-  .imgAni {
-    position: relative;
-    top: 39em;
-    right: 7em;
-    opacity: 0.9;
-  }
-
-  .show1 {
-    color: #F2F4F6;
-    position: relative;
-    top: -1em;
-  }
-
-  .down1 {
-    margin: 1%;
-    position: relative;
-    top: -1em;
-  }
-
-  /* .............our team carousel............ */
-
-  .section-1 .main-container {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 23%;
-  }
-
-  .section-1 .text {
-    width: 55%;
-  }
-
-  .section-1 .side {
-    width: 240px;
-    height: 40px;
-  }
-
-  .section-1 .side h1 {
-    padding: 0 0;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    color: #FFFFFF;
-  }
-
-  .section-1 p {
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .section-1 h3 {
-    font-size: 20px;
-  }
-
-  .section-1 .main-container {
-    margin-left: 10%;
-    margin-right: 8%;
-    margin-top: 15%;
-  }
-
-  .section-1 .main-container .box {
-    width: 8em;
-    height: 12em;
-  }
-
-  .section-1 .main-container .center {
-    margin-left: 36%;
-    margin-top: -18%;
-  }
-
-  .section-1 .main-container .center .container {
-    width: 8em;
-    height: 12em;
-  }
-
-  .section-1 .main-container .center .container .slides {
-    height: 15em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content {
-    padding: 3% 0;
-    position: absolute;
-    top: 12.4em;
-    left: 5.5em;
-    height: 3em;
-    width: 7.5em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content h1 {
-    font-size: 14px;
-    font-weight: bolder;
-    line-height: 6px;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content span {
-    font-size: 9px;
-    font-weight: bolder;
-    line-height: 2px;
-  }
-
-  .section-1 .main-container .center .slide-controls {
-    width: 18em;
-    left: -3.7em;
-    width: 15em;
-  }
-
-  .section-1 .main-container .right {
-    margin-left: 70%;
-    margin-top: -14%;
-  }
-
-  .section-1 .main-container .box .name {
-    width: 8em;
-    height: 3em;
-  }
-
-  .section-1 .main-container .box .name h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .section-1 .main-container .box .name span {
-    font-size: 14px;
-  }
-
-  .section-1 .main-container .right .name h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  /* ..............FOOTER............... */
-  
-  .circles {
-    height: 345px;
-    margin-top: -12.5%;
-    margin-left: -16%;
-}
-
-  footer {
-    margin: 0 5%;
-    height: 300px;
-}
-
-.logo-f img {
-  margin-left: 10%;
-  margin-top: 20%;
-  width: 30%;
-}
-  
-  .SC {
-    margin-left: 2%;
-    font-size: 20px;
-    margin-top: 25.5%;
-  }
-  
-  .circles p {
-    width: 225px;
-    left: 21%;
-    top: 0%;
-  
-    font-family: 'Work Sans';
-    font-size: 12px;
-    line-height: 20px;
-    color: #464646;
-  }
-  
-  footer .col-2 {
-    left: 1%;
-  }
-  
-  footer .col-2 .col {
-    margin-top: 15%;
-    margin-right: 30px; 
-  }
-  
-  footer .col-2 .col h4 {
-    font-size: 14px;
-    line-height: 6px;
-    color: #ffffff;
-  }
-  
   footer .col-2 .col a {
     line-height: 20px;
     font-size: 12px;
@@ -1962,44 +2273,68 @@ footer .col-2 .col a {
 }
 
 @media (min-width: 640px) and (max-width: 768px) {
-  .nav-btn{
-    
-  padding: 5px;
+  .setlogo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-left: 3em;
+    display: flex;
+  }
+
+  .setlogo2 .logo {
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -32.88em;
+    margin-top: 0em;
+  }
+
+  .setlogo2 .logoname {
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
+    margin-top: 0em;
+  }
+
+  .nav-btn {
+    padding: 5px;
     visibility: visible;
     opacity: 1;
     font-size: 1.8rem;
-  margin-left: 37rem;
-  margin-top:1rem;
+    margin-left: 37rem;
+    margin-top: -2.5rem;
+    display: flex;
   }
 
-  nav{
+  nav {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     background-color: #F2F4F6;
     transition: 1s;
-    transform: translateY(-100vh);  
+    transform: translateY(-100vh);
   }
 
-  .btn{
-    margin-top: 4rem;
+
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 5rem;
+    right: 9rem;
   }
 
-  nav .nav-close-btn{
-  position:absolute;
-  top:1rem;
-  right: 3rem;
-}
+  nav a {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
 
-  nav a{
-  font-size: 1.5rem;
-  padding-top: 5rem;
-}
-
-  .menu-link{
+  .menu-link {
     display: flex;
     flex-direction: column;
     margin-top: 40rem;
@@ -2007,27 +2342,27 @@ footer .col-2 .col a {
     margin-left: -12rem;
     background-color: #F2F4F6;
   }
-  
-  .btn{
+
+  .btn {
     margin-left: 13.7rem;
-    margin-bottom:10rem;
+    margin-bottom: 10rem;
   }
 
- .responsive_nav{
-  transform: none;
-  
- }
+  .responsive_nav {
+    transform: none;
 
-  .active{
+  }
+
+  .active {
     margin-top: 2.5px;
     margin-left: 10.825em;
     font-size: 18px;
   }
- 
-  .setlogo{
+
+  .setlogo {
     margin-left: 13%;
     width: 100%;
-    }
+  }
 
   .logo {
     width: 55px;
@@ -2036,7 +2371,7 @@ footer .col-2 .col a {
 
   .logoname {
     font-weight: bolder;
-        font-size: 18px;
+    font-size: 18px;
     margin-top: 4%;
   }
 
@@ -2046,13 +2381,14 @@ footer .col-2 .col a {
     height: auto;
     flex-direction: column;
   }
-.main-1{
-  margin-top: 14%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
+  .main-1 {
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .main-2 {
     flex-direction: column;
@@ -2104,7 +2440,7 @@ footer .col-2 .col a {
   }
 
   .laptop {
-   display: none;
+    display: none;
   }
 
   /* ............... WHY WE ........... */
@@ -2112,7 +2448,7 @@ footer .col-2 .col a {
   .why_we {
     flex-direction: column;
     height: 480px;
-}
+  }
 
 
   .textWhy {
@@ -2120,64 +2456,65 @@ footer .col-2 .col a {
     -webkit-text-stroke-width: 0.05px;
   }
 
-  .whyCaro{
+  .whyCaro {
     margin: 10% 14%;
   }
 
-  .swiper-slide-active{
+  .swiper-slide-active {
     text-decoration: underline 5px solid #111111;
-}
-.slider{
-    width: 66%;         
-    }
+  }
+
+  .slider {
+    width: 66%;
+  }
 
 
   /* ............ OUR WORK FLOW .............. */
 
-.flow{
-  flex-direction: column;
-}
+  .flow {
+    flex-direction: column;
+  }
 
   .flow div {
     flex-direction: column;
-}
+  }
 
-.ourWork {
-  height: auto;
-  margin-left: 7%;
-  margin-right: 7%;
-}
+  .ourWork {
+    height: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
 
-.textOur {
+  .textOur {
     font-size: 35px;
-    }
+  }
 
-      .vector1 {
+  .vector1 {
     width: 30%;
     transform: rotate(90deg);
-     margin-top: 15%;
-    
+    margin-top: 15%;
+
   }
 
   .vector2 {
     width: 30%;
-        transform: rotate(90deg);
+    transform: rotate(90deg);
 
     margin-top: 15%;
   }
 
   .vector3 {
     width: 38%;
-        transform: rotate(90deg);
- margin-top: 15%;
-    
+    transform: rotate(90deg);
+    margin-top: 15%;
+
   }
 
-  .textOur{
+  .textOur {
     margin: 2%;
   }
 
-/* 
+  /* 
 
   
 
@@ -2241,7 +2578,7 @@ footer .col-2 .col a {
 
   /* ............. EXPORT......... */
 
-  .imageAnimation{
+  .imageAnimation {
     height: 109vh;
   }
 
@@ -2252,14 +2589,15 @@ footer .col-2 .col a {
     opacity: 0.9;
   }
 
-  .export{
+  .export {
     margin-top: -25%;
   }
+
   .export h1 {
     font-size: 220px;
     font-weight: 400;
     line-height: 550px;
-}
+  }
 
   .export h3 {
     font-size: 36px;
@@ -2289,6 +2627,7 @@ footer .col-2 .col a {
     top: -46em;
     left: 14em;
   }
+
   .show1 {
     color: #F2F4F6;
     position: relative;
@@ -2353,7 +2692,7 @@ footer .col-2 .col a {
   .section-1 .main-container .left {
     margin-left: 35%;
     margin-top: 17em;
-}
+  }
 
   .section-1 .main-container .center {
     margin-left: 33%;
@@ -2381,7 +2720,7 @@ footer .col-2 .col a {
   .section-1 .main-container .center .slides .slide .slide-content h1 {
     font-size: 16px;
     font-weight: bolder;
-    line-height:6px;
+    line-height: 6px;
   }
 
   .section-1 .main-container .center .slides .slide .slide-content span {
@@ -2420,44 +2759,44 @@ footer .col-2 .col a {
   }
 
   /* ..............FOOTER............... */
-  
+
   .circles {
     height: 345px;
     margin-top: -12.5%;
     margin-left: -16%;
-}
+  }
 
   footer {
     margin: 0 5%;
     height: 300px;
-}
+  }
 
-.logo-f img {
-  margin-left: 10%;
-  margin-top: 20%;
-  width: 30%;
-}
-  
+  .logo-f img {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 30%;
+  }
+
   .SC {
     margin-left: 2%;
     font-size: 20px;
     margin-top: 25.5%;
   }
-  
+
   .circles p {
     width: 180px;
     left: 21%;
     top: 0%;
-  
+
     font-family: 'Work Sans';
     font-size: 14px;
     line-height: 20px;
     color: #464646;
   }
-  
+
   .illust {
     height: 281.5px;
-  } 
+  }
 
   .waves {
     width: 22%;
@@ -2469,13 +2808,13 @@ footer .col-2 .col a {
     top: 57%;
     left: 8%;
   }
-  
+
   .i1 {
     width: 23%;
     top: 5.5%;
     left: 5%;
   }
-  
+
   .i3 {
     width: 21%;
     top: 35%;
@@ -2485,18 +2824,18 @@ footer .col-2 .col a {
   footer .col-2 {
     left: 1%;
   }
-  
+
   footer .col-2 .col {
     margin-top: 15%;
-    margin-right: 30px; 
+    margin-right: 30px;
   }
-  
+
   footer .col-2 .col h4 {
     font-size: 14px;
     line-height: 6px;
     color: #ffffff;
   }
-  
+
   footer .col-2 .col a {
     line-height: 20px;
     font-size: 12px;
@@ -2504,103 +2843,126 @@ footer .col-2 .col a {
 }
 
 @media (min-width: 360px) and (max-width:640px) {
-   .nav-btn{
-    
-  padding: 5px;
+  .setlogo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3em;
+    display: flex;
+    width: 12em;
+  }
+
+  .setlogo2 .logo {
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+
+  .setlogo2 .logoname {
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-top: 0em;
+  }
+
+  .nav-btn {
+    padding: 5px;
     visibility: visible;
     opacity: 1;
     font-size: 1.8rem;
-  margin-left: 18rem;
-  margin-top:1rem;
+    margin-top: 0rem;
+    margin-left: 1em;
+    display: flex;
   }
 
-  nav{
+  nav {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     background-color: #F2F4F6;
     transition: 1s;
-    transform: translateY(-100vh);  
+    transform: translateY(-100vh);
   }
 
-  nav .nav-close-btn{
-  position:absolute;
-  top:1rem;
-  right: 3rem;
-}
+  nav a {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
 
-  nav a{
-  font-size: 1.5rem;
-  padding-top: 5rem;
-}
-
-  .menu-link{
+  .menu-link {
     display: flex;
     flex-direction: column;
-    margin-top: 45rem;
+    margin-top: 40rem;
     width: 80rem;
     margin-left: -12rem;
     background-color: #F2F4F6;
   }
-  
-  .btn{
-    margin-left: 13.7rem;
-    margin-bottom:5rem;
-    margin-top: 4em;
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
   }
 
- .responsive_nav{
-  transform: none;
-  
- }
+  nav a {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
 
-  .active{
+  .menu-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 47rem;
+    width: 80rem;
+    margin-left: -12rem;
+    background-color: #F2F4F6;
+  }
+
+  .btn {
+    margin-left: 13.7rem;
+    margin-bottom: 10rem;
+    margin-top: 5em;
+  }
+
+  .responsive_nav {
+    transform: none;
+
+  }
+
+
+  .active {
     margin-top: 2.5px;
     margin-left: 10.825em;
     font-size: 18px;
   }
-  
-
-  .setlogo{
-    margin-left: 13%;
-    width: 100%;
-    }
-
-  .logo {
-    width: 45px;
-    margin-top: 8%;
-  }
-
-  .logoname {
-    font-weight: bolder;
-        font-size: 17px;
-    margin-top: 4%;
-  }
-
-
 
   .mainContent {
     margin-left: 0%;
     height: auto;
     flex-direction: column;
   }
-.main-1{
-  margin-top: 15%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
+  .main-1 {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
 
   .main-2 {
     flex-direction: column;
   }
 
   .firstText {
-    font-size: 27px;    
+    font-size: 27px;
     text-align: center;
   }
 
@@ -2625,16 +2987,17 @@ footer .col-2 .col a {
   }
 
   .btn_2 {
-    width: 32%;
+    width: 22%;
     height: 3.4375em;
     cursor: pointer;
     position: relative;
-    left: 29%;
+    left: 17%;
     top: -45px;
   }
 
   .form {
-    width: 90%;
+    width: 50%;
+    margin-left: -10em;
     height: 45px;
   }
 
@@ -2646,7 +3009,7 @@ footer .col-2 .col a {
   }
 
   .laptop {
-   display: none;
+    display: none;
   }
 
   /* ............... WHY WE ........... */
@@ -2654,7 +3017,8 @@ footer .col-2 .col a {
   .why_we {
     flex-direction: column;
     height: 480px;
-}
+    width: 100%;
+  }
 
 
   .textWhy {
@@ -2662,68 +3026,68 @@ footer .col-2 .col a {
     -webkit-text-stroke-width: 0.05px;
   }
 
-  .whyCaro{
+  .whyCaro {
     margin: 10% 0%;
   }
 
-  .swiper-slide-active{
+  .swiper-slide-active {
     text-decoration: underline 2px solid #111111;
-}
+  }
 
-.slider{
-    width: 66%;         
-    }
+  .slider {
+    width: 66%;
+  }
 
 
   /* ............ OUR WORK FLOW .............. */
 
-  
-.flow{
-  flex-direction: column;
-}
+
+  .flow {
+    flex-direction: column;
+  }
 
   .flow div {
     flex-direction: column;
-}
+  }
 
-.ourWork {
-  height: auto;
-  margin-left: 7%;
-  margin-right: 7%;
-}
+  .ourWork {
+    height: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
 
-.ourWork h4{
-  text-align: center;
-  font-size: 16px;
-}
+  .ourWork h4 {
+    text-align: center;
+    font-size: 16px;
+  }
 
-.textOur {
+  .textOur {
     font-size: 35px;
-     margin: 2%;
-    }
+    margin: 2%;
+  }
 
-      .vector1 {
+  .vector1 {
     width: 30%;
     transform: rotate(90deg);
-     margin-top: 15%;
-    
+    margin-top: 15%;
+
   }
 
   .vector2 {
     width: 30%;
-        transform: rotate(90deg);
+    transform: rotate(90deg);
 
     margin-top: 15%;
   }
 
   .vector3 {
     width: 30%;
-        transform: rotate(90deg);
- margin-top: 15%;
-    
+    transform: rotate(90deg);
+    margin-top: 15%;
+
   }
 
-/* 
+  /* 
   .ourWork {
     height: auto;
     margin: 0 5% 0 5%;
@@ -2814,14 +3178,15 @@ footer .col-2 .col a {
     opacity: 0.9;
   }
 
-  .export{
+  .export {
     margin-top: -70%;
   }
+
   .export h1 {
     font-size: 115px;
     font-weight: 400;
     line-height: 550px;
-}
+  }
 
   .export h3 {
     font-size: 22px;
@@ -2834,10 +3199,11 @@ footer .col-2 .col a {
     width: 82%;
     top: -38em;
     left: 5em;
-}
+  }
+
   .noImg2 {
     top: -40em;
-    left:6.2em;
+    left: 6.2em;
     width: 82%;
   }
 
@@ -2920,14 +3286,14 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .left {
-     margin-left: 0%;
+    margin-left: 0%;
     margin-top: 0%;
     /* margin-left: 22%;
     margin-top: 90%; */
-}
+  }
 
   .section-1 .main-container .center {
-     margin-left: 0%;
+    margin-left: 0%;
     margin-top: 10%;
     /* margin-left: 25%;
     margin-top: 10%;
@@ -2959,7 +3325,7 @@ footer .col-2 .col a {
   .section-1 .main-container .center .slides .slide .slide-content h1 {
     font-size: 16px;
     font-weight: bolder;
-    line-height:6px;
+    line-height: 6px;
   }
 
   .section-1 .main-container .center .slides .slide .slide-content span {
@@ -2974,7 +3340,7 @@ footer .col-2 .col a {
   }
 
   .section-1 .main-container .right {
-     margin-left: 0%;
+    margin-left: 0%;
     margin-top: 10%;
     /* margin-left: 27%;
     margin-top: 10%; */
@@ -3000,48 +3366,48 @@ footer .col-2 .col a {
   }
 
   /* ..............FOOTER............... */
-  
+
   .circles {
     height: 345px;
     margin-top: -12.5%;
     margin-left: -16%;
-}
+  }
 
   footer {
     margin: 0 5%;
     height: 300px;
-}
+  }
 
-.logo-f img {
-  margin-left: 10%;
-  margin-top: 20%;
-  width: 30%;
-}
-  
+  .logo-f img {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 30%;
+  }
+
   .SC {
     margin-left: 2%;
     font-size: 20px;
     margin-top: 25.5%;
   }
-  
+
   .circles p {
     width: 225px;
     left: 21%;
     top: 0%;
-  
+
     font-family: 'Work Sans';
     font-size: 12px;
     line-height: 20px;
     color: #464646;
   }
-  
+
   .illust {
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  } 
+  }
 
   .waves {
     width: 60%;
@@ -3056,14 +3422,14 @@ footer .col-2 .col a {
     left: 0%;
     margin: 2%;
   }
-  
+
   .i1 {
     width: 60%;
     top: 0%;
     left: 0%;
     margin: 2%;
   }
-  
+
   .i3 {
     width: 60%;
     top: 0%;
@@ -3071,29 +3437,29 @@ footer .col-2 .col a {
     margin: 2%;
   }
 
-  footer{
+  footer {
     height: auto;
   }
 
   footer div {
     display: flex;
     flex-direction: column;
-}
+  }
 
-  
-  
+
+
   footer .col-2 .col {
     margin-top: 15%;
-    margin-right: 0px; 
+    margin-right: 0px;
   }
-  
+
   footer .col-2 .col h4 {
     font-size: 26px;
     line-height: 6px;
     color: #ffffff;
     padding-bottom: 8%;
   }
-  
+
   footer .col-2 .col a {
     line-height: 20px;
     font-size: 18px;
@@ -3102,83 +3468,111 @@ footer .col-2 .col a {
 }
 
 @media (min-width:280px) and (max-width: 360px) {
-  .nav-btn{
-    
-    padding: 5px;
-      visibility: visible;
-      opacity: 1;
-      font-size: 1.8rem;
-    margin-left: 9rem;
-    margin-top:1rem;
-    }
-  
-    nav{
-      position: fixed;
-      top:0;
-      left: 0;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-      background-color: #F2F4F6;
-      transition: 1s;
-      transform: translateY(-100vh);  
-    }
-  
-    nav .nav-close-btn{
-    position:absolute;
-    top:1rem;
-    right: 6.5rem;
+  .setlogo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-left: 21.5em;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
   }
-  
-    nav a{
+
+  .setlogo2 .logo {
+    width: 4.75em;
+    cursor: pointer;
+    margin-left: -32.88em;
+    margin-top: 0em;
+  }
+
+  .setlogo2 .logoname {
+    color: #464646;
+    font-weight: 800;
+    font-size: 1.176em;
+    text-decoration: none;
+    margin-left: -0.5em;
+    margin-top: 0em;
+  }
+
+  .nav-btn {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+    opacity: 1;
+    font-size: 1.8rem;
+    margin-left: 15rem;
+    margin-top: -2.1rem;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #F2F4F6;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 6rem;
+    right: 8rem;
+  }
+
+  nav a {
     font-size: 1.5rem;
     padding-top: 5rem;
   }
-  
-    .menu-link{
-      display: flex;
-      flex-direction: column;
-      margin-top: 45rem;
-      width: 80rem;
-      margin-left: -12rem;
-      background-color: #F2F4F6;
-    }
-    
-    .btn{
-      margin-left: 13.7rem;
-      margin-bottom:5rem;
-      margin-top: 6em;
-    }
-  
-   .responsive_nav{
+
+  .menu-link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45rem;
+    width: 80rem;
+    margin-left: -12rem;
+    background-color: #F2F4F6;
+  }
+
+  .btn {
+    margin-left: 13.7rem;
+    margin-bottom: 5rem;
+    margin-top: 6em;
+  }
+
+  .responsive_nav {
     transform: none;
-    
-   }
-  
-    .active{
-      margin-top: 2.5px;
-      margin-left: 10.825em;
-      font-size: 18px;
-    }
-    
-  
-    .setlogo{
-      margin-left: 13%;
-      width: 100%;
-      }
-  
-    .logo {
-      width: 45px;
-      margin-top: 8%;
-    }
-  
-    .logoname {
-      font-weight: bolder;
-          font-size: 17px;
-      margin-top: 4%;
-    }
-  
-  
+
+  }
+
+  .active {
+    margin-top: 2.5px;
+    margin-left: 10.825em;
+    font-size: 18px;
+  }
+
+
+  .setlogo {
+    margin-left: 13%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 45px;
+    margin-top: 8%;
+  }
+
+  .logoname {
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 4%;
+  }
+
+
   .mainContent {
     margin-left: 0%;
     height: 105vh;
@@ -3186,20 +3580,20 @@ footer .col-2 .col a {
     justify-content: space-evenly;
   }
 
-.main-1{
-  margin-top: 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
+  .main-1 {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 
   .main-2 {
     flex-direction: column;
   }
 
   .firstText {
-    font-size: 22px;    
+    font-size: 22px;
     text-align: center;
   }
 
@@ -3245,7 +3639,7 @@ footer .col-2 .col a {
   }
 
   .laptop {
-   display: none;
+    display: none;
   }
 
   /* ............... WHY WE ........... */
@@ -3253,43 +3647,43 @@ footer .col-2 .col a {
   .why_we {
     flex-direction: column;
     height: 400px;
-}
+  }
 
-.numbers {
-  font-size: 25px;
-}
+  .numbers {
+    font-size: 25px;
+  }
 
-.number_description{
-  font-size: 12px;
-}
+  .number_description {
+    font-size: 12px;
+  }
 
   .textWhy {
     font-size: 20px;
     -webkit-text-stroke-width: 0.05px;
   }
 
-  .whyCaro{
+  .whyCaro {
     margin: 10% 12%;
   }
 
-  .swiper-slide-active{
+  .swiper-slide-active {
     text-decoration: underline 2px solid #111111;
-}
+  }
 
-.slider{
-    width: 82%;         
-    }
+  .slider {
+    width: 82%;
+  }
 
 
   /* ............ OUR WORK FLOW .............. */
 
 
-  .flow{
+  .flow {
     flex-direction: column;
   }
-  
-    .flow div {
-      flex-direction: column;
+
+  .flow div {
+    flex-direction: column;
   }
 
   .ourWork {
@@ -3300,7 +3694,7 @@ footer .col-2 .col a {
 
   .textOur {
     font-size: 24px;
-    }
+  }
 
   .ourWork h4 {
     font-size: 12px;
@@ -3310,26 +3704,26 @@ footer .col-2 .col a {
   }
 
 
-  
+
   .vector1 {
     width: 43%;
     transform: rotate(90deg);
-     margin-top: 15%;
-    
+    margin-top: 15%;
+
   }
 
   .vector2 {
     width: 43%;
-        transform: rotate(90deg);
+    transform: rotate(90deg);
 
     margin-top: 15%;
   }
 
   .vector3 {
     width: 43%;
-        transform: rotate(90deg);
- margin-top: 15%;
-    
+    transform: rotate(90deg);
+    margin-top: 15%;
+
   }
 
   .circle {
@@ -3351,7 +3745,7 @@ footer .col-2 .col a {
     width: 50px;
     height: 50px;
     font-size: 12px;
-}
+  }
 
   .circle2 {
     width: 50px;
@@ -3390,14 +3784,15 @@ footer .col-2 .col a {
     opacity: 0.9;
   }
 
-  .export{
+  .export {
     margin-top: -70%;
   }
+
   .export h1 {
     font-size: 95px;
     font-weight: 400;
     line-height: 550px;
-}
+  }
 
   .export h3 {
     font-size: 22px;
@@ -3410,10 +3805,11 @@ footer .col-2 .col a {
     width: 76%;
     top: -38em;
     left: 5em;
-}
+  }
+
   .noImg2 {
     top: -40em;
-    left:6.2em;
+    left: 6.2em;
     width: 76%;
   }
 
@@ -3428,6 +3824,7 @@ footer .col-2 .col a {
     left: 9em;
     width: 76%;
   }
+
   .show1 {
     color: #F2F4F6;
     position: relative;
@@ -3500,7 +3897,7 @@ footer .col-2 .col a {
     margin-top: 0%;
     /* margin-left: 22%;
     margin-top: 100%; */
-}
+  }
 
   .section-1 .main-container .center {
     margin-left: 0%;
@@ -3533,7 +3930,7 @@ footer .col-2 .col a {
   .section-1 .main-container .center .slides .slide .slide-content h1 {
     font-size: 16px;
     font-weight: bolder;
-    line-height:6px;
+    line-height: 6px;
   }
 
   .section-1 .main-container .center .slides .slide .slide-content span {
@@ -3574,48 +3971,48 @@ footer .col-2 .col a {
   }
 
   /* ..............FOOTER............... */
-  
+
   .circles {
     height: 300px;
     margin-top: -12.5%;
     margin-left: -16%;
-}
+  }
 
   footer {
     margin: 0 5%;
     height: 300px;
-}
+  }
 
-.logo-f img {
-  margin-left: 10%;
-  margin-top: 20%;
-  width: 29%;
-}
-  
+  .logo-f img {
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 29%;
+  }
+
   .SC {
     margin-left: 2%;
     font-size: 20px;
     margin-top: 25.5%;
   }
-  
+
   .circles p {
     width: 190px;
     left: 21%;
     top: 0%;
-  
+
     font-family: 'Work Sans';
     font-size: 12px;
     line-height: 20px;
     color: #464646;
   }
-  
+
   .illust {
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  } 
+  }
 
   .waves {
     width: 60%;
@@ -3630,14 +4027,14 @@ footer .col-2 .col a {
     left: 0%;
     margin: 2%;
   }
-  
+
   .i1 {
     width: 60%;
     top: 0%;
     left: 0%;
     margin: 2%;
   }
-  
+
   .i3 {
     width: 60%;
     top: 0%;
@@ -3645,37 +4042,36 @@ footer .col-2 .col a {
     margin: 2%;
   }
 
-  footer{
+  footer {
     height: auto;
   }
 
   footer div {
     display: flex;
     flex-direction: column;
-}
+  }
 
-  
-  
+
+
   footer .col-2 .col {
     margin-top: 15%;
-    margin-right: 0px; 
+    margin-right: 0px;
   }
-  
+
   footer .col-2 .col h4 {
     font-size: 20px;
     line-height: 6px;
     color: #ffffff;
     padding-bottom: 8%;
   }
-  
+
   footer .col-2 .col a {
     line-height: 10px;
     font-size: 16px;
   }
-  
-  .form{
+
+  .form {
     padding: 1em;
   }
-  
-}
 
+}

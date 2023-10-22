@@ -187,7 +187,8 @@ h5 {
   height: 3.895em;
   cursor: pointer;
   position: relative;
-  left: -23%;
+  left: 48%;
+  top: -4em;
 }
 
 .start {
@@ -229,6 +230,7 @@ h5 {
   font-size: 64px;
   font-weight: 300;
   font-family: 'Work Sans';
+  margin-top: 3em;
 }
 
 
@@ -1002,6 +1004,10 @@ footer .col-2 .col a {
     margin-left: -13em;
   }
 
+  .navbar {
+    height: 4rem;
+  }
+
   .logoname {
     font-size: 1em;
     margin-top: 3%;
@@ -1330,6 +1336,10 @@ footer .col-2 .col a {
     line-height: 550px;
   }
 
+  .navbar {
+    height: 4rem;
+  }
+
   .export h3 {
     font-size: 56px;
     line-height: 95px;
@@ -1578,6 +1588,9 @@ footer .col-2 .col a {
     margin-left: em;
   }
 
+  .navbar {
+    height: 4rem;
+  }
 
   .logo {
     width: 4.75em;
@@ -1850,6 +1863,7 @@ footer .col-2 .col a {
 
 @media (min-width:1065px) and (max-width: 1368px) {
 
+
   .setlogo {
     display: flex;
     justify-content: center;
@@ -1886,6 +1900,9 @@ footer .col-2 .col a {
     top: 15%;
   }
 
+  .navbar {
+    height: 4rem;
+  }
 
   .btn {
     left: 10%;
@@ -2278,8 +2295,8 @@ footer .col-2 .col a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 1em;
     margin-left: 3em;
+    margin-top: 1em;
     display: flex;
   }
 
@@ -2321,17 +2338,9 @@ footer .col-2 .col a {
     transform: translateY(-100vh);
   }
 
-
-
-  nav .nav-close-btn {
-    position: absolute;
-    top: 5rem;
-    right: 9rem;
-  }
-
   nav a {
     font-size: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .menu-link {
@@ -2339,18 +2348,29 @@ footer .col-2 .col a {
     flex-direction: column;
     margin-top: 40rem;
     width: 80rem;
-    margin-left: -12rem;
+    margin-left: -10rem;
     background-color: #F2F4F6;
   }
 
   .btn {
     margin-left: 13.7rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 2.5em;
+  }
+
+  .navbar {
+    height: 4rem;
   }
 
   .responsive_nav {
     transform: none;
 
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 6rem;
+    right: 20rem;
   }
 
   .active {
@@ -2360,8 +2380,7 @@ footer .col-2 .col a {
   }
 
   .setlogo {
-    margin-left: 13%;
-    width: 100%;
+    display: none;
   }
 
   .logo {
@@ -2383,7 +2402,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 14%;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2848,7 +2867,7 @@ footer .col-2 .col a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 3em;
+    margin-top: 1.5em;
     display: flex;
     width: 12em;
   }
@@ -2907,27 +2926,17 @@ footer .col-2 .col a {
   nav .nav-close-btn {
     position: absolute;
     top: 3rem;
-    right: 10rem;
-  }
-
-  nav a {
-    font-size: 1.5rem;
-    padding-top: 5rem;
-  }
-
-  .menu-link {
-    display: flex;
-    flex-direction: column;
-    margin-top: 47rem;
-    width: 80rem;
-    margin-left: -12rem;
-    background-color: #F2F4F6;
+    right: 12rem;
   }
 
   .btn {
     margin-left: 13.7rem;
-    margin-bottom: 10rem;
-    margin-top: 5em;
+    margin-bottom: 3rem;
+    margin-top: 3em;
+  }
+
+  .navbar {
+    height: 1rem;
   }
 
   .responsive_nav {
@@ -2949,7 +2958,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 15%;
+    margin-top: 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2984,6 +2993,10 @@ footer .col-2 .col a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .setlogo {
+    display: none;
   }
 
   .btn_2 {
@@ -3468,22 +3481,23 @@ footer .col-2 .col a {
 }
 
 @media (min-width:280px) and (max-width: 360px) {
+  .setlogo {
+    display: none;
+  }
+
   .setlogo2 {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-top: 1em;
-    margin-left: 21.5em;
-    font-size: 14px;
     display: flex;
-    flex-direction: row;
+    width: 12em;
   }
 
   .setlogo2 .logo {
     width: 4.75em;
     cursor: pointer;
-    margin-left: -32.88em;
+    margin-left: 0em;
     margin-top: 0em;
   }
 
@@ -3492,18 +3506,17 @@ footer .col-2 .col a {
     font-weight: 800;
     font-size: 1.176em;
     text-decoration: none;
-    margin-left: -0.5em;
     margin-top: 0em;
   }
 
   .nav-btn {
-    display: flex;
-    flex-direction: row;
+    padding: 5px;
     visibility: visible;
     opacity: 1;
     font-size: 1.8rem;
-    margin-left: 15rem;
-    margin-top: -2.1rem;
+    margin-top: 0rem;
+    margin-left: 1em;
+    display: flex;
   }
 
   nav {
@@ -3518,12 +3531,6 @@ footer .col-2 .col a {
     transform: translateY(-100vh);
   }
 
-  nav .nav-close-btn {
-    position: absolute;
-    top: 6rem;
-    right: 8rem;
-  }
-
   nav a {
     font-size: 1.5rem;
     padding-top: 5rem;
@@ -3532,16 +3539,26 @@ footer .col-2 .col a {
   .menu-link {
     display: flex;
     flex-direction: column;
-    margin-top: 45rem;
+    margin-top: 38rem;
     width: 80rem;
     margin-left: -12rem;
     background-color: #F2F4F6;
   }
 
+  nav .nav-close-btn {
+    position: absolute;
+    top: 3rem;
+    right: 9.7rem;
+  }
+
   .btn {
     margin-left: 13.7rem;
-    margin-bottom: 5rem;
-    margin-top: 6em;
+    margin-bottom: 2rem;
+    margin-top: 3em;
+  }
+
+  .navbar {
+    height: 1rem;
   }
 
   .responsive_nav {
@@ -3549,29 +3566,12 @@ footer .col-2 .col a {
 
   }
 
+
   .active {
     margin-top: 2.5px;
     margin-left: 10.825em;
     font-size: 18px;
   }
-
-
-  .setlogo {
-    margin-left: 13%;
-    width: 100%;
-  }
-
-  .logo {
-    width: 45px;
-    margin-top: 8%;
-  }
-
-  .logoname {
-    font-weight: bolder;
-    font-size: 17px;
-    margin-top: 4%;
-  }
-
 
   .mainContent {
     margin-left: 0%;
@@ -3581,7 +3581,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 0%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;

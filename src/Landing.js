@@ -5,6 +5,7 @@ import Slider from "./Components/Slider";
 import Sliderwhy from "./Components/Sliderwhy";
 import AnimatedDivs from "./Components/Animateddivs";
 import Mobile1 from "./assets/img/Mobile1.png";
+import Laptop from "./assets/img/Laptop.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -82,7 +83,7 @@ function Landing() {
           data-aos-anchor-placement="top-bottom"
         >
           <img className="mobile" src={Mobile1} alt="#" />
-          <img className="laptop" src="./images/laptop.png" />
+          <img className="laptop" src={Laptop} alt="#" />
         </div>
       </div>
 

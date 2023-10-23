@@ -14,6 +14,7 @@
   position: absolute;
   z-index: 0;
   width: 100%;
+  font-size: 95%;
 }
 
 .pricing h1 {
@@ -35,12 +36,6 @@
   margin-top: 0%;
 }
 
-.box-3 {
-  height: 420px;
-  width: 320px;
-  padding: 1.5em 1em 0em 1em;
-  font-size: 1.4em;
-}
 
 .animatPrice3 {
   display: none;
@@ -70,8 +65,8 @@
 
 .Planes div {
   background-color: #FFFFFF;
-  border-radius: 10px;
-  margin: 3%;
+  border-radius: 17px;
+  margin: 1%;
   position: relative;
 }
 
@@ -83,6 +78,7 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  padding: 1em 1em 2em 1em;
 }
 
 .scale:hover {
@@ -101,6 +97,7 @@
 .scale:hover .ChooseButton2 {
   background-color: #FFFFFF;
   color: #00618E;
+  padding-bottom: 0.5em;
 }
 
 .Planes div div h1 {
@@ -115,8 +112,6 @@
   line-height: 180%;
   font-weight: 400;
 }
-
-
 
 .features div {
   display: flex;
@@ -135,6 +130,17 @@
   line-height: 150%;
 }
 
+.box-3 {
+  height: 410px;
+  width: 330px;
+  padding: 0em 1em 1em 1em;
+  font-size: 1.4em;
+}
+
+.box-3 .hover {
+  padding-top: 0.35em;
+}
+
 .ChooseButton2 {
   background-color: #00618E;
   color: #F2F4F6;
@@ -145,6 +151,7 @@
   cursor: pointer;
   font-family: Work Sans;
   font-size: 15px;
+  margin-top: 0.7em;
 }
 
 .ChooseButton2:hover {
@@ -154,7 +161,14 @@
 
 @media (min-width: 280px) and (max-width: 360px) {
   .pricingBack {
-    height: 190vh;
+    height: 220vh;
+  }
+
+  .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
   }
 
   .Planes {
@@ -163,7 +177,7 @@
   }
 
   .pricing h1 {
-    font-size: 50px;
+    font-size: 80px;
   }
 
   .ChooseButton2 {
@@ -188,35 +202,35 @@
   }
 
   .animatPrice1 {
-    margin-left: 2%;
-    margin-top: 65%;
+    margin-left: 7%;
+    margin-top: 25%;
   }
 
   .animatPrice2 {
-    margin-left: 49%;
-    margin-top: 40%;
+    margin-left: 40%;
+    margin-top: 15%;
   }
 
   .animatPrice3 {
     display: block;
-    margin-left: 2%;
-    margin-top: 50%;
+    margin-left: 7%;
+    margin-top: 15%;
   }
 
   .animatPrice4 {
     display: block;
-    margin-left: 49%;
-    margin-top: 50%;
+    margin-left: 40%;
+    margin-top: 15%;
   }
 
   .animatPrice5 {
     display: block;
-    margin-left: 2%;
-    margin-top: 50%;
+    margin-left: 7%;
+    margin-top: 15%;
   }
 
   .pricing {
-    width: 100%;
+    width: 30%;
   }
 
   .Planes div {
@@ -227,7 +241,15 @@
 
 @media (min-width: 360px) and (max-width: 600px) {
   .pricingBack {
-    height: 190vh;
+    height: 220vh;
+  }
+
+
+  .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
   }
 
   .Planes {
@@ -381,12 +403,57 @@
   .Planes div {
     margin: 2% 1%;
   }
+
+  .scale {
+    height: 19em;
+    width: 17em;
+    padding-bottom: 0em;
+  }
+
+  .scale .hover h1 {
+    font-size: 20px;
+    margin-top: -0.5em;
+  }
+
+  .scale .hover p {
+    font-size: 12px;
+  }
+
+  .ChooseButton2 {
+    height: 2em;
+    margin-top: 0em;
+  }
+
+  .box-3 {
+    height: 350px;
+    width: 306px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1.1em;
+  }
+
+  .box-3 .hover p {
+    font-size: 14px;
+  }
+
+
+  .box-3 .ChooseButton2 {
+    width: 20em;
+    margin-top: 1.2em;
+  }
+
+  .features .hover {
+    padding-top: 0em;
+  }
 }
 
 
 @media (min-width:768px) and (max-width: 934px) {
   .pricing h1 {
-    font-size: 140px;
+    font-size: 150px;
+  }
+
+  .pricing {
+    margin-left: -5em;
   }
 
   .Planes div div h1 {
@@ -418,6 +485,18 @@
 
 @media (min-width:934px) and (max-width: 1064px) {
 
+  .scale {
+    height: 24em;
+    padding: 0.5em 0em 0em 0.2em;
+  }
+
+  .box-3 {
+    height: 410px;
+    width: 330px;
+    padding: 0em 1em 1em 1em;
+    font-size: 1.4em;
+  }
+
   .pricing h1 {
     font-size: 200px;
   }
@@ -432,6 +511,13 @@
     margin-left: 2%;
     font-size: 12px;
     line-height: 160%;
+  }
+
+
+  .scale:hover .ChooseButton2 {
+    background-color: #FFFFFF;
+    color: #00618E;
+    padding-bottom: 1.5em;
   }
 
   .animatPrice1 {
@@ -449,13 +535,61 @@
     width: 100%;
   }
 
+  .ChooseButton2 {
+    width: 10em;
+    margin-left: 1em;
+  }
+
+  .scale {
+    height: 22em;
+    padding: 0.5em 0em 0em 0.2em;
+  }
+
+
+  .pricing h1 {
+    font-size: 200px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 17px;
+    line-height: 140%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 10px;
+    line-height: 160%;
+  }
+
+
+  .scale:hover .ChooseButton2 {
+    background-color: #FFFFFF;
+    color: #00618E;
+    padding-bottom: 1.5em;
+  }
+
+  .box-3 .hover {
+    padding-top: 0.1em;
+  }
+
   .Planes {
     top: 22%;
   }
 
+  .box-3 {
+    height: 373px;
+    width: 280px;
+    padding: 0.4em 1em 1em 1em;
+    font-size: 1.4em;
+  }
+
+
   .Planes div {
     margin: 2% 1%;
   }
+
+
 
   .animatPrice3 {
     display: none;

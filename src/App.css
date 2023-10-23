@@ -25,10 +25,8 @@ body {
   background-color: #F2F4F6;
   z-index: 2;
   width: 105%;
-  height: 3.025em;
-  padding-top: 1.9em;
-  padding-bottom: 1.7em;
-  margin-left: -1.4em;
+  height: 2%;
+  padding: 1.4em 0em 2% 1.7em
 }
 
 
@@ -167,6 +165,7 @@ body {
   margin-left: 5%;
   justify-content: center;
   align-items: center;
+  margin-top: -3%;
 }
 
 h5 {
@@ -187,8 +186,8 @@ h5 {
   height: 3.895em;
   cursor: pointer;
   position: relative;
-  left: 48%;
-  top: -4em;
+  left: -22%;
+  top: 0em;
 }
 
 .start {
@@ -1287,10 +1286,19 @@ footer .col-2 .col a {
     width: 35em;
   }
 
+  .mainContent {
+    margin-top: -2%;
+    height: 130vh;
+  }
+
 }
 
 @media (min-width:835px) and (max-width:926px) {
 
+  .mainContent {
+    margin-top: -2%;
+    height: 130vh;
+  }
 
   .setlogo {
     display: flex;
@@ -1579,6 +1587,11 @@ footer .col-2 .col a {
 }
 
 @media (min-width:926px) and (max-width:1064px) {
+  .mainContent {
+    margin-top: -2%;
+    height: 109vh;
+  }
+
   .setlogo {
     display: flex;
     justify-content: center;
@@ -2348,12 +2361,12 @@ footer .col-2 .col a {
     flex-direction: column;
     margin-top: 40rem;
     width: 80rem;
-    margin-left: -10rem;
+    margin-left: -20%;
     background-color: #F2F4F6;
   }
 
   .btn {
-    margin-left: 13.7rem;
+    margin-left: 17.5%;
     margin-bottom: 5rem;
     margin-top: 2.5em;
   }
@@ -2370,7 +2383,7 @@ footer .col-2 .col a {
   nav .nav-close-btn {
     position: absolute;
     top: 6rem;
-    right: 20rem;
+    right: 12%
   }
 
   .active {
@@ -2402,7 +2415,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 0;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2523,7 +2536,7 @@ footer .col-2 .col a {
   }
 
   .vector3 {
-    width: 38%;
+    width: 30%;
     transform: rotate(90deg);
     margin-top: 15%;
 
@@ -2867,7 +2880,7 @@ footer .col-2 .col a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 1.5em;
+    margin-top: 1em;
     display: flex;
     width: 12em;
   }
@@ -2892,8 +2905,8 @@ footer .col-2 .col a {
     visibility: visible;
     opacity: 1;
     font-size: 1.8rem;
-    margin-top: 0rem;
-    margin-left: 1em;
+    margin-top: -3rem;
+    margin-left: 90%;
     display: flex;
   }
 
@@ -2919,14 +2932,14 @@ footer .col-2 .col a {
     flex-direction: column;
     margin-top: 40rem;
     width: 80rem;
-    margin-left: -12rem;
+    margin-left: -20%;
     background-color: #F2F4F6;
   }
 
   nav .nav-close-btn {
     position: absolute;
-    top: 3rem;
-    right: 12rem;
+    top: 178%;
+    right: 50%;
   }
 
   .btn {
@@ -2958,7 +2971,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 0em;
+    margin-top: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3514,8 +3527,8 @@ footer .col-2 .col a {
     visibility: visible;
     opacity: 1;
     font-size: 1.8rem;
-    margin-top: 0rem;
-    margin-left: 1em;
+    margin-top: -3rem;
+    margin-left: 85%;
     display: flex;
   }
 
@@ -3541,14 +3554,14 @@ footer .col-2 .col a {
     flex-direction: column;
     margin-top: 38rem;
     width: 80rem;
-    margin-left: -12rem;
+    margin-left: -20%;
     background-color: #F2F4F6;
   }
 
   nav .nav-close-btn {
     position: absolute;
-    top: 3rem;
-    right: 9.7rem;
+    top: 178%;
+    right: 50%;
   }
 
   .btn {
@@ -3581,7 +3594,7 @@ footer .col-2 .col a {
   }
 
   .main-1 {
-    margin-top: 10%;
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3709,13 +3722,13 @@ footer .col-2 .col a {
     width: 43%;
     transform: rotate(90deg);
     margin-top: 15%;
-
+    height: 17px;
   }
 
   .vector2 {
     width: 43%;
     transform: rotate(90deg);
-
+    height: 17px;
     margin-top: 15%;
   }
 
@@ -3723,7 +3736,7 @@ footer .col-2 .col a {
     width: 43%;
     transform: rotate(90deg);
     margin-top: 15%;
-
+    height: 17px;
   }
 
   .circle {

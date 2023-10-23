@@ -246,7 +246,7 @@ span.wrap-services {
 
 .boxes {
     display: flex;
-    margin-left: 5em;
+    margin-left: 7%;
     margin-top: 3em;
     margin-bottom: 5em;
 }
@@ -450,6 +450,7 @@ span.wrap-services {
         margin-left: -1.5em;
     }
 
+
     .contact-info {
         align-items: center;
         margin-left: -2em
@@ -539,7 +540,16 @@ span.wrap-services {
         height: 13.5em;
         width: 5.2em;
         padding-top: 2em;
-        margin-left: -4.6em;
+        margin-left: 0%;
+        margin-right: 1%;
+    }
+
+    .boxes {
+        display: flex;
+        margin-left: 2%;
+        margin-top: 3em;
+        margin-bottom: 5em;
+        margin-right: 0%;
     }
 
 
@@ -624,20 +634,22 @@ span.wrap-services {
         margin-left: 32em;
     }
 
-    .boxes {
-        display: block;
-        margin-left: 2em;
-    }
-
     .contact-info {
         align-items: center;
+    }
+
+    .boxes {
+        display: block;
+        margin-left: 3%;
     }
 
 
     .support-mail {
         margin-bottom: 1em;
         height: 16em;
-        margin-left: 1em;
+        margin-left: 0%;
+        width: 83.2%;
+        margin-right: 1%;
     }
 
 }
@@ -731,12 +743,12 @@ span.wrap-services {
 
     .contact-info {
         align-items: center;
-        margin-left: 1.3em;
+        margin-left: 0em;
     }
 
     .support-mail {
         margin-bottom: 1em;
         height: 16em;
-        width: 9em;
+        width: 77%;
     }
 }

@@ -4,10 +4,6 @@ import Time from "../assets/img/time-left.png";
 import Email from "../assets/img/email.png";
 import Phone from "../assets/img/phone.png";
 import Location from "../assets/img/location.png";
-import Facebook from "../assets/img/facebook.png";
-import Twitter from "../assets/img/twitter.png";
-import Youtube from "../assets/img/youtube.png";
-import Pinterest from "../assets/img/pinterest.png";
 import Instagram from "../assets/img/instagram.png";
 import Linkedin from "../assets/img/linkedin.png";
 
@@ -255,18 +251,6 @@ const Contact = () => {
       </div>
       <div className="social-links">
         <h1>Social Links</h1>
-        <a>
-          <img src={Facebook} />
-        </a>
-        <a>
-          <img src={Twitter} />
-        </a>
-        <a>
-          <img src={Youtube} />
-        </a>
-        <a>
-          <img src={Pinterest} />
-        </a>
         <a>
           <img src={Instagram} />
         </a>

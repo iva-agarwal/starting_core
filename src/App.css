@@ -50,6 +50,7 @@ body {
 .menu-link {
   display: flex;
   flex-direction: row;
+  margin-top: 11px;
 }
 
 
@@ -154,7 +155,7 @@ body {
   border: none;
   cursor: pointer;
   font-family: Work Sans;
-  margin-top: 0.9em;
+  /* margin-top: 0.9em; */
 }
 
 
@@ -478,9 +479,9 @@ h5 {
   align-items: center;
   flex-direction: column;
   position: relative;
-  top: 39em;
-  right: 7em;
-  opacity: 0.9;
+  top: 42em;
+  right: 6em;
+  transform: skew(1deg, 3deg);
 }
 
 
@@ -488,7 +489,6 @@ h5 {
   width: 50%;
   position: relative;
   top: -20em;
-  opacity: 0.9;
 }
 
 .noImg2 {
@@ -496,7 +496,6 @@ h5 {
   position: relative;
   top: -30em;
   left: 5em;
-  opacity: 0.9;
 }
 
 .noImg3 {
@@ -504,7 +503,7 @@ h5 {
   position: relative;
   top: -40em;
   left: 10em;
-  opacity: 0.9;
+  
 }
 
 .noImg4 {
@@ -512,7 +511,7 @@ h5 {
   position: relative;
   top: -50em;
   left: 15em;
-  opacity: 0.9;
+  
 }
 
 .export h1 {
@@ -524,25 +523,6 @@ h5 {
   line-height: 550px;
 }
 
-.export h1::before {
-  position: absolute;
-  content: attr(data-text);
-  color: #F2F4F6;
-  -webkit-text-fill-color: #F2F4F6;
-  animation: animat 3s linear infinite;
-  width: 100%;
-  overflow: hidden;
-}
-
-@keyframes animat {
-  0% {
-    width: 0;
-  }
-
-  50% {
-    width: 100%;
-  }
-}
 
 .export h3 {
   font-family: Work Sans;
@@ -553,295 +533,96 @@ h5 {
   margin-top: -13%;
 }
 
-.show1 {
-  color: #F2F4F6;
-  position: relative;
-  top: -3em;
-}
-
-.down1 {
-  margin: 1%;
-  position: relative;
-  top: -4em;
-}
-
 /* .......slider........ */
 
 
-.section-1 {
-  padding-top: 3%;
-  padding-bottom: 1%;
-  background: #F5F5F5;
-}
-
-.section-1 .text {
-  width: 40%;
-  float: right;
-  display: block;
-}
-
-.section-1 .side {
-  width: 250px;
-  height: 60px;
-  background: #111111;
-  outline: none;
-  position: relative;
-  float: right;
-}
-
-#side1::after {
-  content: "";
-  position: absolute;
-  left: -2px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 36px solid #F5f5f5;
-  border-top: 35px solid transparent;
-  border-bottom: 29px solid transparent;
-  outline: none;
-}
-
-.section-1 .side h1 {
-  text-align: center;
-  font-family: '';
-  padding: 2% 0;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
-  color: #FFFFFF;
-}
-
-.section-1 p {
-  width: 76%;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: right;
-  color: #464646;
-  float: right;
+.founder {
   margin-top: 2%;
-  margin-right: 4%;
+  margin-bottom: 1%;
+  background: #F2F4F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.section-1 h3 {
-  width: 31%;
+.founder div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.founderheading {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.founderheading h1 {
+  font-style: work sans;
   font-weight: 600;
   font-size: 36px;
-  line-height: 32px;
-  color: #464646;
-  padding-bottom: 1.5%;
-  margin-top: -2%;
-  margin-left: 8%;
 }
 
-.section-1 .main-container {
-  margin-left: 10%;
-  margin-right: 8%;
-  margin-top: 5%;
+.founderimage {
+  width: 25%;
+  border: 0.1px solid rgb(194, 187, 187);
+  border-radius: 10px;
 }
 
-.section-1 .main-container .box {
-  width: 14em;
-  height: 18em;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, .15);
-  border-radius: 1em;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  -ms-border-radius: 1em;
-  -o-border-radius: 1em;
-  border: 1.3px solid #00618E;
-  position: relative;
-}
-
-.section-1 .main-container .box img {
+.founderimage div {
   width: 100%;
-  height: 100%;
-  border-radius: 1em;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  -ms-border-radius: 1em;
-  -o-border-radius: 1em;
-  left: -20%;
 }
 
-.section-1 .main-container .box .name {
-  width: 12em;
-  height: 5em;
-  padding: .5em;
-  background-color: #00618E;
-  /* z-index: 8; */
-  mix-blend-mode: normal;
-  text-align: center;
-  color: #F2F4F6;
-  border-top: 8px solid #F2F4F6;
+.founderimage div img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+
 }
 
-.section-1 .main-container .box .name h2 {
-  font-weight: 600;
+
+.founderimage div h1 {
+  font-family: work sans;
+  font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  margin: 1%;
 }
 
-.section-1 .main-container .box .name span {
+.founderimage div h2 {
+  font-family: work sans;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
 }
 
-
-.section-1 .main-container .left .name {
-  position: absolute;
-  left: 60%;
-  top: -9%;
-}
-
-.section-1 .main-container .left img {
-  position: absolute;
-  top: -30%;
-  left: -25%;
-}
-
-.section-1 .main-container .center {
-  height: 22em;
-  margin-left: 41%;
-  margin-top: -19%;
-}
-
-.section-1 .main-container .right {
-  margin-left: 80%;
-  margin-top: -15%;
-}
-
-.section-1 .main-container .right .name {
-  width: 15em;
-}
-
-.section-1 .main-container .right .name h2 {
-  line-height: 53px;
-}
-
-.section-1 .main-container .right .name {
-  position: absolute;
-  right: 60%;
-  bottom: -7%;
-}
-
-.section-1 .main-container .right img {
-  position: absolute;
-  top: 20%;
-  left: 25%;
-}
-
-/* center card */
-.section-1 .main-container .center .container {
-  width: 14em;
-  height: 22em;
-  border-radius: 1em;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-1 .main-container .center .container .slides {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 14em;
-  height: 20em;
-  position: relative;
-
-}
-
-.section-1 .main-container .center .container .slides .slide {
-  width: 5em;
-  height: 5em;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-1 .main-container .center .container .slides .slide-1 {
-  background: linear-gradient(0deg, #111111 3%, rgba(17, 17, 17, 0) 47.32%), url(assets/img/slide-1.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.section-1 .main-container .center .container .slides .slide-2 {
-  background: linear-gradient(0deg, #111111 3%, rgba(17, 17, 17, 0) 47.32%), url(assets/img/slide-2.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-1 .main-container .center .container .slides .slide-3 {
-  background: linear-gradient(0deg, #111111 3%, rgba(17, 17, 17, 0) 47.32%), url(assets/img/slide-3.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-1 .main-container .center .container .slides .slide-4 {
-  background: linear-gradient(0deg, #111111 3%, rgba(17, 17, 17, 0) 47.32%), url(assets/img/slide-4.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-1 .main-container .center .container .slides .slide-5 {
-  background: linear-gradient(0deg, #111111 3%, rgba(17, 17, 17, 0) 47.32%), url(assets/img/slide-5.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-1 .main-container .center .slide-controls {
-  position: absolute;
-  top: 53%;
-  left: -3.5em;
-  transform: translateY(-50%);
-  width: 21em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.section-1 .main-container .center .slides .slide .slide-content {
-  padding: 3% 0;
-  position: absolute;
-  top: 19.6em;
-  left: 6em;
-  height: 3em;
-  width: 12.5em;
-  font-size: 18px;
-  color: #F2F4F6;
-  background-color: transparent;
+.founderimage div p {
+  width: 90%;
   text-align: center;
-  transition: .5s ease;
-  transform: translate(-5em, -5em);
-  -ms-transform: translate(-5em, -5em);
-  -webkit-transform: translate(-5em, -5em);
-  -moz-transform: translate(-5em, -5em);
-  -o-transform: translate(-5em, -5em);
-}
-
-.section-1 .main-container .center .slides .slide .slide-content h1 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 20px;
-
-}
-
-.section-1 .main-container .center .slides .slide .slide-content span {
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  margin: 1%;
+}
+
+.founderimage div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 7%;
+}
+
+.founderimage div div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founderimage div div a img {
+  margin: 2%;
+  width: 40%;
 }
 
 
 
 /* .......Footer........ */
+
 
 #foot {
   background: #F2F4F6;
@@ -850,38 +631,22 @@ h5 {
 .illust {
   background: #F5F5F5;
   height: 360px;
-
+  display: flex;
+  align-items: end;
+  justify-content: end;
 }
 
-.waves {
-  width: 14%;
-  position: relative;
-  top: -20.5%;
-  left: 25%;
-}
+
 
 .mans {
-  width: 24%;
-  position: relative;
-  top: 29.7%;
-  left: 17%;
-}
-
-.i1 {
   width: 20%;
-  position: relative;
-  /* top: -3.5%; */
-  left: 17%;
+  margin-right: 10%;
 }
 
-.i3 {
-  width: 14%;
-  position: relative;
-  top: 27%;
-  left: -3%;
-}
+
 
 /* footer */
+
 footer {
   width: 90%;
   height: 300px;
@@ -891,6 +656,7 @@ footer {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 footer div {
@@ -901,7 +667,7 @@ footer div {
 
 .circles {
   width: 100%;
-  height: 540px;
+  height: 500px;
   border-radius: 50%;
   margin-top: -43.5%;
   margin-left: -12%;
@@ -935,7 +701,7 @@ footer div {
   width: 322px;
   left: 21%;
   top: 5%;
-
+  
   font-family: 'Work Sans';
   font-size: 16px;
   line-height: 20px;
@@ -949,6 +715,35 @@ footer .col-2 {
   left: 7%;
 }
 
+.col-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-2 div div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -10%;
+}
+
+hr {
+  height: 1.5px;
+  width: 85%;
+  background-color: #F2F4F6;
+  border-radius: 10PX;
+  /* margin: 1%; */
+
+}
+
+.col-2 div div p{
+  color: #F2F4F6;
+  font-family: work sans;
+  padding: 2% 2% 2% 0%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 footer .col-2 .col {
   display: flex;
   flex-direction: column;
@@ -959,7 +754,7 @@ footer .col-2 .col {
 }
 
 footer .col-2 .col h4 {
-  padding-bottom: 34%;
+  padding-bottom: 20%;
   font-weight: 600;
   font-size: 24px;
   line-height: 3%;
@@ -970,7 +765,8 @@ footer .col-2 .col a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 3%;
+  padding: 2%;
+  font-size: 14px;
   /* line-height: 35%; */
 
   /* gap: 12px; */
@@ -1063,29 +859,14 @@ footer .col-2 .col a {
     height: 281.5px;
   }
 
-  .waves {
-    width: 22%;
-    top: 20%;
-  }
-
+ 
   .mans {
     width: 26%;
     top: 44%;
     left: 8%;
   }
 
-  .i1 {
-    width: 23%;
-    top: 5.5%;
-    left: 5%;
-  }
-
-  .i3 {
-    width: 21%;
-    top: 35%;
-    left: -18%;
-  }
-
+ 
   .ourWork {
     display: flex;
     justify-content: center;
@@ -1255,7 +1036,7 @@ footer .col-2 .col a {
     line-height: 25px
   }
 
-  .circles h3 {
+  /* .circles h3 {
     font-size: 23px;
     margin-left: 1em;
   }
@@ -1284,7 +1065,7 @@ footer .col-2 .col a {
     font-size: 10px;
     margin-left: -3em;
     width: 35em;
-  }
+  } */
 
   .mainContent {
     margin-top: -2%;
@@ -1376,29 +1157,7 @@ footer .col-2 .col a {
   .illust {
     height: 327px;
   }
-
-  .waves {
-    width: 22%;
-    top: 20%;
-  }
-
-  .mans {
-    width: 26%;
-    top: 46.7%;
-    left: 8%;
-  }
-
-  .i1 {
-    width: 23%;
-    top: 5.5%;
-    left: 5%;
-  }
-
-  .i3 {
-    width: 21%;
-    top: 35%;
-    left: -18%;
-  }
+ 
 
   .ourWork {
     display: flex;
@@ -1569,7 +1328,7 @@ footer .col-2 .col a {
     line-height: 25px
   }
 
-  .circles h3 {
+  /* .circles h3 {
     font-size: 23px;
     margin-left: 2em;
   }
@@ -1578,12 +1337,12 @@ footer .col-2 .col a {
     font-size: 13px;
     width: 13em;
     margin-left: 5em;
-  }
+  } */
 
-  footer div {
+  /* footer div {
     font-size: 12px;
     margin-left: -4em;
-  }
+  } */
 }
 
 @media (min-width:926px) and (max-width:1064px) {
@@ -1666,28 +1425,8 @@ footer .col-2 .col a {
     height: 350.5px;
   }
 
-  .waves {
-    width: 22%;
-    top: 20%;
-  }
 
-  .mans {
-    width: 26%;
-    top: 42.7%;
-    left: 8%;
-  }
-
-  .i1 {
-    width: 23%;
-    top: 5.5%;
-    left: 5%;
-  }
-
-  .i3 {
-    width: 21%;
-    top: 35%;
-    left: -18%;
-  }
+  
 
   .ourWork {
     display: flex;
@@ -1857,7 +1596,7 @@ footer .col-2 .col a {
     line-height: 25px
   }
 
-  .circles h3 {
+  /* .circles h3 {
     font-size: 23px;
     margin-left: 2em;
   }
@@ -1871,7 +1610,7 @@ footer .col-2 .col a {
   footer div {
     font-size: 12px;
     margin-left: -4em;
-  }
+  } */
 }
 
 @media (min-width:1065px) and (max-width: 1368px) {
@@ -2056,8 +1795,8 @@ footer .col-2 .col a {
   .imgAni {
     position: relative;
     top: 36em;
-    right: 7em;
-    opacity: 0.9;
+    right: 6em;
+    opacity: 1;
   }
 
   .export h3 {
@@ -2091,133 +1830,91 @@ footer .col-2 .col a {
     left: 14em;
   }
 
-  .show1 {
-    color: #F2F4F6;
-    position: relative;
-    top: -1em;
-  }
-
-  .down1 {
-    margin: 1%;
-    position: relative;
-    top: -1em;
-  }
-
   /* .............our team carousel............ */
 
-  .section-1 .main-container {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 23%;
+  .founder {
+    margin-top: 5%;
+    margin-bottom: 9%;
+    background: #F2F4F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .section-1 .text {
-    width: 55%;
+  .founder div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .section-1 .side {
-    width: 55%;
-    height: 50px;
+  .founderheading {
+    margin-top: 3%;
+    margin-bottom: 7%;
   }
 
-  .section-1 .side h1 {
-    padding: 0 0;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 40px;
-    color: #FFFFFF;
+  .founderheading h1 {
+    font-style: work sans;
+    font-weight: 600;
+    font-size: 36px;
   }
 
-  .section-1 p {
+  .founderimage {
+    width: 25%;
+    border: 0.1px solid rgb(194, 187, 187);
+    border-radius: 10px;
+  }
+
+  .founderimage div {
+    width: 100%;
+  }
+
+  .founderimage div img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+
+  }
+
+
+  .founderimage div h1 {
+    font-family: work sans;
+    font-weight: 500;
     font-size: 24px;
-    line-height: 32px;
+    margin: 3%;
   }
 
-  .section-1 h3 {
-    font-size: 30px;
-  }
-
-  .section-1 .main-container {
-    margin-left: 10%;
-    margin-right: 8%;
-    margin-top: 15%;
-  }
-
-  .section-1 .main-container .box {
-    width: 12em;
-    height: 16em;
-  }
-
-  .section-1 .main-container .center {
-    margin-left: 36%;
-    margin-top: -18%;
-  }
-
-  .section-1 .main-container .center .container {
-    width: 12em;
-    height: 16em;
-  }
-
-  .section-1 .main-container .center .container .slides {
-    height: 15em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content {
-    padding: 3% 0;
-    top: 14.4em;
-    left: 5.5em;
-    height: 6em;
-    width: 10.2em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content h1 {
-    font-size: 20px;
-    font-weight: bolder;
-    line-height: 24px;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content span {
-    font-size: 12px;
-    font-weight: bolder;
-    line-height: 6px;
-  }
-
-  .section-1 .main-container .center .slide-controls {
-    width: 18em;
-    left: -3em;
-  }
-
-  .section-1 .main-container .right {
-    margin-left: 70%;
-    margin-top: -14%;
-  }
-
-  .section-1 .main-container .box .name {
-    width: 8em;
-    height: 3em;
-  }
-
-  .section-1 .main-container .box .name h2 {
+  .founderimage div p {
+    font-family: work sans;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
   }
 
-  .section-1 .main-container .box .name span {
-    font-size: 14px;
+  .founderimage div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
   }
 
-  .section-1 .main-container .right .name h2 {
-    font-size: 16px;
-    line-height: 22px;
+  .founderimage div div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .founderimage div div a img {
+    margin: 10%;
+    width: 40%;
   }
 
   /* ..............FOOTER............... */
 
-
   .circles {
-    height: 345px;
-    margin-top: -12.5%;
-    margin-left: -16%;
+    width: 113%;
+    height: 429px;
+    margin-top: -19.5%;
+    margin-left: -17%;
   }
 
   footer {
@@ -2230,41 +1927,20 @@ footer .col-2 .col a {
   }
 
   .mans {
-    width: 24%;
-    position: relative;
-    top: 42.7%;
-    left: 17%;
+    width: 22%;
+    margin-right: 10%;
+
   }
 
-  .i3 {
-    width: 20%;
-    position: relative;
-    top: 38%;
-    left: -3%;
-  }
-
-  .waves {
-    width: 17%;
-    position: relative;
-    top: -5.5%;
-    left: 32%;
-  }
-
-  .circles {
-    width: 125%;
-    height: 415px;
-    margin-top: -12.5%;
-    margin-left: -19%;
-  }
 
   .logo-f img {
-    margin-left: 10%;
+    margin-left: 9%;
     margin-top: 20%;
     width: 33%;
   }
 
   .SC {
-    margin-left: 2%;
+    margin-left: 0%;
     font-size: 30px;
     margin-top: 25.5%;
   }
@@ -2285,20 +1961,168 @@ footer .col-2 .col a {
   }
 
   footer .col-2 .col {
-    margin-top: 15%;
-    margin-right: 50px;
+    margin-top: 5%;
+    margin-right: 120px;
   }
 
   footer .col-2 .col h4 {
-    font-size: 14px;
+    font-size: 21px;
     line-height: 6px;
     color: #ffffff;
   }
 
   footer .col-2 .col a {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
   }
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-2 div div {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: -14%;
+  }
+
+  hr {
+    height: 1.5px;
+    width: 85%;
+    background-color: #F2F4F6;
+    border-radius: 10PX;
+    /* margin: 1%; */
+
+  }
+
+  .col-2 div div p {
+    color: #F2F4F6;
+    font-family: work sans;
+    padding: 2% 2% 2% 0%;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 1064px){
+  /* ............. EXPORT......... */
+
+
+ .imgAni {
+   position: relative;
+   top: 39em;
+   right: 6em;
+   opacity: 1;
+ }
+
+ 
+
+ /* .............our team carousel............ */
+
+ .founder {
+   margin-top: 2%;
+   margin-bottom: 3%;
+
+ }
+
+ .founderimage {
+   width: 40%;
+ }
+
+ .founderheading {
+   margin-top: 4%;
+   margin-bottom: 7%;
+ }
+
+ .founderheading h1 {
+   font-size: 33px;
+ }
+
+
+
+ /* ..............FOOTER............... */
+
+ .mans {
+   width: 26%;
+   margin-right: 10%;
+   /* width: 24%;
+   position: relative;
+   top: 24.4%;
+   left: 65%; */
+ }
+
+ .circles {
+   height: 345px;
+   margin-top: -12.5%;
+   margin-left: -16%;
+ }
+
+ footer {
+   margin: 0 5%;
+   height: 300px;
+ }
+
+ .logo-f img {
+   margin-left: 10%;
+   margin-top: 20%;
+   width: 30%;
+ }
+
+ .SC {
+   margin-left: 2%;
+   font-size: 20px;
+   margin-top: 25.5%;
+ }
+
+ .circles p {
+   width: 225px;
+   left: 21%;
+   top: 0%;
+
+   font-family: 'Work Sans';
+   font-size: 12px;
+   line-height: 20px;
+   color: #464646;
+ }
+
+ footer .col-2 {
+   left: 6%;
+ }
+
+ footer .col-2 .col {
+   margin-top: 10%;
+   margin-right: 56px;
+ }
+
+ footer .col-2 .col h4 {
+   font-size: 16px;
+   line-height: 6px;
+   color: #ffffff;
+   padding-bottom: 15%;
+ }
+
+ footer .col-2 .col a {
+   line-height: 16px;
+   font-size: 13px;
+ }
+
+ .col-2 div div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: -12%;
+ }
+
+ .col-2 div div p {
+   color: #F2F4F6;
+   font-family: work sans;
+   padding: 2% 2% 2% 0%;
+   font-weight: 400;
+   font-size: 12px;
+ }
 
 }
 
@@ -2618,7 +2442,7 @@ footer .col-2 .col a {
     position: relative;
     top: 39em;
     right: 7em;
-    opacity: 0.9;
+    opacity: 1;
   }
 
   .export {
@@ -2660,142 +2484,33 @@ footer .col-2 .col a {
     left: 14em;
   }
 
-  .show1 {
-    color: #F2F4F6;
-    position: relative;
-    top: 0em;
-  }
-
-  .down1 {
-    margin: 1%;
-    position: relative;
-    top: 0em;
-  }
-
+ 
   /* .............our team carousel............ */
 
-  .section-1 .main-container {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 23%;
+  .founder {
+    margin-top: 7%;
+    margin-bottom: 10%;
   }
 
-  .section-1 .text {
-    width: 100%;
+  .founderheading {
+    margin-top: 3%;
+    margin-bottom: 10%;
   }
 
-  .section-1 .side {
-    width: 240px;
-    height: 45px;
+  .founderimage {
+    width: 55%;
   }
 
-  .section-1 .side h1 {
-    padding: 0 0;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    color: #FFFFFF;
+  .founderheading h1 {
+    font-size: 30px;
   }
-
-  .section-1 p {
-    font-size: 16px;
-    line-height: 32px;
-    margin-top: 5%;
-  }
-
-  .section-1 h3 {
-    width: 62%;
-    font-size: 26px;
-    margin-top: 15%;
-    margin-left: 3%;
-  }
-
-  .section-1 .main-container {
-    margin-left: 10%;
-    margin-right: 8%;
-    margin-top: 15%;
-  }
-
-  .section-1 .main-container .box {
-    width: 13em;
-    height: 19em;
-  }
-
-  .section-1 .main-container .left {
-    margin-left: 35%;
-    margin-top: 17em;
-  }
-
-  .section-1 .main-container .center {
-    margin-left: 33%;
-    margin-top: 10%;
-  }
-
-  .section-1 .main-container .center .container {
-    width: 13em;
-    height: 18.5em;
-  }
-
-  .section-1 .main-container .center .container .slides {
-    height: 15em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content {
-    padding: 3% 0;
-    position: absolute;
-    top: 18.9em;
-    left: 8.7em;
-    height: 3em;
-    width: 7.5em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content h1 {
-    font-size: 16px;
-    font-weight: bolder;
-    line-height: 6px;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content span {
-    font-size: 10px;
-    font-weight: bolder;
-    line-height: 2px;
-  }
-
-  .section-1 .main-container .center .slide-controls {
-    width: 190%;
-    left: -44%;
-  }
-
-  .section-1 .main-container .right {
-    margin-left: 27%;
-    margin-top: 10%;
-  }
-
-  .section-1 .main-container .box .name {
-    width: 8em;
-    height: 3em;
-  }
-
-  .section-1 .main-container .box .name h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .section-1 .main-container .box .name span {
-    font-size: 14px;
-  }
-
-  .section-1 .main-container .right .name h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
   /* ..............FOOTER............... */
 
   .circles {
-    height: 345px;
-    margin-top: -12.5%;
-    margin-left: -16%;
+    width: 106%;
+    height: 357px;
+    margin-top: -15.5%;
+    margin-left: -22%;
   }
 
   footer {
@@ -2804,20 +2519,21 @@ footer .col-2 .col a {
   }
 
   .logo-f img {
-    margin-left: 10%;
+    margin-left: 18%;
     margin-top: 20%;
-    width: 30%;
+    width: 27%;
+
   }
 
   .SC {
-    margin-left: 2%;
+    margin-left: 0%;
     font-size: 20px;
-    margin-top: 25.5%;
+    margin-top: 24.5%;
   }
 
   .circles p {
-    width: 180px;
-    left: 21%;
+    width: 200px;
+    left: 26%;
     top: 0%;
 
     font-family: 'Work Sans';
@@ -2830,27 +2546,12 @@ footer .col-2 .col a {
     height: 281.5px;
   }
 
-  .waves {
-    width: 22%;
-    top: 20%;
-  }
+  
 
   .mans {
-    width: 26%;
-    top: 57%;
-    left: 8%;
-  }
-
-  .i1 {
-    width: 23%;
-    top: 5.5%;
-    left: 5%;
-  }
-
-  .i3 {
-    width: 21%;
-    top: 35%;
-    left: -18%;
+    width: 40%;
+    margin-right: 10%;
+    
   }
 
   footer .col-2 {
@@ -2864,15 +2565,32 @@ footer .col-2 .col a {
 
   footer .col-2 .col h4 {
     font-size: 14px;
-    line-height: 6px;
+    line-height: 0px;
+    padding-bottom: 24%;
     color: #ffffff;
   }
 
   footer .col-2 .col a {
-    line-height: 20px;
+    line-height: 16px;
     font-size: 12px;
   }
+
+  .col-2 div div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -17%;
+  }
+
+  .col-2 div div p {
+    color: #F2F4F6;
+    font-family: work sans;
+    padding: 2% 2% 2% 0%;
+    font-weight: 400;
+    font-size: 10px;
+  }
 }
+
 
 @media (min-width: 360px) and (max-width:640px) {
   .setlogo2 {
@@ -3201,7 +2919,7 @@ footer .col-2 .col a {
     position: relative;
     top: 39em;
     right: 7em;
-    opacity: 0.9;
+    opacity: 1;
   }
 
   .export {
@@ -3245,161 +2963,39 @@ footer .col-2 .col a {
     width: 82%;
   }
 
-  .show1 {
-    color: #F2F4F6;
-    position: relative;
-    top: 2em;
-  }
-
-  .down1 {
-    margin: 1%;
-    position: relative;
-    top: 2.5em;
-  }
+ 
 
   /* .............our team carousel............ */
 
-  .section-1 {
-    padding-top: 10%;
-    padding-bottom: 1%;
-    background: #F5F5F5;
+  .founder {
+    margin-top: 7%;
+    margin-bottom: 10%;
   }
 
-  .section-1 .text {
-    width: 100%;
+  .founderheading {
+    margin-top: 6%;
+    margin-bottom: 17%;
   }
 
-  .section-1 .side {
-    width: 240px;
-    height: 45px;
+  .founderimage {
+    width: 65%;
   }
 
-  .section-1 .side h1 {
-    padding: 0 0;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    color: #FFFFFF;
-  }
-
-  .section-1 p {
-    font-size: 16px;
-    line-height: 32px;
-    margin-top: 5%;
-  }
-
-  .section-1 h3 {
-    width: 60%;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 15%;
-    margin-left: 0%;
-  }
-
-  .section-1 .main-container {
-    margin-left: 0%;
-    margin-right: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 75%;
-  }
-
-  .section-1 .main-container .box {
-    width: 9em;
-    height: 12em;
-  }
-
-  .section-1 .main-container .left {
-    margin-left: 0%;
-    margin-top: 0%;
-    /* margin-left: 22%;
-    margin-top: 90%; */
-  }
-
-  .section-1 .main-container .center {
-    margin-left: 0%;
-    margin-top: 10%;
-    /* margin-left: 25%;
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
-
-  .section-1 .main-container .center .container {
-    width: 9em;
-    height: 12em;
-    /* position: relative;
-    top: 5%; */
-  }
-
-  .section-1 .main-container .center .container .slides {
-    height: 15em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content {
-    padding: 3% 0;
-    position: absolute;
-    top: 14.9em;
-    left: 8.7em;
-    height: 3em;
-    width: 7.5em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content h1 {
-    font-size: 16px;
-    font-weight: bolder;
-    line-height: 6px;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content span {
-    font-size: 10px;
-    font-weight: bolder;
-    line-height: 2px;
-  }
-
-  .section-1 .main-container .center .slide-controls {
-    width: 190%;
-    left: -45%;
-  }
-
-  .section-1 .main-container .right {
-    margin-left: 0%;
-    margin-top: 10%;
-    /* margin-left: 27%;
-    margin-top: 10%; */
-  }
-
-  .section-1 .main-container .box .name {
-    width: 8em;
-    height: 3em;
-  }
-
-  .section-1 .main-container .box .name h2 {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .section-1 .main-container .box .name span {
-    font-size: 14px;
-  }
-
-  .section-1 .main-container .right .name h2 {
-    font-size: 16px;
-    line-height: 22px;
+  .founderheading h1 {
+    font-size: 24px;
   }
 
   /* ..............FOOTER............... */
 
   .circles {
-    height: 345px;
+    height: 330px;
     margin-top: -12.5%;
     margin-left: -16%;
+    width: 104%;
   }
 
   footer {
+    border-radius: 14px 14px 0px 0px;
     margin: 0 5%;
     height: 300px;
   }
@@ -3443,10 +3039,13 @@ footer .col-2 .col a {
   }
 
   .mans {
-    width: 60%;
+    width: 50%;
+    margin: 9%;
+
+    /* width: 60%;
     top: 0%;
     left: 0%;
-    margin: 2%;
+    margin: 2%; */
   }
 
   .i1 {
@@ -3489,6 +3088,22 @@ footer .col-2 .col a {
   footer .col-2 .col a {
     line-height: 20px;
     font-size: 18px;
+  }
+
+  .col-2 div div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .col-2 div div p {
+    color: #F2F4F6;
+    font-family: work sans;
+    padding: 2% 2% 2% 0%;
+    font-weight: 400;
+    font-size: 11px;
   }
 
 }
@@ -3794,7 +3409,7 @@ footer .col-2 .col a {
     position: relative;
     top: 39em;
     right: 7em;
-    opacity: 0.9;
+    opacity: 1;
   }
 
   .export {
@@ -3838,149 +3453,24 @@ footer .col-2 .col a {
     width: 76%;
   }
 
-  .show1 {
-    color: #F2F4F6;
-    position: relative;
-    top: 2em;
-  }
-
-  .down1 {
-    margin: 1%;
-    position: relative;
-    top: 2.5em;
-  }
-
   /* .............our team carousel............ */
 
-  .section-1 {
-    padding-top: 10%;
-    padding-bottom: 1%;
-    background: #F5F5F5;
+  .founder {
+    margin-top: 7%;
+    margin-bottom: 10%;
   }
 
-
-  .section-1 .text {
-    width: 100%;
+  .founderimage {
+    width: 80%;
   }
 
-  .section-1 .side {
-    width: 240px;
-    height: 45px;
+  .founderheading {
+    margin-top: 6%;
+    margin-bottom: 17%;
   }
 
-  .section-1 .side h1 {
-    padding: 0 0;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
-    color: #FFFFFF;
-  }
-
-  .section-1 p {
-    font-size: 16px;
-    line-height: 32px;
-    margin-top: 5%;
-  }
-
-  .section-1 h3 {
-    width: 60%;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 15%;
-    margin-left: 0%;
-  }
-
-  .section-1 .main-container {
-    margin-left: 0%;
-    margin-right: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 90%;
-  }
-
-  .section-1 .main-container .box {
-    width: 9em;
-    height: 12em;
-  }
-
-  .section-1 .main-container .left {
-    margin-left: 0%;
-    margin-top: 0%;
-    /* margin-left: 22%;
-    margin-top: 100%; */
-  }
-
-  .section-1 .main-container .center {
-    margin-left: 0%;
-    margin-top: 10%;
-    /* margin-left: 25%;
-    margin-top: 10%; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
-
-  .section-1 .main-container .center .container {
-    width: 9em;
-    height: 12em;
-  }
-
-  .section-1 .main-container .center .container .slides {
-    height: 15em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content {
-    padding: 3% 0;
-    position: absolute;
-    top: 14.9em;
-    left: 8.7em;
-    height: 3em;
-    width: 7.5em;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content h1 {
-    font-size: 16px;
-    font-weight: bolder;
-    line-height: 6px;
-  }
-
-  .section-1 .main-container .center .slides .slide .slide-content span {
-    font-size: 10px;
-    font-weight: bolder;
-    line-height: 2px;
-  }
-
-  .section-1 .main-container .center .slide-controls {
-    width: 190%;
-    left: -45%;
-  }
-
-  .section-1 .main-container .right {
-    margin-left: 0%;
-    margin-top: 10%;
-    /* margin-left: 27%;
-    margin-top: 10%; */
-  }
-
-  .section-1 .main-container .box .name {
-    width: 7em;
-    height: 2em;
-  }
-
-  .section-1 .main-container .box .name h2 {
-    font-size: 14px;
-    line-height: 15px;
-  }
-
-  .section-1 .main-container .box .name span {
-    font-size: 12px;
-  }
-
-  .section-1 .main-container .right .name h2 {
-    font-size: 14px;
-    line-height: 16px;
+  .founderheading h1 {
+    font-size: 24px;
   }
 
   /* ..............FOOTER............... */
@@ -4035,10 +3525,12 @@ footer .col-2 .col a {
   }
 
   .mans {
-    width: 60%;
+    width: 55%;
+    margin: 13%;
+    /* width: 60%;
     top: 0%;
     left: 0%;
-    margin: 2%;
+    margin: 2%; */
   }
 
   .i1 {
@@ -4057,6 +3549,7 @@ footer .col-2 .col a {
 
   footer {
     height: auto;
+    border-radius: 14px 14px 0px 0px;
   }
 
   footer div {
@@ -4083,8 +3576,20 @@ footer .col-2 .col a {
     font-size: 16px;
   }
 
-  .form {
-    padding: 1em;
+  .col-2 div div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .col-2 div div p {
+    color: #F2F4F6;
+    font-family: work sans;
+    padding: 2% 2% 2% 0%;
+    font-weight: 400;
+    font-size: 10px;
   }
 
 }

@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f2f4f6;
+    overflow-x: hidden;
 }
 
 .contactPage {
@@ -242,13 +243,19 @@ span.wrap-services {
     text-align: center;
     margin-top: 3em;
     font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxes {
     display: flex;
-    margin-left: 7%;
+    /* margin-left: 7%; */
     margin-top: 3em;
     margin-bottom: 5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .support-mail {

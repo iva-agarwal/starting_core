@@ -1,11 +1,11 @@
-.swiper-slide {
+.slider-div .swiper-slide {
     background-position: center;
     background-size: cover;
     color: #AFC9DC;
     -webkit-text-fill-color: transparent;
 }
 
-.swiper-slide-active {
+.slider-div .swiper-slide-active {
     font-size: 54px;
     color: #00618E;
     text-decoration: underline 8px solid #111111;
@@ -13,7 +13,7 @@
 }
 
 
-.slider {
+.slider-div .slider {
     display: flex;
     justify-content: center;
     align-content: center;

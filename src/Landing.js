@@ -100,21 +100,13 @@ function Landing() {
               Projects are successfully completed in 5 months.
             </h3>
           </div>
-          <div
-            className="members"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-          >
+          <div className="members" data-aos="fade-up">
             <h1 className="numbers">11</h1>
             <h3 className="number_description">
               Team members with various skill sets.
             </h3>
           </div>
-          <div
-            className="satisfaction"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-          >
+          <div className="satisfaction" data-aos="fade-up">
             <h1 className="numbers">100%</h1>
             <h3 className="number_description">
               We have achieved 100% client satisfaction.
@@ -259,10 +251,25 @@ function Landing() {
               <h1>Mohit Pareek</h1>
               <h2>Founder</h2>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
               <div>
-                <a href="https://www.instagram.com/mohitpareek16/" title="Instagram"><img src="./images/InstagramLogo.png" alt="Instagram" /></a>
-                <a href="https://www.linkedin.com/in/mohit-pareek-b8a676204?originalSubdomain=in" title="Instagram"><img src="./images/LinkedinLogo.png" alt="Linkedin" /></a>
+                <a
+                  href="https://www.instagram.com/mohitpareek16/"
+                  title="Instagram"
+                >
+                  <img src="./images/InstagramLogo.png" alt="Instagram" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mohit-pareek-b8a676204?originalSubdomain=in"
+                  title="Instagram"
+                >
+                  <img src="./images/LinkedinLogo.png" alt="Linkedin" />
+                </a>
               </div>
             </div>
           </div>
@@ -272,11 +279,9 @@ function Landing() {
 
       <div id="foot">
         <div className="illust">
-         
           <img className="mans" src="./images/mans.png" alt="" />
-         
         </div>
-        
+
         <footer>
           <div>
             <div className="col-1">
@@ -285,7 +290,11 @@ function Landing() {
                   <img src="./images/Img1.png" alt="" />
                   <h3 className="SC">Starting core</h3>
                 </div>
-                <p>Figma creates a new level of collaboration that never really existed before. The team is able to work together and ship products faster.” </p>
+                <p>
+                  Figma creates a new level of collaboration that never really
+                  existed before. The team is able to work together and ship
+                  products faster.”{" "}
+                </p>
               </div>
             </div>
 

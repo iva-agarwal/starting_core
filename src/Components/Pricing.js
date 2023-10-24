@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <>
       <div className="pricingBack">
-        <div className="pricing">
+        {/* <div className="pricing">
           <h1 className="font-face-sa  animatPrice1" data-text="Pricing">
             Pricing
           </h1>
@@ -27,7 +27,7 @@ const Pricing = () => {
           <h1 className="font-face-sa  animatPrice5" data-text="Pricing">
             Pricing
           </h1>
-        </div>
+        </div> */}
 
         <div className="Planes">
           {/* <div className="divide"> */}

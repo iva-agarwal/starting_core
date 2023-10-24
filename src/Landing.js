@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import Slider from "./Components/Slider";
 import Sliderwhy from "./Components/Sliderwhy";
 import AnimatedDivs from "./Components/Animateddivs";
+import Projects from "./Components/Projects";
 import Mobile1 from "./assets/img/Mobile1.png";
 import Laptop from "./assets/img/Laptop.png";
 import AOS from "aos";
@@ -186,6 +187,10 @@ function Landing() {
       {/* <!-- <section> --> */}
 
       <AnimatedDivs />
+
+      {/* ..........Projects......... */}
+
+      <Projects />
 
       {/* ..........Image animation......... */}
 

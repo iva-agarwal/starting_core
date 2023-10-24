@@ -43,7 +43,7 @@
 }
 
 .frames img {
-  width: 32em;
+  width: 40em;
 }
 
 .frame {
@@ -85,7 +85,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin-left: -22.8em;
+  margin-left: -19.8em;;
   margin-top: -2em;
 }
 
@@ -186,6 +186,7 @@
 }
 
 
+
 @media (min-width:768px) and (max-width: 1064px) {
   .TEXT {
     margin-left: 7em;
@@ -195,22 +196,39 @@
 
   .frames img {
     width: 80%;
-  }
+    margin-left: 20%;
+}
 
   .buttons {
     margin-left: -18em;
   }
 }
 
+@media (min-width:768px) and (max-width:835px){
+  .textdes {
+    width: 27em;
+}
+
+.buttons {
+  margin-left: -15em;
+}
+}
+
 @media (min-width: 640px) and (max-width: 768px) {
+
+  .field {
+   height: auto;
+   margin-left: 0;
+    flex-direction: column;
+  }
   .TEXT {
-    margin-left: 6em;
+    margin-left: 15em;
     font-size: 11px;
-    margin-right: -14em;
+    margin-right: 0;
   }
 
   .frames img {
-    width: 90%;
+    width: 60%;
   }
 
   .buttons {
@@ -222,35 +240,49 @@
 @media (min-width: 360px) and (max-width: 640px) {
   .field {
     flex-direction: column;
-    height: auto;
+    height: 54em;
     width: 10em;
   }
 
   .TEXT {
+    margin-left: 4em;
     font-size: 11px;
-    margin-top: 7em;
-    margin-right: 4em;
+    margin-right: 0;
   }
 
   .frames img {
-    width: 300px;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    width: 65%;
   }
 
   .frameText {
     width: 7em;
   }
 
+  .frames img {
+    width: 22em;
+}
+  .frame {
+    margin-top: 17%;
+    margin-left: 17%;
+  }
+
   .textdes {
     width: 25.5em;
-    margin-right: -3em;
+    margin-right: 0em;
   }
 
 
   .buttons {
-    margin-left: -6em;
+    margin-left: -5em;
     width: 17em;
+  }
+
+  .show{
+    display: none;
+  }
+
+  .down{
+    display: none;
   }
 }
 

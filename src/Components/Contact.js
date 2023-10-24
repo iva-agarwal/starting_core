@@ -82,7 +82,7 @@ const Contact = () => {
                     </span>
                   </div>
                   <div className="right">
-                    <label> Phone*</label>
+                    <label className="phone"> Phone*</label>
                     <span className="wpcf7-form-control-wrap phone">
                       <span className="contactform7_container_mobile wpnotif_phone_field_container">
                         <span className="phonefield">

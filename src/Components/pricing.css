@@ -6,7 +6,7 @@
 .pricingBack {
   background-color: #111111;
   height: 100vh;
-  
+
 }
 
 .pricing {
@@ -131,7 +131,7 @@
 
 @media (min-width: 280px) and (max-width: 360px) {
   .pricingBack {
-    height: 200vh;
+    height: 230vh;
   }
 
   .box-3 {
@@ -209,9 +209,9 @@
 }
 
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media (min-width: 361px) and (max-width: 600px) {
   .pricingBack {
-    height: 200vh;
+    height: 230vh;
   }
 
 
@@ -263,7 +263,7 @@
 @media (min-width: 600px) and (max-width: 768px) {
 
   .pricingBack {
-    height: 210vh;
+    height: 240vh;
   }
 
   .Planes {
@@ -272,7 +272,7 @@
   }
 
 
- 
+
   .pricing {
     width: 100%;
   }
@@ -326,11 +326,11 @@
 
 @media (min-width:768px) and (max-width: 934px) {
 
-  .pricingBack{
-    height: 210vh;
+  .pricingBack {
+    height: 270vh;
   }
 
-  .Planes{
+  .Planes {
     top: 10%;
     flex-direction: column;
   }
@@ -409,7 +409,7 @@
     width: 100%;
   }
 
-  .ChooseButton{
+  .ChooseButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -469,8 +469,8 @@
 
 @media (min-width:768px) and (max-width: 934px) {
 
-  .pricingBack{
-    height: 230vh;
+  .pricingBack {
+    height: 270vh;
   }
 
   .scale {
@@ -482,7 +482,7 @@
     height: 370px;
   }
 
-  .Planes{
+  .Planes {
     top: 8%;
     flex-direction: column;
   }
@@ -523,7 +523,7 @@
     line-height: 160%;
   }
 
-  .box-3{
+  .box-3 {
     height: 441px;
   }
 

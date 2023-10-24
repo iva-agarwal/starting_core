@@ -91,11 +91,7 @@ function Landing() {
       {/* <!-- <section> --> */}
       <div id="Why">
         <div className="why_we">
-          <div
-            className="proje"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
-          >
+          <div className="proje" data-aos="fade-up">
             <h1 className="numbers">20+</h1>
             <h3 className="number_description">
               Projects are successfully completed in 5 months.

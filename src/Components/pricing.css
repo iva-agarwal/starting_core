@@ -5,7 +5,7 @@
 
 .pricingBack {
   background-color: #111111;
-  height: 100vh;
+  height: 130vh;
 
 }
 
@@ -43,6 +43,7 @@
 
 .scale {
   display: inline-block;
+ 
   transition-duration: 0.5s;
   transition-property: transform;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -69,6 +70,7 @@
   color: #00618E;
   padding-bottom: 0.5em;
 }
+
 
 .Planes div div h1 {
   margin-left: 4%;
@@ -100,16 +102,6 @@
   line-height: 150%;
 }
 
-.box-3 {
-  height: 410px;
-  width: 330px;
-  padding: 0em 1em 1em 1em;
-  font-size: 1.4em;
-}
-
-.box-3 .hover {
-  padding-top: 0.35em;
-}
 
 .ChooseButton2 {
   background-color: #00618E;
@@ -539,4 +531,8 @@
     margin: 2% 1%;
   }
 
+}
+.test{
+  color: white;
+  margin: 250px 30px 10px 30px;
 }

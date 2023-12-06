@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import Typewriter from "typewriter-effect";
 import Slider from "./Components/Slider";
@@ -45,18 +46,25 @@ function Landing() {
                 loop: true,
                 delay: 30,
                 strings: [
-                  "Web Developers",
-                  "App Developers",
-                  "Ui/ux Developers",
                   "Graphic Designers",
+                  "Ui/ux Developers",
+                  "SAAS Development",
+                  "Social Media Growth",
+                  "Brand Research",
                 ],
               }}
             />
           </div>
           <h5 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            This is the software that protects all your data, including strong
-            security access. Use data as needed and provide security of all data
-            very easily.
+            Welcome to STARTING CORE, the agency exclusively designed for
+            influencers and creators ready to elevate their digital presence! 🚀
+            <p>
+              At STARTING CORE, we understand that influencers and creators are
+              the driving force behind today's dynamic digital landscape.
+              Whether you're a seasoned content creator or just stepping into
+              the realm of influence, we're here to propel your
+              journey to new heights.
+            </p>
           </h5>
           <form
             className="start"
@@ -138,7 +146,28 @@ function Landing() {
                   <h4>We do research before we start any projects</h4>
                 </div>
               </div>
-              <img className="vector1" src="./images/Vector1.png" alt="#" />
+              <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="210"
+  height="32"
+  viewBox="0 0 210 32"
+  fill="none"
+>
+  <path
+    class="draw-arrow tail-2"
+    d="M1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z"
+    fill="#F2F4F6"
+    transform="scale(1, -1) translate(0, -32)"
+  />
+  <path
+    class="draw-arrow tail-1"
+    d="M209.201 31.2684C209.454 31.3795 209.569 31.6745 209.458 31.9273L207.648 36.0472C207.537 36.3 207.242 36.4149 206.989 36.3039C206.736 36.1928 206.621 35.8978 206.732 35.645L208.341 32.0028L204.679 30.3939C204.426 30.2828 204.311 29.9878 204.422 29.735C204.533 29.4822 204.828 29.3673 205.081 29.4783L209.201 31.2684Z"
+    fill="#F2F4F6"
+    transform="translate(0, -12)"
+  />
+</svg>
+
+
             </div>
 
             <div>
@@ -151,7 +180,24 @@ function Landing() {
                   <h4>Designed according to client's requirements</h4>
                 </div>
               </div>
-              <img className="vector2" src="./images/Vector2.png" alt="#" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="210"
+                height="32"
+                viewBox="0 0 210 32"
+                fill="none"
+              >
+                <path
+                  class="draw-arrow tail-1"
+                  d="M209.201 12.7316C209.454 12.6205 209.569 12.3255 209.458 12.0727L207.648 7.95279C207.537 7.69997 207.242 7.58506 206.989 7.69614C206.736 7.80721 206.621 8.10221 206.732 8.35503L208.341 12.0172L204.679 13.6261C204.426 13.7372 204.311 14.0322 204.422 14.285C204.533 14.5378 204.828 14.6527 205.081 14.5417L209.201 12.7316Z"
+                  fill="#F2F4F6"
+                />
+                <path
+                  class="draw-arrow tail-2"
+                  d="M1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z"
+                  fill="#F2F4F6"
+                />
+              </svg>
             </div>
             <div>
               <div>
@@ -163,7 +209,26 @@ function Landing() {
                   <h4>Developed by skilled team developers</h4>
                 </div>
               </div>
-              <img className="vector3" src="./images/Vector1.png" alt="#" />
+              <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="210"
+  height="32"
+  viewBox="0 0 210 32"
+  fill="none"
+>
+  <path
+    class="draw-arrow tail-2"
+    d="M1.20016 31.4582C21.281 22.686 55.7804 11.2168 93.9755 5.33911C132.179 -0.539818 174.018 -0.815432 208.819 12.7397L209.181 11.8079C174.145 -1.83921 132.103 -1.5399 93.8234 4.35075C55.5364 10.2426 20.9539 21.7377 0.799843 30.5418L1.20016 31.4582Z"
+    fill="#F2F4F6"
+    transform="scale(1, -1) translate(0, -32)"
+  />
+  <path
+    class="draw-arrow tail-1"
+    d="M209.201 31.2684C209.454 31.3795 209.569 31.6745 209.458 31.9273L207.648 36.0472C207.537 36.3 207.242 36.4149 206.989 36.3039C206.736 36.1928 206.621 35.8978 206.732 35.645L208.341 32.0028L204.679 30.3939C204.426 30.2828 204.311 29.9878 204.422 29.735C204.533 29.4822 204.828 29.3673 205.081 29.4783L209.201 31.2684Z"
+    fill="#F2F4F6"
+    transform="translate(0, -12)"
+  />
+</svg>
             </div>
             <div>
               <div>
@@ -253,10 +318,17 @@ function Landing() {
               <h2>Founder</h2>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Meet Mohit Pareek, the visionary force behind Starting Core.
+                With over three years of hands-on experience in the dynamic
+                realm of design, Mohit Pareek brings a wealth of expertise to
+                the forefront of our creative endeavors.
+              </p>
+              <p>
+                At Starting Core, we are guided by Mohit Pareek's unwavering
+                dedication to pushing boundaries and crafting designs that
+                transcend the ordinary. With a foundation built on creativity
+                and a proven track record, Mohit Pareek leads our team in
+                transforming ideas into visually compelling realities.
               </p>
               <div>
                 <a
@@ -264,6 +336,13 @@ function Landing() {
                   title="Instagram"
                 >
                   <img src="./images/InstagramLogo.png" alt="Instagram" />
+                </a>
+                <a href="mailto:info@startingcore.com" title="Instagram">
+                  <img
+                    src="./images/email.png"
+                    alt="email"
+                    style={{ width: "17px" }}
+                  />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/mohit-pareek-b8a676204?originalSubdomain=in"
@@ -292,9 +371,11 @@ function Landing() {
                   <h3 className="SC">Starting core</h3>
                 </div>
                 <p>
-                  Figma creates a new level of collaboration that never really
-                  existed before. The team is able to work together and ship
-                  products faster.”{" "}
+                  At STARTING CORE, we understand that influencers and creators
+                  are the driving force behind today's dynamic digital
+                  landscape. Whether you're a seasoned content creator or just
+                  stepping into the realm of influence, we're here to propel
+                  your journey to new heights. ”{" "}
                 </p>
               </div>
             </div>
@@ -313,9 +394,8 @@ function Landing() {
                   <h4>Help</h4>
                   {/* <!-- <a href="#">Help</a> --> */}
                   <a href="#">Customer Support</a>
-                  <a href="#">Delivery Details</a>
                   <a href="#">Terms & Conditions</a>
-                  <a href="/Policy">Privacy Policy</a>
+                  <Link to="/Policy">Privacy Policy</Link>
                 </div>
                 <div className="col">
                   <h4>Company</h4>

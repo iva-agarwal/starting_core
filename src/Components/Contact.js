@@ -151,35 +151,44 @@ const Contact = () => {
                       <input
                         type="checkbox"
                         name="services-required[]"
-                        value="Web Development Services"
+                        value="Graphic Design"
                       />
-                      <span className="text">Web Development Services</span>
+                      <span className="text">Graphic Design</span>
                     </span>
                     <span>
                       <input
                         type="checkbox"
                         name="services-required[]"
-                        value="Social Media Marketing"
+                        value="UI/UX Design"
                       />
-                      <span className="text"> Social Media Marketing</span>
+                      <span className="text">UI/UX Design</span>
                     </span>
                     <span className="wpcf7-list-item-label">
                       <input
                         type="checkbox"
                         name="services-required[]"
-                        value="App Development"
+                        value="SAAS Development"
                       />
-                      <span className="text"> App Development</span>
+                      <span className="text">SAAS Development </span>
                     </span>
                     <span className="wpcf7-list-item-label">
                       <input
                         type="checkbox"
                         name="services-required[]"
-                        value="E Commerce Web Development"
+                        value="Social Media Growth"
                       />
-                      <span className="text">E Commerce Web Development</span>
+                      <span className="text">Social Media Growth</span>
+                    </span>
+                    <span className="wpcf7-list-item-label">
+                      <input
+                        type="checkbox"
+                        name="services-required[]"
+                        value="Brand Research"
+                      />
+                      <span className="text">Brand Research</span>
                     </span>
                   </span>
+                 
                 </div>
               </div>
               <br />
@@ -229,7 +238,7 @@ const Contact = () => {
             <div className="premium-icon-box-text-wrap">
               <h4 className="premium-icon-box-title">AGENCY PHONES</h4>
               <div className="premium-icon-box-content">
-                Phone No: +91 6350666858
+                Phone No:<br></br> +91 6350666858
               </div>
             </div>
           </div>
@@ -253,6 +262,9 @@ const Contact = () => {
         <h1>Social Links</h1>
         <a>
           <img src={Instagram} />
+        </a>
+        <a href="mailto:info@startingcore.com">
+          <img src={Email} />
         </a>
         <a>
           <img src={Linkedin} />

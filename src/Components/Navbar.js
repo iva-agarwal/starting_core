@@ -29,8 +29,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item navs">
-                <a className="nav-link active grow" href="#Projects">
-                  Projects
+                <a className="nav-link active grow" href="/CaseStudies">
+                  Case Studies
                 </a>
               </li>
               <li className="nav-item navs">

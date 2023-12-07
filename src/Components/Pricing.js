@@ -202,37 +202,41 @@ const Pricing = () => {
               <h2>Unleash the power of automation.</h2>
             </div>
             <div className="features hover">
-              <div className="hover">
+            <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>5 pages Website</p>
+                <p>10 Post</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>Static Website</p>
+                <p>12 Stories</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>Admin Access</p>
+                <p>5 Reels</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>1 Year Free Hosting</p>
+                <p>Write-up/Caption for all posts and videos</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>Inquiry Form</p>
+                <p>Content Development for posts and reels</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>1 Year 24/7 Free Support For Website</p>
+                <p>Market Research according to your city</p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>Annual Renewal charges </p>
+                <p>Hashtag research to get rganic followers </p>
               </div>
               <div className="hover">
                 <FontAwesomeIcon icon={faCircleCheck} />
-                <p>T&C APPLY</p>
+                <p>Trending reel and song research </p>
+              </div>
+              <div className="hover">
+                <FontAwesomeIcon icon={faCircleCheck} />
+                <p>Competitor research </p>
               </div>
             </div>
             <div className="ChooseButton">
@@ -244,37 +248,22 @@ const Pricing = () => {
           {/* </div> */}
           
         </div>
-        <div className="test">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue
-          faucibus turpis vitae molestie. Donec accumsan augue vel odio
-          fermentum, id iaculis nulla egestas. Maecenas bibendum at erat quis
-          iaculis. Suspendisse potenti. Praesent nec quam sit amet lectus tempus
-          elementum sed eu lectus. Duis in ligula egestas, varius neque a,
-          sollicitudin justo. Cras augue orci, euismod a nunc in, suscipit
-          imperdiet velit. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Sed feugiat nisi odio, vitae efficitur libero elementum
-          eget. Integer ac metus tellus. Donec nec dignissim lorem. Nunc vel
-          dolor fringilla urna pellentesque congue. Sed eu sem sit amet massa
-          dictum hendrerit dignissim a diam. Nulla ut tortor ut ligula maximus
-          luctus. Aliquam id odio justo.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue
-          faucibus turpis vitae molestie. Donec accumsan augue vel odio
-          fermentum, id iaculis nulla egestas. Maecenas bibendum at erat quis
-          iaculis. Suspendisse potenti. Praesent nec quam sit amet lectus tempus
-          elementum sed eu lectus. Duis in ligula egestas, varius neque a,
-          sollicitudin justo. Cras augue orci, euismod a nunc in, suscipit
-          imperdiet velit. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Sed feugiat nisi odio, vitae efficitur libero elementum
-          eget. Integer ac metus tellus. Donec nec dignissim lorem. Nunc vel
-          dolor fringilla urna pellentesque congue. Sed eu sem sit amet massa
-          dictum hendrerit dignissim a diam. Nulla ut tortor ut ligula maximus
-          luctus. Aliquam id odio justo.
+     
+      </div>
+      <div className="note">
+      <div className="test">
+        <h3>NOTE:</h3>
+          <ul>
+            <li>Prices are subject to change and the above quotation is based on the per month package </li>
+            <li>The VIP Exclusive plan requires a minimum commitment of 6 months</li>
+            <li>If you choose the 1-year plan you will recieve 2 months free</li>
+            <li>In this plan if you want ads and boosted posts, additional charges will apply for ad spend</li>
+            </ul>
+          
         </div>
       </div>
       <div id="foot">
-        <div className="illust">
-          <img className="mans" src="./images/mans.png" alt="" />
-        </div>
+      
 
         <footer>
           <div>
@@ -329,7 +318,8 @@ const Pricing = () => {
             </div>
           </div>
         </footer>
-      </div>
+        </div>
+      
     </>
   );
 };

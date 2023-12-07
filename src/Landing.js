@@ -58,13 +58,7 @@ function Landing() {
           <h5 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             Welcome to STARTING CORE, the agency exclusively designed for
             influencers and creators ready to elevate their digital presence! 🚀
-            <p>
-              At STARTING CORE, we understand that influencers and creators are
-              the driving force behind today's dynamic digital landscape.
-              Whether you're a seasoned content creator or just stepping into
-              the realm of influence, we're here to propel your
-              journey to new heights.
-            </p>
+          
           </h5>
           <form
             className="start"
@@ -146,14 +140,14 @@ function Landing() {
                   <h4>We do research before we start any projects</h4>
                 </div>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="210" height="32" viewBox="0 0 210 32" fill="none">
+              <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="210" height="32" viewBox="0 0 210 32" fill="none">
                                     <defs>
                                         <linearGradient id="left-to-rights">
                                             <stop offset="0" stopColor="#F2F4F6">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
                                             </stop>
                                             <stop offset="0" stopColor="transparent">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
                                             </stop>
 
                                         </linearGradient>
@@ -173,14 +167,14 @@ function Landing() {
                   <h4>Designed according to client's requirements</h4>
                 </div>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="209" height="39" viewBox="0 0 209 39" fill="none">
+              <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="209" height="39" viewBox="0 0 209 39" fill="none">
                                 <defs>
                                         <linearGradient id="left-to-right">
                                             <stop offset="0" stopColor="#F2F4F6">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite"/>
                                             </stop>
                                             <stop offset="0" stopColor="transparent">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
                                             </stop>
 
                                         </linearGradient>
@@ -198,14 +192,14 @@ function Landing() {
                   <h4>Developed by skilled team developers</h4>
                 </div>
               </div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="210" height="32" viewBox="0 0 210 32" fill="none">
+              <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="210" height="32" viewBox="0 0 210 32" fill="none">
                                     <defs>
                                         <linearGradient id="left-to-rights">
                                             <stop offset="0" stopColor="#F2F4F6">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite"/>
                                             </stop>
                                             <stop offset="0" stopColor="transparent">
-                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" />
+                                                <animate dur="3s"  attributeName="offset" fill="freeze" from="0" to="1" repeatCount="indefinite" />
                                             </stop>
 
                                         </linearGradient>
@@ -341,9 +335,7 @@ function Landing() {
       {/* ........section............ */}
 
       <div id="foot">
-        <div className="illust">
-          <img className="mans" src="./images/mans.png" alt="" />
-        </div>
+       
 
         <footer>
           <div>

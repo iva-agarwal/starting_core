@@ -5,7 +5,7 @@
 
 .pricingBack {
   background-color: #111111;
-  height: 130vh;
+  height: 100vh;
 
 }
 
@@ -18,7 +18,12 @@
   font-size: 95%;
 }
 
-
+.note{
+  background-color: #111111;
+  color: white;
+  padding: 5%;
+  font-size: 20px
+}
 .Planes {
   display: flex;
   flex-direction: row;
@@ -49,7 +54,7 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  padding: 1em 1em 2em 1em;
+  padding: 2em 1em 2em 1em;
 }
 
 .scale:hover {
@@ -123,19 +128,22 @@
 
 @media (min-width: 280px) and (max-width: 360px) {
   .pricingBack {
-    height: 230vh;
-  }
+    height: 260vh;
+  } 
 
-  .box-3 {
+  /* .box-3 {
     height: 330px;
     width: 256px;
     padding: 1em 1em 1em 1em;
     font-size: 1em;
-  }
+  } */
 
   .Planes {
     flex-direction: column;
     top: 70px;
+  }
+  .scale:hover {
+    transform: scale(1.05);
   }
 
   .pricing h1 {
@@ -198,6 +206,13 @@
   .Planes div {
     margin: 2% 1%;
   }
+  #foot{
+    margin-top: 50px;
+  }
+  .note{
+    padding: 5%;
+    font-size: 16px
+  }
 }
 
 
@@ -207,16 +222,19 @@
   }
 
 
-  .box-3 {
+  /* .box-3 {
     height: 330px;
     width: 256px;
     padding: 1em 1em 1em 1em;
     font-size: 1em;
-  }
+  } */
 
   .Planes {
     flex-direction: column;
     top: 70px;
+  }
+  .scale:hover {
+    transform: scale(1.05);
   }
 
 
@@ -249,20 +267,117 @@
   .Planes div {
     margin: 2% 1%;
   }
+  #foot{
+    margin-top: 50px;
+  }
+  .note{
+    padding: 5%;
+    font-size: 16px
+  }
 }
 
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 768px) {.pricingBack {
+  height: 230vh;
+}
 
+
+/* .box-3 {
+  height: 330px;
+  width: 256px;
+  padding: 1em 1em 1em 1em;
+  font-size: 1em;
+} */
+
+.Planes {
+  flex-direction: column;
+  top: 70px;
+}
+.scale:hover {
+  transform: scale(1.05);
+}
+
+
+.ChooseButton2 {
+  font-size: 13px;
+  height: 30px;
+}
+
+.Planes div div h1 {
+  margin-left: 2%;
+  font-size: 18px;
+  line-height: 84%;
+}
+
+.Planes div div h2 {
+  margin-left: 2%;
+  font-size: 8px;
+  line-height: 120%;
+}
+
+.Planes div div p {
+  font-size: 12px;
+}
+
+
+.pricing {
+  width: 100%;
+}
+
+.Planes div {
+  margin: 2% 1%;
+}
+#foot{
+  margin-top: 50px;
+}
+.note{
+  padding: 5%;
+  font-size: 16px
+}
+}
+
+@media (min-width:768px) and (max-width: 934px) {
   .pricingBack {
-    height: 240vh;
+    height: 230vh;
   }
+
+
+  /* .box-3 {
+    height: 330px;
+    width: 256px;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+  } */
 
   .Planes {
     flex-direction: column;
     top: 70px;
   }
+  .scale:hover {
+    transform: scale(1.05);
+  }
 
+
+  .ChooseButton2 {
+    font-size: 13px;
+    height: 30px;
+  }
+
+  .Planes div div h1 {
+    margin-left: 2%;
+    font-size: 18px;
+    line-height: 84%;
+  }
+
+  .Planes div div h2 {
+    margin-left: 2%;
+    font-size: 8px;
+    line-height: 120%;
+  }
+
+  .Planes div div p {
+    font-size: 12px;
+  }
 
 
   .pricing {
@@ -271,87 +386,82 @@
 
   .Planes div {
     margin: 2% 1%;
+  }  #foot{
+    margin-top: 50px;
   }
-
-  .scale {
-    height: 22em;
-    width: 17em;
-    padding-bottom: 0em;
-  }
-
-  .scale .hover h1 {
-    font-size: 20px;
-    margin-top: -0.5em;
-  }
-
-  .scale .hover p {
-    font-size: 12px;
-  }
-
-  .ChooseButton2 {
-    height: 2em;
-    margin-top: 0em;
-  }
-
-  .box-3 {
-    height: 350px;
-    width: 306px;
-    padding: 1em 1em 1em 1em;
-    font-size: 1.1em;
-  }
-
-  .box-3 .hover p {
-    font-size: 14px;
-  }
-
-
-  .box-3 .ChooseButton2 {
-    width: 20em;
-    margin-top: 1.2em;
-  }
-
-  .features .hover {
-    padding-top: 0em;
+  .note{
+    padding: 5%;
+    font-size: 16px
   }
 }
 
-
-@media (min-width:768px) and (max-width: 934px) {
-
-  .pricingBack {
-    height: 270vh;
-  }
-
-  .Planes {
-    top: 10%;
-    flex-direction: column;
-  }
-
-  .pricing {
-    margin-left: -5em;
-  }
-
-  .Planes div div h1 {
+@media (min-width:934px) and (max-width: 1064px) {
+  /* .Planes div div h1 {
     margin-left: 2%;
-    font-size: 20px;
-    line-height: 84%;
+    font-size: 22px;
+    line-height: 140%;
   }
 
   .Planes div div h2 {
     margin-left: 2%;
-    font-size: 10px;
-    line-height: 120%;
+    font-size: 12px;
+    line-height: 160%;
   }
 
-  .Planes div div p {
-    font-size: 14px;
+  .box-3 {
+    height: 441px;
   }
 
-}
+  .pricing {
+    width: 100%;
+  }
 
-@media (min-width:934px) and (max-width: 1064px) {
+  .Planes {
+    top: 22%;
+  }
 
-  .scale {
+  .Planes div {
+    margin: 2% 1%;
+  } */
+
+    .Planes div div h1 {
+      margin-left: 2%;
+      font-size: 22px;
+      line-height: 140%;
+    }
+  
+    .Planes div div h2 {
+      margin-left: 2%;
+      font-size: 12px;
+      line-height: 160%;
+    }
+  
+    /* .box-3 {
+      height: 441px;
+    } */
+  
+    .pricing {
+      width: 100%;
+    }
+  
+    .Planes {
+      top: 22%;
+    }
+  
+    .Planes div {
+      margin: 2% 1%;
+    }
+    #foot{
+      margin-top: 50px;
+    }
+    .note{
+      padding: 5%;
+      font-size: 16px
+    }
+  }
+  
+
+  /* .scale {
     height: 24em;
     padding: 0.5em 0em 0em 0.2em;
   }
@@ -394,9 +504,9 @@
     margin-left: 40%;
     margin-top: 6%;
   }
-}
+} */
 
-@media (min-width:768px) and (max-width: 1064px) {
+/* @media (min-width:768px) and (max-width: 1064px) {
   .pricing {
     width: 100%;
   }
@@ -499,7 +609,7 @@
     font-size: 14px;
   }
 
-}
+} */
 
 @media (min-width:1065px) and (max-width: 1368px) {
 
@@ -515,9 +625,9 @@
     line-height: 160%;
   }
 
-  .box-3 {
+  /* .box-3 {
     height: 441px;
-  }
+  } */
 
   .pricing {
     width: 100%;
@@ -530,9 +640,13 @@
   .Planes div {
     margin: 2% 1%;
   }
+  #foot{
+    margin-top: 50px;
+  }
+  .note{
+    padding: 5%;
+    font-size: 16px
+  }
 
 }
-.test{
-  color: white;
-  margin: 250px 30px 10px 30px;
-}
+

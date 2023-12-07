@@ -35,7 +35,7 @@ function AnimatedDivs() {
                 <button className="btnOur" type="Submit">
                   Our Projects
                 </button>
-                <button className="btnUs" type="Submit">
+              <button className="btnUs" type="Submit">
                   Contact Us
                 </button>
               </div>
